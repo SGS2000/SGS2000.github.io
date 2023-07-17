@@ -1,0 +1,33 @@
+.tabla-lista-contenedor {
+    /* Alinear */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:flex-start;    
+    justify-content: flex-start;
+    /* Borde */
+    border-bottom: 1px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 1px solid black;
+    /* Colores */
+    background-color:  Azure;
+  }
+
+  .tabla-lista-titulo{
+    margin-left: 1%;
+    margin-bottom: 0.25%;
+  }
+
+  .tabla-lista-titulo > * {
+    margin: 0px;
+  }
+
+  .tabla-lista-texto{
+    margin-left: 1%;
+    
+  }
+
+ .tabla-lista-texto > * {
+    margin: 1px;
+  }

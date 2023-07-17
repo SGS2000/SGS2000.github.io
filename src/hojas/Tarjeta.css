@@ -1,0 +1,9 @@
+#tarjeta-contenedor{
+    border: 0.5px solid #00471b;
+    border-radius: 8%;
+    padding: 0.4%;
+}
+
+#imagen-carta{
+    border-radius: 8%;
+}

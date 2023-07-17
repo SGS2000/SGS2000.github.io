@@ -1,0 +1,31 @@
+.linkBarra{
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.linkBarra:hover{
+    margin-top: 10px;
+    font-size: 115%;
+}
+
+.fab.fa-linkedin{
+    font-size: 2em;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.fab.fa-github{
+    font-size: 2em;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+#brandBarra{
+    margin-left: 5px;
+}
+
+#botonIdioma{
+    width: 50px; 
+    height: 50px;
+}
+

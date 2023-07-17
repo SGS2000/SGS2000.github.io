@@ -1,0 +1,14 @@
+.etiqueta-boton{
+    margin: 0.45%;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.btn.btn-outline-danger{
+    border-radius: 65%;
+}
+
+.btn.btn-outline-danger:hover{
+    background-color: #ff9999
+}
+

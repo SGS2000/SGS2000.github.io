@@ -1,0 +1,17 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  .d-block.w-100 {
+    filter: brightness(50%);
+    height: 120vh;
+  }
+
+  .carousel-caption {
+    bottom: initial;
+    top: 40%;
+    transform: translateY(-50%);
+  }
+  

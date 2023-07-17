@@ -1,0 +1,36 @@
+.contenedor-principal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:center;    
+    justify-content: space-between;
+  }
+
+  .btn.btn-primary.btn-lg{
+    margin-left: 5px;
+  }
+
+  .btn.btn-primary.btn-lg:hover {
+    font-size: 150%;
+    background-color: darkblue !important;
+    border-color: darkblue !important;
+  }
+
+  #contenedor-texto{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:flex-start;    
+    justify-content: flex-start;
+  }
+
+  #foto-principal{
+    width: 40%; 
+    height: 40%;
+    min-width: 245px;
+    min-height: 300px;
+  }
+
+  #texto-presentacion{
+    font-size: large !important;
+  }

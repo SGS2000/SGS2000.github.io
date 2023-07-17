@@ -1,0 +1,30 @@
+.btn-toolbar {
+    padding: 0.25%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around !important;
+    background-color: #ADD8E6;
+
+    border: solid 1px black;
+  }
+  
+.btn.btn-secondary{
+    background-color: #00008b;
+    cursor: pointer;
+}
+
+.btn.btn-secondary:hover {
+    background-color: purple;
+  }
+
+  .btn.btn-secondary:checked {
+    background-color: purple;
+  }
+
+.btn.btn-secondary.active {
+    background-color: purple;
+  }
+  
+  .btn-group {
+    margin-right: 2%;
+  }
