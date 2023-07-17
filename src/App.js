@@ -32,7 +32,7 @@ function App() {
           <Route path="portafolio" element={<Portafolio/>} />
             <Route path="portafolio/pinguino" element={<PortafolioPinguino/>} /> 
             <Route path="portafolio/posterfutbol" element={<PortafolioPosterFutbol/>} /> 
-            <Route path="postertesina" element={<PortafolioPosterTesina/>} /> 
+            <Route path="portafolio/postertesina" element={<PortafolioPosterTesina/>} /> 
             <Route path="portafolio/acpcia" element={<PortafolioAcpcia/>} /> 
           <Route path="reconocimientos" element={<Reconocimientos/>} />
           <Route path="contacto" element={<Contacto/>} />
