@@ -15,6 +15,7 @@ import PortafolioPinguino from "./paginas/portafolio/pinguino";
 import PortafolioPosterFutbol from "./paginas/portafolio/posterfutbol";
 import PortafolioPosterTesina from "./paginas/portafolio/postertesina";
 import PortafolioAcpcia from "./paginas/portafolio/acpcia";
+import PortafolioBurnout from "./paginas/portafolio/burnout";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -35,6 +36,7 @@ function App() {
             <Route path="portafolio/posterfutbol" element={<PortafolioPosterFutbol/>} /> 
             <Route path="portafolio/postertesina" element={<PortafolioPosterTesina/>} /> 
             <Route path="portafolio/acpcia" element={<PortafolioAcpcia/>} /> 
+            <Route path="portafolio/burnout" element={<PortafolioBurnout/>} /> 
           <Route path="reconocimientos" element={<Reconocimientos/>} />
           <Route path="contacto" element={<Contacto/>} />
           <Route path="*" element={<Error />} />

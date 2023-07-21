@@ -13,6 +13,7 @@ import imgTesina from "../img/portafolio/portafolio-tesina.png"
 import imgSelector from "../img/portafolio/portafolio-ggplotselector.png"
 import imgPosterFutbol from "../img/portafolio/portafolio-posterfutbol.png"
 import imgPosterTesina from "../img/portafolio/portafolio-postertesina.png"
+import imgBurnout from "../img/portafolio/portafolio-burnout-resultadossexo.png"
 
 
 function Portafolio() {
@@ -70,6 +71,13 @@ function Portafolio() {
             enlace: '/portafolio/acpcia'
         },
         {
+            titulo: idioma === "es" ? "Burnout en personal de salud" : "Occupational Burnout in healthcare workers",
+            etiquetas: ['etiqueta-sas',"etiqueta-modeloslin","etiqueta-bio"],
+            texto: idioma === "es" ? "Estudio del efecto del burnout en el personal de salud de una localidad en Argentina." : "Study of the effect of burnout on healthcare personnel in a town in Argentina.",
+            imagen: imgBurnout,
+            enlace: '/portafolio/burnout'
+        },
+        {
             titulo: idioma === "es" ? "Gráfico de mancuernas con R" : "Dumbbell Plot with R",
             etiquetas: ['etiqueta-r', "etiqueta-data-viz"],
             texto: idioma === "es" ? "Gráficos de mancuernas para visualizar los datos del paquete palmerpenguins." : "Dumbbell plots to visualize the data from the palmerpenguins package.",
@@ -83,6 +91,11 @@ function Portafolio() {
             <h1> {idioma === "es" ? "Portafolio" : "Portfolio"} </h1>
             <div className="contenedor-de-etiquetas">
                 <p className="texto-tema-etiqueta"><b> {idioma === "es" ? "Tema" : "Topic"}</b>:</p>
+                <Etiqueta
+                    id="etiqueta-bio"
+                    etiqueta={idioma === "es" ? "Bioestadística" : "Biostatistics"}
+                    manejarClic={manejarClic}
+                />
                 <Etiqueta
                     id="etiqueta-econ"
                     etiqueta={idioma === "es" ? "Econometría" : "Econometrics"}
