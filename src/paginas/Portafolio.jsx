@@ -78,11 +78,11 @@ function Portafolio() {
             enlace: '/portafolio/burnout'
         },
         {
-            titulo: idioma === "es" ? "Gráfico de mancuernas con R" : "Dumbbell Plot with R",
+            titulo: idioma === "es" ? "Visualización de datos con R" : "Data Visualization with R",
             etiquetas: ['etiqueta-r', "etiqueta-data-viz"],
-            texto: idioma === "es" ? "Gráficos de mancuernas para visualizar los datos del paquete palmerpenguins." : "Dumbbell plots to visualize the data from the palmerpenguins package.",
+            texto: idioma === "es" ? "Diversos gráficos realizados con R, incluyendo gráficos animados" : "Various plots made with R, including animated graphics.",
             imagen: imgPinguino,
-            enlace: '/portafolio/pinguino'
+            enlace: '/portafolio/rviz'
         }
     ];
 
