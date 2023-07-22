@@ -66,7 +66,7 @@ function Portafolio() {
         {
             titulo: idioma === "es" ? "Análisis de componentes principales: CIA World Factbook" : "Principal component analysis: CIA World Factbook",
             etiquetas: ['etiqueta-sas',"etiqueta-multivar"],
-            texto: idioma === "es" ? "Aplicación de ACP a conjunto con datos de múltiples países." : "Application of PCA to a set of data from multiple countries.",
+            texto: idioma === "es" ? "Aplicación de ACP a un conjunto con datos de múltiples países." : "Application of PCA to a set of data from multiple countries.",
             imagen: imgPais,
             enlace: '/portafolio/acpcia'
         },
@@ -80,7 +80,7 @@ function Portafolio() {
         {
             titulo: idioma === "es" ? "Visualización de datos con R" : "Data Visualization with R",
             etiquetas: ['etiqueta-r', "etiqueta-data-viz"],
-            texto: idioma === "es" ? "Diversos gráficos realizados con R, incluyendo gráficos animados" : "Various plots made with R, including animated graphics.",
+            texto: idioma === "es" ? "Diversos gráficos realizados en R, incluyendo gráficos animados" : "Various plots made with R, including animated graphics.",
             imagen: imgPinguino,
             enlace: '/portafolio/rviz'
         }

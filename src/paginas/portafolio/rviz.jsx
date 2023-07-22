@@ -11,6 +11,8 @@ import imgBB from "../../img/portafolio/portafolio-bb-es.png"
 import imgBBEn from "../../img/portafolio/portafolio-bb-en.png"
 import imgFutbol from "../../img/portafolio/portafolio-futbolgif-es.gif"
 import imgFutbolEn from "../../img/portafolio/portafolio-futbolgif-en.gif"
+import img538 from "../../img/portafolio/portafolio-538.png"
+
 
 
 function Rviz() {
@@ -22,14 +24,14 @@ function Rviz() {
             <div className="contenedorPrincipal">
                 <h1> {idioma === "es" ? "Visualización de datos con R" : "Data visualization with R"} </h1>
                 {/* Pinguinos */}
-                <h2> {idioma === "es" ? "Gráfico de mancuernas" : "Dumbbell Plot"} </h2>
+                <h2> {idioma === "es" ? "Gráfico de mancuernas: pingüinos del archipiélago Palmer" : "Dumbbell plot: Palmer Penguins"} </h2>
                 <p> {idioma === "es" ? "Gráfico para visualizar las diferencias entre los machos y las hembras de tres especies de pingüino considerando cuatro variables distintas." 
                 : "Chart to visualize the differences between males and females of three penguin species considering four different variables."}</p>
                 <p> {idioma === "es" ? "Para la realización del gráfico se usaron los paquetes ggplot2, hrbrthemes, ggtext y patchwork. Los datos pueden obtenerse instalando el paquete palmerpenguins." 
                 : "Packages ggplot2, hrbrthemes, ggtext, and patchwork were used to create the chart. Data can be obtained by installing the palmerpenguins package."}</p>
                 <img src={idioma === "es" ? imgPinguino  : imgPinguinoEn } alt="dumbbell" className="imgCentrada"></img>
                 {/* Breaking Bad */}
-                <h2> {idioma === "es" ? "Personajes de Breaking Bad" : "Breaking Bad characters"} </h2>
+                <h2> {idioma === "es" ? "Gráfico de barras: Personajes de Breaking Bad" : "Bar chart: Breaking Bad characters"} </h2>
                 <p> {idioma === "es" ? "Número de apariciones de cada personaje en las series Breaking Bad y Better Call Saul." 
                 : "Number of appearances of each character in Breaking Bad and Better Call Saul."}
                 </p>
@@ -49,6 +51,17 @@ function Rviz() {
                 <a href="https://github.com/fivethirtyeight/data/tree/master/world-cup-2022" target="_blank" rel="noreferrer">GitHub</a>.
                 </p>
                 <img src={idioma === "es" ? imgFutbol  : imgFutbolEn } alt="gif futbol" className="imgCentrada"></img>
+                {/* 538 */}
+                <h2> {idioma === "es" ? "Diagrama de dispersión: Ingresos en los estados de los Estados Unidos" : "Scatterplot: Income in the U.S. states"} </h2>
+                <p> {idioma === "es" ? "Gráfico hecho al estilo de " : "Plot in the style of "}
+                <a href="https://fivethirtyeight.com/" target="_blank" rel="noreferrer">FiveThirtyEight</a>
+                {idioma === "es" ? " que muestra el ingreso mediano familiar y el coeficiente de Gini para cada estado de Estados Unidos. El color corresponde al resultado en las elecciones presidenciales de 2020." : 
+                " displaying the median household income and Gini coefficient for each state of the USA. Color corresponds to the results in the 2020 presidential election."}
+                </p>
+                <p> {idioma === "es" ? "Se utilizaron los paquetes ggplot2, ggthemes, extrafont, ggrepel y scales. Los datos provienen de Wikipedia." 
+                : "Made with the ggplot2, ggthemes, extrafont, ggrepel, and scales packages. Data comes from Wikipedia."}
+                </p>
+                <img src={img538} alt="scatterplot 538" className="imgCentrada"></img>
             </div>
         </>
 
