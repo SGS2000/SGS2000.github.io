@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5096e6d9.css",
-    "main.js": "/static/js/main.53c92f0c.js",
+    "main.js": "/static/js/main.6297c66f.js",
     "static/media/posterfutbol.pdf": "/static/media/posterfutbol.d2d4343144807e3d8651.pdf",
     "static/media/postertesina.pdf": "/static/media/postertesina.1e85dad299c4e36eeab2.pdf",
     "static/media/spain.png": "/static/media/spain.cee6525fb0219e12df32.png",
@@ -10,6 +10,7 @@
     "static/media/portafolio-futbolgif-es.gif": "/static/media/portafolio-futbolgif-es.199719251aa5213f53b9.gif",
     "static/media/portafolio-futbolgif-en.gif": "/static/media/portafolio-futbolgif-en.eb0a429c9febfb85b140.gif",
     "static/media/promedio2021.pdf": "/static/media/promedio2021.47b735a3f967bff5b0a3.pdf",
+    "static/media/portafolio-mapa-defunciones.gif": "/static/media/portafolio-mapa-defunciones.175f3f29827a1c930660.gif",
     "static/media/fondo2.jpg": "/static/media/fondo2.907129a4b95f47e7770a.jpg",
     "static/media/portafolio-posterfutbol.png": "/static/media/portafolio-posterfutbol.fbfaabb0c3be372ce9e9.png",
     "static/media/NuevoCV.pdf": "/static/media/NuevoCV.84b9288bb07eb580999e.pdf",
@@ -23,11 +24,18 @@
     "static/media/portafolio-pinguinos.png": "/static/media/portafolio-pinguinos.ce5913d970cd424a03e0.png",
     "static/media/portafolio-pinguinos-en.png": "/static/media/portafolio-pinguinos-en.d5209d59e3b9bc6c9dc2.png",
     "static/media/portafolio-burnout-resultadostabla.png": "/static/media/portafolio-burnout-resultadostabla.9f936c6892a9329d75ef.png",
+    "static/media/portafolio-mapa-santafe-en.png": "/static/media/portafolio-mapa-santafe-en.c63d244dfd47064b1b18.png",
+    "static/media/portafolio-mapa-santafe-es.png": "/static/media/portafolio-mapa-santafe-es.bfbfde6fc78bc21afd77.png",
     "static/media/portafolio-bb-es.png": "/static/media/portafolio-bb-es.c58b7cb73154024c382a.png",
     "static/media/portafolio-bb-en.png": "/static/media/portafolio-bb-en.23e3d911c85b505752a7.png",
     "static/media/portafolio-sas-scree.png": "/static/media/portafolio-sas-scree.2e9edf543342920abd9b.png",
+    "static/media/portafolio-mapa-congreso-es.png": "/static/media/portafolio-mapa-congreso-es.785ff09925718277fb14.png",
+    "static/media/portafolio-mapa-congreso-en.png": "/static/media/portafolio-mapa-congreso-en.e79fd062cc0ccc8a5e04.png",
     "static/media/portafolio-burnout-muestraocup.png": "/static/media/portafolio-burnout-muestraocup.6f94b5dcaa8dddf5b4de.png",
     "static/media/portafolio-burnout-muestraconv.png": "/static/media/portafolio-burnout-muestraconv.51d1db9a639dc50112c1.png",
+    "static/media/portafolio-mapa-africa-en.png": "/static/media/portafolio-mapa-africa-en.4d5211462e0bdf74a96c.png",
+    "static/media/portafolio-mapa-africa-es.png": "/static/media/portafolio-mapa-africa-es.1f1c338f06bb15359c05.png",
+    "static/media/portafolio-mapa-usa.png": "/static/media/portafolio-mapa-usa.6861b5efdd351478bf32.png",
     "static/media/portafolio-sas-cargas.png": "/static/media/portafolio-sas-cargas.f057636dc10078e4636f.png",
     "static/media/portafolio-burnout-muestrasexo.png": "/static/media/portafolio-burnout-muestrasexo.b1fb4fba5d24febc05ac.png",
     "static/media/placeholder.jpg": "/static/media/placeholder.e1ce751ef1b590f719f9.jpg",
@@ -37,10 +45,10 @@
     "static/media/portafolio-sas-cp.png": "/static/media/portafolio-sas-cp.4686a76e0098581c8b33.png",
     "index.html": "/index.html",
     "main.5096e6d9.css.map": "/static/css/main.5096e6d9.css.map",
-    "main.53c92f0c.js.map": "/static/js/main.53c92f0c.js.map"
+    "main.6297c66f.js.map": "/static/js/main.6297c66f.js.map"
   },
   "entrypoints": [
     "static/css/main.5096e6d9.css",
-    "static/js/main.53c92f0c.js"
+    "static/js/main.6297c66f.js"
   ]
 }
