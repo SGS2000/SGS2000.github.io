@@ -281,7 +281,7 @@ function Curriculum() {
                                     <li>PHP</li>
                                     <li>HTML</li>
                                     <li>CSS</li>
-                                    <li>Javascript ({idioma === "es" ? "incluyendo" : "including"} React)</li>
+                                    <li>Javascript ({idioma === "es" ? "incluyendo" : "including"} React {idioma === "es" ? "y" : "and"} Node.js)</li>
                                     <li>Java</li>
                                     <li>Markdown</li>
                                 </ul>

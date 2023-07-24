@@ -14,6 +14,7 @@ import imgSelector from "../img/portafolio/portafolio-ggplotselector.png"
 import imgPosterFutbol from "../img/portafolio/portafolio-posterfutbol.png"
 import imgPosterTesina from "../img/portafolio/portafolio-postertesina.png"
 import imgBurnout from "../img/portafolio/portafolio-burnout-resultadossexo.png"
+import imgMapa from "../img/portafolio/portafolio-mapa-usa.png"
 
 
 function Portafolio() {
@@ -83,6 +84,13 @@ function Portafolio() {
             texto: idioma === "es" ? "Diversos gráficos realizados en R, incluyendo gráficos animados" : "Various plots made with R, including animated graphics.",
             imagen: imgPinguino,
             enlace: '/portafolio/rviz'
+        },
+        {
+            titulo: idioma === "es" ? "Mapas con R" : "Maps with R",
+            etiquetas: ['etiqueta-r', "etiqueta-data-viz"],
+            texto: idioma === "es" ? "Mapas varios realizados con diversos paquetes de R." : "Various maps created with different R packages.",
+            imagen: imgMapa,
+            enlace: '/portafolio/rmapas'
         }
     ];
 
