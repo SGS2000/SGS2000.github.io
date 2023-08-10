@@ -16,20 +16,23 @@ function Tarjeta({ titulo, texto, etiquetas, imagen = placeholder1, enlace = "#"
 
   return (
 
-    <Card className="text-center" id="tarjeta-contenedor" style={{ width: '18rem' } }>
-      <Card.Img variant="top" src={imagen} id="imagen-carta"/>
-      <Card.Body>
+    <Card className="text-center" id="tarjeta-contenedor" style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={imagen} id="imagen-carta" />
+      <Card.Body className="tarjeta-cuerpo">
         <Card.Title> {titulo} </Card.Title>
         <Card.Text>
           {texto}
         </Card.Text>
-        <ListGroup variant="flush">
-          <ListGroup.Item> </ListGroup.Item>
-          <ListGroup.Item> </ListGroup.Item>
-        </ListGroup>
-        <Link to={enlace} target="_blank">
-          <Button variant="primary"> {idioma === "es" ? "Ver más" : "More"}  </Button>
-        </Link>
+        <div>
+          <ListGroup variant="flush">
+            <ListGroup.Item> </ListGroup.Item>
+            <ListGroup.Item> </ListGroup.Item>
+          </ListGroup>
+          <Link to={enlace} target="_blank">
+            <Button variant="primary" > {idioma === "es" ? "Ver más" : "More"}  </Button>
+          </Link>
+        </div>
+
       </Card.Body>
     </Card>
 

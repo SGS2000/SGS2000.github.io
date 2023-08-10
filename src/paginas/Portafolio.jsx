@@ -15,6 +15,7 @@ import imgPosterFutbol from "../img/portafolio/portafolio-posterfutbol.png"
 import imgPosterTesina from "../img/portafolio/portafolio-postertesina.png"
 import imgBurnout from "../img/portafolio/portafolio-burnout-resultadossexo.png"
 import imgMapa from "../img/portafolio/portafolio-mapa-usa.png"
+import imgMW from "../img/portafolio/mw/portafolio-mw-raza2-es.png"
 
 
 function Portafolio() {
@@ -77,6 +78,13 @@ function Portafolio() {
             texto: idioma === "es" ? "Estudio del efecto del burnout en el personal de salud de una localidad en Argentina." : "Study of the effect of burnout on healthcare personnel in a town in Argentina.",
             imagen: imgBurnout,
             enlace: '/portafolio/burnout'
+        },
+        {
+            titulo: idioma === "es" ? "Personajes en The Elder Scrolls III: Morrowind" : "NPCs in The Elder Scrolls III: Morrowind",
+            etiquetas: ['etiqueta-sas',"etiqueta-r","etiqueta-spss","etiqueta-multivar", "etiqueta-machine-learning"],
+            texto: idioma === "es" ? "Construcción de un conjunto de datos con los personajes del videojuego The Elder Scrolls III: Morrowind para presentar diversas técnicas estadísticas." : "Study of the effect of burnout on healthcare personnel in a town in Argentina.",
+            imagen: imgMW,
+            enlace: '/portafolio/morrowind'
         },
         {
             titulo: idioma === "es" ? "Visualización de datos con R" : "Data Visualization with R",
@@ -146,6 +154,11 @@ function Portafolio() {
                 <Etiqueta
                     id="etiqueta-sas"
                     etiqueta="SAS"
+                    manejarClic={manejarClic}
+                />
+                <Etiqueta
+                    id="etiqueta-spss"
+                    etiqueta="SPSS"
                     manejarClic={manejarClic}
                 />
                 <Etiqueta
