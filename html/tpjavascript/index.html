@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <link rel="icon" href="/icono.ico" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP Integrador</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href=style.css>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark " style="background-color: #323538;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="img/codoacodo.png" alt="" class="d-inline-block align-text-top" width=25% height=25%>
+                    <div id=conf>Conf Bs As</div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
+                        <a class="nav-link" href="#sec_oradores">Los oradores</a>
+                        <a class="nav-link" href="#contenedoroctubre">El lugar y la fecha</a>
+                        <a class="nav-link" href="#sec_conviertete">Conviértete en orador</a>
+                        <a class="nav-link" aria-current="page" href="tickets.html" id="comprartickets"> Comprar tickets</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/ba1.jpg" class="d-block w-100 fondoimagen" alt="fondo1">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/ba2.jpg" class="d-block w-100 fondoimagen" alt="fondo2">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/ba3.jpg" class="d-block w-100 fondoimagen" alt="fondo3">
+                </div>
+            </div>
+        </div>
+        <div class="carousel-caption d-block d-md-block" id=fondotexto>
+            <h1>Conferencia Bs. As.</h1>
+            <p>Codo a Codo llega por primera vez a Argentina. Un evento para compartir con
+                nuestra comunidad, el conocimiento y experiencia de los expertos que
+                están creando el futuro de Internet. Ven a conocer a miembros del
+                evento, a otros estudiantes de Codo a Codo y los oradores de primer
+                nivel que tenemos para ti. ¡Te esperamos!
+            </p>
+            <button type="button" class="btn btn-primary boton1">Quiero ser orador</button>
+            <button type="button" class="btn btn-secondary" id=boton2> <a href=tickets.html id=comprartickets_link>Comprar tickets</a></button>
+        </div>
+    </header>
+    <main>
+        <!-- CARDS -->
+        <p class=titulochico id=sec_oradores>CONOCE A LOS</p>
+        <h2 class=oradorestitulo>ORADORES</h2>
+        <div id=contenedororadores>
+            <div class="row row-cols-1 row-cols-md-3 g-4" id=oradores>
+                <div class="col">
+                    <div class="card">
+                        <img src="img/steve.jpg" class="card-img-top" alt="steve">
+                        <div class="card-body">
+                            <span class="badge bg-primary javaicono">JavaScript</span>
+                            <span class="badge bg-secondary reacticono">React</span>
+                            <h5 class="card-title">Steve Jobs</h5>
+                            <p class="card-text"> Empresario y magnate de los negocios en el sector informático y de la
+                                industria del entretenimiento estadounidense. Cofundador y presidente ejecutivo de Apple
+                                y
+                                máximo accionista individual de The Walt Disney Company.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="img/bill.jpg" class="card-img-top" alt="bill">
+                            <div class="card-body">
+                            <span class="badge bg-primary javaicono">JavaScript</span>
+                            <span class="badge bg-secondary reacticono">React</span>
+                            <h5 class="card-title">Bill Gates</h5>
+                            <p class="card-text">Empresario, informático y filántropo estadounidense, conocido por haber
+                                creado y fundado junto con Paul Allen, la empresa Microsoft y el sistema operativo para
+                                computadoras Windows.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="img/ada.jpeg" class="card-img-top" alt="ada">
+                            <div class="card-body">
+                            <span class="badge bg-primary negociosicono">Negocios</span>
+                            <span class="badge bg-secondary startupsicono">Startups</span>
+                            <h5 class="card-title">Ada Lovelace</h5>
+                            <p class="card-text"> Matemática y escritora británica, célebre sobre todo por su trabajo
+                                acerca
+                                de la calculadora de uso general de Charles Babbage, la denominada máquina analítica.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Octubre -->
+        <div id=contenedoroctubre>
+            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-4" id="imagenoctubre">
+                        <img src="img/honolulu.jpg" class="img-fluid rounded-start h-100" alt="honolulu">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body" id="textooctubre">
+                            <h3 class="card-title">Bs As - Octubre</h3>
+                            <p class="card-text">Buenos Aires es la capital y ciudad más poblada de la República Argentina. 
+                                Está situada en la región centro-este del país, sobre la orilla sur del Río de la Plata, en la región pampeana.
+                                Buenos Aires es una ciudad cosmopolita y un importante destino turístico.
+                                Su compleja infraestructura la convierte en una de las metrópolis de mayor importancia de América y es una ciudad global de categoría alfa, dadas sus influencias en el comercio, finanzas, moda, arte, gastronomía, educación, entretenimiento y principalmente en su marcada cultura. 
+                            </p>
+                            <button type="button" class="btn btn-primary boton1">Conocé más</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Convertirse-->
+        <p class=titulochico id=sec_conviertete>CONVIÉRTETE EN UN</p>
+        <h2 class=oradorestitulo>ORADOR</h2>
+        <p style="text-align: center;"> Anótate como orador para dar una <u id=textosub>charla ignite</u>. ¡Cuéntanos de qué quieres hablar!</p>
+        <div id=convertirsecontenedor>
+            <form id=nomyap>
+                <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                <input type="text" class="form-control" id="apellido" placeholder="Apellido">
+            </form>
+            <form id=mensaje></form>
+                <input type="text" class="form-control" id="mensajetexto" placeholder="¿Sobre qué quieres hablar?">
+                <div id="emailHelp" class="form-text">Recuerda incluir un título para tu charla</div>
+            </form>
+            <button type="button" class="btn btn-primary boton1" id="enviar">Enviar</button>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+<footer>
+    <ul class="nav justify-content-center" id=footercontainer>
+        <li class="nav-item">
+          <a class="nav-link active footerlink doble" aria-current="page" href="#">Preguntas frecuentes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link footerlink" href="#">Contáctanos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link footerlink" href="#">Prensa</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link footerlink" href="#">Conferencias</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link footerlink doble" href="#">Términos y condiciones</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link footerlink" href="#">Privacidad</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link footerlink" href="#">Estudiantes</a>
+        </li>
+      </ul>
+
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

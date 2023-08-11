@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4c4583f4.css",
-    "main.js": "/static/js/main.77533f25.js",
+    "main.js": "/static/js/main.ba1285bf.js",
     "static/media/posterfutbol.pdf": "/static/media/posterfutbol.d2d4343144807e3d8651.pdf",
     "static/media/postertesina.pdf": "/static/media/postertesina.1e85dad299c4e36eeab2.pdf",
     "static/media/spain.png": "/static/media/spain.cee6525fb0219e12df32.png",
@@ -25,6 +25,7 @@
     "static/media/foto.jpg": "/static/media/foto.1511c237a47ed32f99a7.jpg",
     "static/media/portafolio-sas-paises.png": "/static/media/portafolio-sas-paises.c42c701260eb5012dc38.png",
     "static/media/portafolio-mw-tecnicas-en.png": "/static/media/portafolio-mw-tecnicas-en.f188fd787b5d9c40db59.png",
+    "static/media/portafolio-sitio-js.png": "/static/media/portafolio-sitio-js.f45acfc18acd5b807cb7.png",
     "static/media/fondo.png": "/static/media/fondo.cb7b4807f797b657b295.png",
     "static/media/portafolio-mw-skills-table.png": "/static/media/portafolio-mw-skills-table.7d49493868f8f81eac13.png",
     "static/media/portafolio-mw-puntos-razas.png": "/static/media/portafolio-mw-puntos-razas.be914fb89b1547acc385.png",
@@ -86,10 +87,10 @@
     "static/media/portafolio-sas-cp.png": "/static/media/portafolio-sas-cp.4686a76e0098581c8b33.png",
     "index.html": "/index.html",
     "main.4c4583f4.css.map": "/static/css/main.4c4583f4.css.map",
-    "main.77533f25.js.map": "/static/js/main.77533f25.js.map"
+    "main.ba1285bf.js.map": "/static/js/main.ba1285bf.js.map"
   },
   "entrypoints": [
     "static/css/main.4c4583f4.css",
-    "static/js/main.77533f25.js"
+    "static/js/main.ba1285bf.js"
   ]
 }
