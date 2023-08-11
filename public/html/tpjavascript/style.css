@@ -1,0 +1,170 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* NAV */
+
+.navbar{
+    position:sticky;
+}
+
+.navbar-nav{
+    margin-left: auto;
+    margin-right: 120px;
+}
+
+.navbar-brand{
+    display: flex;
+}
+
+#conf{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#comprartickets{
+    color: #28a745;
+}
+
+/* HEADER */
+
+#comprartickets_link{
+    text-decoration: none;
+    color: white
+}
+
+.fondoimagen{
+    filter: brightness(50%);
+    height: 100vh;
+}
+
+#fondotexto{
+    text-align: right;
+}
+
+.boton1{
+    background: none;
+    border-color: white;
+    margin-right: 10px;
+}
+#boton2{
+    background-color: rgb(38, 155, 38);
+    border-color: rgb(38, 155, 38);
+}
+
+/* MAIN */
+/* Oradores */
+.titulochico{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.oradorestitulo{
+    text-align: center;
+}
+
+#contenedororadores{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#oradores{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.javaicono{
+background-color: #fcc306 !important;
+color: black;
+}
+
+.reacticono{
+background-color: #19a2b8 !important;
+}
+
+.negociosicono{
+    background-color: #6d747f !important;
+}
+
+.startupsicono{
+    background-color: #dc3546 !important;
+}
+
+/* Octubre */
+#contenedoroctubre{
+    margin-top: 40px;
+}
+
+#textooctubre{
+    background-color: #323538;
+    color: white;
+    height: 100%;
+}
+
+/*Conviertete */
+#textosub{
+    text-decoration:underline;
+    text-decoration-style: dotted;
+}
+
+#convertirsecontenedor{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#nomyap{
+    display: flex;
+    flex-direction:row;
+}
+
+#nombre{
+    margin-right: 1%;
+}
+
+#mensaje{
+    margin-top: 1%;
+}
+#mensajetexto{
+    font-size: 120%;
+    padding-bottom: 10%;
+}
+
+#enviar{
+    background-color: #96c83f;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+/* FOOTER */
+footer{
+    background: rgb(30, 68, 89);
+}
+
+#footercontainer{
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    display: flex !important;
+    flex-wrap: wrap!important;
+    justify-content: space-around!important;
+    align-content: center!important;
+}
+
+.footerlink{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    min-height: 70px;
+    padding-top: 20px;
+}
+
+.doble{
+    max-width: 150px;
+    padding: .5rem 1rem;
+}

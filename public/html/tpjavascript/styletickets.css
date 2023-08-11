@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* NAV */
+
+.navbar{
+    position:sticky;
+}
+
+.navbar-nav{
+    margin-left: auto;
+    margin-right: 120px;
+}
+
+.navbar-brand{
+    display: flex;
+}
+
+#conf{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#comprartickets{
+    color: #28a745;
+}
+
+/* TARJETAS */
+
+#grupo_cartas{
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#tarjeta1{
+    border: rgba(41,145,255,255) solid 1px;
+}
+#tarjeta2{
+    border: rgba(59,177,194,255) solid 1px;
+}
+#tarjeta3{
+    border: rgba(255,204,54,255) solid 1px;
+}
+
+/* FORMULARIO */
+
+#titulochico{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#titulogrande{
+    text-align: center;
+}
+
+#formulario_contenedor{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.divisor{
+    display: flex;
+    flex-direction:row;
+    margin-bottom: 2%;
+}
+
+#titulos{
+    margin-top: 2%;
+}
+
+#botones{
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+#nombre{
+    margin-right: 1%;
+}
+
+#email{
+    margin-top: 1%;
+}
+
+#pagar{
+    /* border: solid 1px blue; */
+    margin-top: 4%;
+    background-color: rgba(205,228,255,255);
+    color: rgba(25,83,155,255);
+    padding: 2%;
+}
+
+.boton{
+    background-color: #96c83f;
+    margin-bottom: 1%;
+    width:100%;
+    border: #28a745;
+}
+
+
+/* FOOTER */
+footer{
+    background: rgb(30, 68, 89);
+}
+
+#footercontainer{
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    display: flex !important;
+    flex-wrap: wrap!important;
+    justify-content: space-around!important;
+    align-content: center!important;
+}
+
+.footerlink{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    min-height: 70px;
+    padding-top: 20px;
+}
+
+.doble{
+    max-width: 150px;
+    padding: .5rem 1rem;
+}

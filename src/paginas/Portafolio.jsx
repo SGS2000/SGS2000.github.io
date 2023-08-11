@@ -16,6 +16,7 @@ import imgPosterTesina from "../img/portafolio/portafolio-postertesina.png"
 import imgBurnout from "../img/portafolio/portafolio-burnout-resultadossexo.png"
 import imgMapa from "../img/portafolio/portafolio-mapa-usa.png"
 import imgMW from "../img/portafolio/mw/portafolio-mw-raza2-es.png"
+import imgJS from "../img/portafolio/portafolio-sitio-js.png"
 
 
 function Portafolio() {
@@ -82,7 +83,7 @@ function Portafolio() {
         {
             titulo: idioma === "es" ? "Personajes en The Elder Scrolls III: Morrowind" : "NPCs in The Elder Scrolls III: Morrowind",
             etiquetas: ['etiqueta-sas',"etiqueta-r","etiqueta-spss","etiqueta-multivar", "etiqueta-machine-learning"],
-            texto: idioma === "es" ? "Construcción de un conjunto de datos con los personajes del videojuego The Elder Scrolls III: Morrowind para presentar diversas técnicas estadísticas." : "Study of the effect of burnout on healthcare personnel in a town in Argentina.",
+            texto: idioma === "es" ? "Construcción de un conjunto de datos con los personajes del videojuego The Elder Scrolls III: Morrowind para presentar diversas técnicas estadísticas." : "Creation of a dataset with NPCs from the video game The Elder Scrolls III: Morrowind to showcase various statistical techniques.",
             imagen: imgMW,
             enlace: '/portafolio/morrowind'
         },
@@ -99,6 +100,13 @@ function Portafolio() {
             texto: idioma === "es" ? "Mapas varios realizados con diversos paquetes de R." : "Various maps created with different R packages.",
             imagen: imgMapa,
             enlace: '/portafolio/rmapas'
+        },
+        {
+            titulo: idioma === "es" ? "Sitio web básico con HTML, CSS y JS" : "Basic website using HTML, CSS, and JS",
+            etiquetas: ['etiqueta-js'],
+            texto: idioma === "es" ? 'Sitio web para una conferencia ficticia, hecho para el curso "PHP Full Stack" (2021).' : "Website for a fictional event, created for the 'PHP Full Stack' course (2021).",
+            imagen: imgJS,
+            enlace: 'https://sgs2000.github.io/html/tpjavascript/index.html'
         }
     ];
 
@@ -164,6 +172,11 @@ function Portafolio() {
                 <Etiqueta
                     id="etiqueta-power"
                     etiqueta="PowerPoint"
+                    manejarClic={manejarClic}
+                />
+                <Etiqueta
+                    id="etiqueta-js"
+                    etiqueta="JavaScript"
                     manejarClic={manejarClic}
                 />
              </div>
