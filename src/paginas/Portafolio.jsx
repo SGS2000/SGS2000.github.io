@@ -41,7 +41,7 @@ function Portafolio() {
         {
             titulo: idioma === "es" ? "Tesina de grado" : "Undergraduate thesis",
             etiquetas: ['etiqueta-r', "etiqueta-machine-learning", "etiqueta-analisis-texto"],
-            texto: idioma === "es" ? 'Código correspondiente a mi tesina: "Clasificación supervisada de textos de ficción según género utilizando bosques aleatorios"' : "Code for my undergraduate thesis: 'Supervised Classification of Fiction Texts by Genre using Random Forests'",
+            texto: idioma === "es" ? 'Código correspondiente a mi tesina: "Clasificación supervisada de textos de ficción según género utilizando bosques aleatorios".' : "Code for my undergraduate thesis: 'Supervised Classification of Fiction Texts by Genre using Random Forests'.",
             imagen: imgTesina,
             enlace: 'https://github.com/SGS2000/tesina-bosques-aleatorios'
         },
@@ -51,13 +51,6 @@ function Portafolio() {
             texto: idioma === "es" ? "Póster presentado en las V Jornadas de Jóvenes Investigadores de la UNR." : "Poster presented at the V Young Researchers Conference.",
             imagen: imgPosterTesina,
             enlace: '/portafolio/postertesina'
-        },
-        {
-            titulo: idioma === "es" ? "Selector de temas para ggplot2" : "ggplot2 theme selector",
-            etiquetas: ['etiqueta-r', "etiqueta-data-viz"],
-            texto: idioma === "es" ? 'App Shiny que permite al usuario subir un archivo ggplot y probar distintos estilos.' : "Shiny App that allows the user to upload a ggplot file and test different themes.",
-            imagen: imgSelector,
-            enlace: 'https://sgs2000.shinyapps.io/themeselector/'
         },
         {
             titulo: idioma === "es" ? "Análisis del valor de mercado de jugadores de fútbol" : "Football players' market value analysis",
@@ -88,9 +81,16 @@ function Portafolio() {
             enlace: '/portafolio/morrowind'
         },
         {
+            titulo: idioma === "es" ? "Selector de temas para ggplot2" : "ggplot2 theme selector",
+            etiquetas: ['etiqueta-r', "etiqueta-data-viz"],
+            texto: idioma === "es" ? 'App Shiny que permite al usuario subir un archivo ggplot y probar distintos estilos.' : "Shiny App that allows the user to upload a ggplot file and test different themes.",
+            imagen: imgSelector,
+            enlace: 'https://sgs2000.shinyapps.io/themeselector/'
+        },
+        {
             titulo: idioma === "es" ? "Visualización de datos con R" : "Data Visualization with R",
             etiquetas: ['etiqueta-r', "etiqueta-data-viz"],
-            texto: idioma === "es" ? "Diversos gráficos realizados en R, incluyendo gráficos animados" : "Various plots made with R, including animated graphics.",
+            texto: idioma === "es" ? "Diversos gráficos realizados en R, incluyendo gráficos animados." : "Various plots made with R, including animated graphics.",
             imagen: imgPinguino,
             enlace: '/portafolio/rviz'
         },

@@ -7,6 +7,8 @@
   .d-block.w-100 {
     filter: brightness(50%);
     height: 120vh;
+    width: 100%;
+    object-fit: cover;
   }
 
   .carousel-caption {

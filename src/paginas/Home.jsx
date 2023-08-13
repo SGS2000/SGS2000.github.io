@@ -8,7 +8,7 @@ import TextoHome from '../componentes/TextoHome';
 
 // Imagenes
 import fondo1 from "../img/fondo.png";
-import fondo2 from "../img/fondo2.jpg";
+import fondo2 from "../img/fondo2.png";
 import fondo3 from "../img/fondo3.png";
 
 //Bootstrap
