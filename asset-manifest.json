@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e1a61ea4.css",
-    "main.js": "/static/js/main.32b12f4e.js",
+    "main.js": "/static/js/main.b330e578.js",
     "static/media/posterfutbol.pdf": "/static/media/posterfutbol.d2d4343144807e3d8651.pdf",
     "static/media/postertesina.pdf": "/static/media/postertesina.1e85dad299c4e36eeab2.pdf",
     "static/media/spain.png": "/static/media/spain.cee6525fb0219e12df32.png",
@@ -15,7 +15,6 @@
     "static/media/NuevoCV.pdf": "/static/media/NuevoCV.275323980a6544f36cb4.pdf",
     "static/media/NuevoCV_Eng.pdf": "/static/media/NuevoCV_Eng.103bc255439156ad928f.pdf",
     "static/media/portafolio-mw-gif-razas.gif": "/static/media/portafolio-mw-gif-razas.5261030c52209f53b314.gif",
-    "static/media/fondo3.png": "/static/media/fondo3.5c0967aa4f7ffcb5b593.png",
     "static/media/portafolio-mw-gif-facciones.gif": "/static/media/portafolio-mw-gif-facciones.7ebd7e1a688c0024a04c.gif",
     "static/media/uk.png": "/static/media/uk.ee142fa7b9a99a888055.png",
     "static/media/portafolio-ggplotselector.png": "/static/media/portafolio-ggplotselector.bfb28d93a45adca4c1ce.png",
@@ -25,6 +24,7 @@
     "static/media/portafolio-sas-paises.png": "/static/media/portafolio-sas-paises.c42c701260eb5012dc38.png",
     "static/media/portafolio-mw-tecnicas-en.png": "/static/media/portafolio-mw-tecnicas-en.f188fd787b5d9c40db59.png",
     "static/media/portafolio-sitio-js.png": "/static/media/portafolio-sitio-js.f45acfc18acd5b807cb7.png",
+    "static/media/fondo3.png": "/static/media/fondo3.12df2530d0e24b27cae7.png",
     "static/media/portafolio-mw-skills-table.png": "/static/media/portafolio-mw-skills-table.7d49493868f8f81eac13.png",
     "static/media/portafolio-mw-puntos-razas.png": "/static/media/portafolio-mw-puntos-razas.be914fb89b1547acc385.png",
     "static/media/portafolio-mw-tecnicas-es.png": "/static/media/portafolio-mw-tecnicas-es.b8dd2f728d5f4b40d6d2.png",
@@ -45,12 +45,12 @@
     "static/media/portafolio-mw-faccion-sexo-es.png": "/static/media/portafolio-mw-faccion-sexo-es.8dd68534a80c7c0edab7.png",
     "static/media/portafolio-burnout-resultadostabla.png": "/static/media/portafolio-burnout-resultadostabla.9f936c6892a9329d75ef.png",
     "static/media/portafolio-mw-faccion-sexo-en.png": "/static/media/portafolio-mw-faccion-sexo-en.4a0b0ce9f60bc16501b6.png",
+    "static/media/fondo2.png": "/static/media/fondo2.16ba5a17222ecf82c768.png",
     "static/media/portafolio-mw-componentes.png": "/static/media/portafolio-mw-componentes.2520f71135ff8856394c.png",
     "static/media/portafolio-mapa-santafe-en.png": "/static/media/portafolio-mapa-santafe-en.c63d244dfd47064b1b18.png",
     "static/media/portafolio-mapa-santafe-es.png": "/static/media/portafolio-mapa-santafe-es.bfbfde6fc78bc21afd77.png",
     "static/media/portafolio-mw-faccion-en.png": "/static/media/portafolio-mw-faccion-en.1d18420e5c7419855766.png",
     "static/media/portafolio-mw-faccion-es.png": "/static/media/portafolio-mw-faccion-es.bb741a11f2b6e31aca76.png",
-    "static/media/fondo2.png": "/static/media/fondo2.d3beeb1c2d6ee716e698.png",
     "static/media/portafolio-mw-sexo-raza-2-es.png": "/static/media/portafolio-mw-sexo-raza-2-es.27776f61ed81418e8c82.png",
     "static/media/portafolio-mw-sexo-raza-2-en.png": "/static/media/portafolio-mw-sexo-raza-2-en.72cc8725ee72b6acbae1.png",
     "static/media/portafolio-bb-es.png": "/static/media/portafolio-bb-es.c58b7cb73154024c382a.png",
@@ -87,10 +87,10 @@
     "static/media/portafolio-sas-cp.png": "/static/media/portafolio-sas-cp.4686a76e0098581c8b33.png",
     "index.html": "/index.html",
     "main.e1a61ea4.css.map": "/static/css/main.e1a61ea4.css.map",
-    "main.32b12f4e.js.map": "/static/js/main.32b12f4e.js.map"
+    "main.b330e578.js.map": "/static/js/main.b330e578.js.map"
   },
   "entrypoints": [
     "static/css/main.e1a61ea4.css",
-    "static/js/main.32b12f4e.js"
+    "static/js/main.b330e578.js"
   ]
 }
