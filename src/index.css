@@ -8,7 +8,7 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', 'SF Alien Encounters',
     monospace;
 }
 
@@ -16,7 +16,7 @@ code {
   font-family: 'SF Alien Encounters';
   src: local('SFAlienEncounters'), url(./fonts/SFAlienEncounters.ttf) format('truetype');
 }
-@font-face {
+/* @font-face {
   font-family: 'SF Alien Encounters';
   src: local('SFAlienEncounters'), url(./fonts/SFAlienEncountersItalic.ttf) format('truetype');
   font-style: italic;
@@ -31,4 +31,4 @@ code {
   src: local('SFAlienEncounters'), url(./fonts/SFAlienEncountersSolidItalic.ttf) format('truetype');
   font-weight: bold;
   font-style: italic;
-}
+} */
