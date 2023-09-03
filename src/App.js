@@ -18,6 +18,7 @@ import PortafolioAcpcia from "./paginas/portafolio/acpcia";
 import PortafolioBurnout from "./paginas/portafolio/burnout";
 import PortafolioMapas from "./paginas/portafolio/rmapas";
 import PortafolioMW from "./paginas/portafolio/morrowind";
+import PortafolioPlotly from "./paginas/portafolio/plotly";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -41,6 +42,7 @@ function App() {
             <Route path="portafolio/burnout" element={<PortafolioBurnout/>} /> 
             <Route path="portafolio/rmapas" element={<PortafolioMapas/>} /> 
             <Route path="portafolio/morrowind" element={<PortafolioMW/>} /> 
+            <Route path="portafolio/plotly" element={<PortafolioPlotly/>} /> 
           <Route path="reconocimientos" element={<Reconocimientos/>} />
           <Route path="contacto" element={<Contacto/>} />
           <Route path="*" element={<Error />} />

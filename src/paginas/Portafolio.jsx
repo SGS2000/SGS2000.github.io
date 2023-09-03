@@ -17,6 +17,7 @@ import imgBurnout from "../img/portafolio/portafolio-burnout-resultadossexo.png"
 import imgMapa from "../img/portafolio/portafolio-mapa-usa.png"
 import imgMW from "../img/portafolio/mw/portafolio-mw-raza2-es.png"
 import imgJS from "../img/portafolio/portafolio-sitio-js.png"
+import imgPlotly from "../img/portafolio/portafolio-plotly-cover.png"
 
 
 function Portafolio() {
@@ -102,6 +103,13 @@ function Portafolio() {
             enlace: '/portafolio/rmapas'
         },
         {
+            titulo: idioma === "es" ? "Gráficos interactivos con Plotly" : "Interactive plots with Plotly",
+            etiquetas: ['etiqueta-r', "etiqueta-data-viz", "etiqueta-python"],
+            texto: idioma === "es" ? "Visualizaciones interactivas realizadas con las librerías de Plotly, tanto para R como para Python." : "Interactive visualizations created using Plotly libraries, for both R and Python.",
+            imagen: imgPlotly,
+            enlace: '/portafolio/plotly'
+        },
+        {
             titulo: idioma === "es" ? "Sitio web básico con HTML, CSS y JS" : "Basic website using HTML, CSS, and JS",
             etiquetas: ['etiqueta-js'],
             texto: idioma === "es" ? 'Sitio web para una conferencia ficticia, hecho para el curso "PHP Full Stack" (2021).' : "Website for a fictional event, created for the 'PHP Full Stack' course (2021).",
@@ -157,6 +165,11 @@ function Portafolio() {
                 <Etiqueta
                     id="etiqueta-r"
                     etiqueta="R"
+                    manejarClic={manejarClic}
+                />
+                <Etiqueta
+                    id="etiqueta-python"
+                    etiqueta="Python"
                     manejarClic={manejarClic}
                 />
                 <Etiqueta
