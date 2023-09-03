@@ -10,7 +10,6 @@ function Plotly() {
 
     return (
         <>
-        {/* CAMBIAR LINKS ANTES DE SUBIR!!!! */}
             <div className="contenedorPrincipal">
                 <h1>{idioma === "es" ? "Gráficos interactivos con Plotly" : "Interactive plots with Plotly"}</h1>
                 <h2> {idioma === "es" ? "Gráfico de líneas: Episodios de Black Mirror" : "Line chart: Black Mirror episodes"} </h2>
