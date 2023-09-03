@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.07d7104e.css",
+    "main.css": "/static/css/main.7b5bcc46.css",
     "main.js": "/static/js/main.8e9670c3.js",
     "static/media/posterfutbol.pdf": "/static/media/posterfutbol.d2d4343144807e3d8651.pdf",
     "static/media/postertesina.pdf": "/static/media/postertesina.1e85dad299c4e36eeab2.pdf",
@@ -91,11 +91,11 @@
     "static/media/portafolio-burnout-resultadossexo.png": "/static/media/portafolio-burnout-resultadossexo.75cb985d5132f4a700b7.png",
     "static/media/portafolio-sas-cp.png": "/static/media/portafolio-sas-cp.4686a76e0098581c8b33.png",
     "index.html": "/index.html",
-    "main.07d7104e.css.map": "/static/css/main.07d7104e.css.map",
+    "main.7b5bcc46.css.map": "/static/css/main.7b5bcc46.css.map",
     "main.8e9670c3.js.map": "/static/js/main.8e9670c3.js.map"
   },
   "entrypoints": [
-    "static/css/main.07d7104e.css",
+    "static/css/main.7b5bcc46.css",
     "static/js/main.8e9670c3.js"
   ]
 }
