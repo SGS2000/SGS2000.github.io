@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e1a61ea4.css",
-    "main.js": "/static/js/main.b330e578.js",
+    "main.js": "/static/js/main.21e87fb5.js",
     "static/media/posterfutbol.pdf": "/static/media/posterfutbol.d2d4343144807e3d8651.pdf",
     "static/media/postertesina.pdf": "/static/media/postertesina.1e85dad299c4e36eeab2.pdf",
     "static/media/spain.png": "/static/media/spain.cee6525fb0219e12df32.png",
@@ -38,6 +38,7 @@
     "static/media/portafolio-mw-sexo-tabla-es.png": "/static/media/portafolio-mw-sexo-tabla-es.39f47e9f7a05d1be3acb.png",
     "static/media/portafolio-mw-sexo-tabla-en.png": "/static/media/portafolio-mw-sexo-tabla-en.1e2e4c98f6f9fa945b4c.png",
     "static/media/portafolio-mw-raza2-es.png": "/static/media/portafolio-mw-raza2-es.6db43e2017564fa96c2e.png",
+    "static/media/portafolio-plotly-cover.png": "/static/media/portafolio-plotly-cover.22fb5871fca0eb3931f1.png",
     "static/media/fondo.png": "/static/media/fondo.f8ad65e1fe00fab8f3dd.png",
     "static/media/portafolio-mw-raza2-en.png": "/static/media/portafolio-mw-raza2-en.d7fae7be6dc60279ba9f.png",
     "static/media/portafolio-mw-raza1-es.png": "/static/media/portafolio-mw-raza1-es.a1cc021ede68c95a960b.png",
@@ -87,10 +88,10 @@
     "static/media/portafolio-sas-cp.png": "/static/media/portafolio-sas-cp.4686a76e0098581c8b33.png",
     "index.html": "/index.html",
     "main.e1a61ea4.css.map": "/static/css/main.e1a61ea4.css.map",
-    "main.b330e578.js.map": "/static/js/main.b330e578.js.map"
+    "main.21e87fb5.js.map": "/static/js/main.21e87fb5.js.map"
   },
   "entrypoints": [
     "static/css/main.e1a61ea4.css",
-    "static/js/main.b330e578.js"
+    "static/js/main.21e87fb5.js"
   ]
 }
