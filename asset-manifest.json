@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7b5bcc46.css",
-    "main.js": "/static/js/main.8e9670c3.js",
+    "main.css": "/static/css/main.b683893b.css",
+    "main.js": "/static/js/main.0340e460.js",
     "static/media/posterfutbol.pdf": "/static/media/posterfutbol.d2d4343144807e3d8651.pdf",
     "static/media/postertesina.pdf": "/static/media/postertesina.1e85dad299c4e36eeab2.pdf",
     "static/media/spain.png": "/static/media/spain.cee6525fb0219e12df32.png",
@@ -11,9 +11,9 @@
     "static/media/morrowind_npcs.xlsx": "/static/media/morrowind_npcs.db1fbe616d1f448f021d.xlsx",
     "static/media/promedio2021.pdf": "/static/media/promedio2021.47b735a3f967bff5b0a3.pdf",
     "static/media/portafolio-mapa-defunciones.gif": "/static/media/portafolio-mapa-defunciones.175f3f29827a1c930660.gif",
+    "static/media/NuevoCV.pdf": "/static/media/NuevoCV.3be7c5142d1908814010.pdf",
+    "static/media/NuevoCV_Eng.pdf": "/static/media/NuevoCV_Eng.5a936ecfa2fec7731ff1.pdf",
     "static/media/portafolio-posterfutbol.png": "/static/media/portafolio-posterfutbol.fbfaabb0c3be372ce9e9.png",
-    "static/media/NuevoCV.pdf": "/static/media/NuevoCV.275323980a6544f36cb4.pdf",
-    "static/media/NuevoCV_Eng.pdf": "/static/media/NuevoCV_Eng.103bc255439156ad928f.pdf",
     "static/media/portafolio-mw-gif-razas.gif": "/static/media/portafolio-mw-gif-razas.5261030c52209f53b314.gif",
     "static/media/portafolio-mw-gif-facciones.gif": "/static/media/portafolio-mw-gif-facciones.7ebd7e1a688c0024a04c.gif",
     "static/media/uk.png": "/static/media/uk.ee142fa7b9a99a888055.png",
@@ -32,10 +32,8 @@
     "static/media/portafolio-mw-skills-matrix.png": "/static/media/portafolio-mw-skills-matrix.3111c8de73be67cf1a85.png",
     "static/media/portafolio-538.png": "/static/media/portafolio-538.c436588996a98fdf4b6f.png",
     "static/media/portafolio-mw-puntos-faccion.png": "/static/media/portafolio-mw-puntos-faccion.f563551abea2c5b808cb.png",
-    "static/media/SFAlienEncountersItalic.ttf": "/static/media/SFAlienEncountersItalic.8129fc1a0cb8b6f40f52.ttf",
     "static/media/portafolio-mw-faccion-raza-en.png": "/static/media/portafolio-mw-faccion-raza-en.4a65f97f22a91107fe8e.png",
     "static/media/portafolio-mw-faccion-raza-es.png": "/static/media/portafolio-mw-faccion-raza-es.cfda9dbdbf92d61cf545.png",
-    "static/media/SFAlienEncountersSolid.ttf": "/static/media/SFAlienEncountersSolid.acf01b541e45695ec30b.ttf",
     "static/media/portafolio-pinguinos.png": "/static/media/portafolio-pinguinos.ce5913d970cd424a03e0.png",
     "static/media/portafolio-pinguinos-en.png": "/static/media/portafolio-pinguinos-en.d5209d59e3b9bc6c9dc2.png",
     "static/media/portafolio-mw-sexo-tabla-es.png": "/static/media/portafolio-mw-sexo-tabla-es.39f47e9f7a05d1be3acb.png",
@@ -58,7 +56,6 @@
     "static/media/portafolio-mw-sexo-raza-2-es.png": "/static/media/portafolio-mw-sexo-raza-2-es.27776f61ed81418e8c82.png",
     "static/media/portafolio-mw-sexo-raza-2-en.png": "/static/media/portafolio-mw-sexo-raza-2-en.72cc8725ee72b6acbae1.png",
     "static/media/portafolio-bb-es.png": "/static/media/portafolio-bb-es.c58b7cb73154024c382a.png",
-    "static/media/SFAlienEncountersSolidItalic.ttf": "/static/media/SFAlienEncountersSolidItalic.f41f8f50c1a01e5ed12b.ttf",
     "static/media/portafolio-bb-en.png": "/static/media/portafolio-bb-en.23e3d911c85b505752a7.png",
     "static/media/portafolio-sas-scree.png": "/static/media/portafolio-sas-scree.2e9edf543342920abd9b.png",
     "static/media/portafolio-mapa-congreso-es.png": "/static/media/portafolio-mapa-congreso-es.785ff09925718277fb14.png",
@@ -91,11 +88,11 @@
     "static/media/portafolio-burnout-resultadossexo.png": "/static/media/portafolio-burnout-resultadossexo.75cb985d5132f4a700b7.png",
     "static/media/portafolio-sas-cp.png": "/static/media/portafolio-sas-cp.4686a76e0098581c8b33.png",
     "index.html": "/index.html",
-    "main.7b5bcc46.css.map": "/static/css/main.7b5bcc46.css.map",
-    "main.8e9670c3.js.map": "/static/js/main.8e9670c3.js.map"
+    "main.b683893b.css.map": "/static/css/main.b683893b.css.map",
+    "main.0340e460.js.map": "/static/js/main.0340e460.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b5bcc46.css",
-    "static/js/main.8e9670c3.js"
+    "static/css/main.b683893b.css",
+    "static/js/main.0340e460.js"
   ]
 }
