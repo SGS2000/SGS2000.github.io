@@ -12,11 +12,9 @@ function Plotly() {
         <>
             <div className="contenedorPrincipal">
                 <h1>{idioma === "es" ? "Gráficos interactivos con Plotly" : "Interactive plots with Plotly"}</h1>
-                <p style={{fontFamily: "SFAlienEncounters"}}>Texto de prueba</p>
                 <h2> {idioma === "es" ? "Gráfico de líneas: Episodios de Black Mirror" : "Line chart: Black Mirror episodes"} </h2>
                 <p> {idioma === "es" ? "Se muestran todos los episodios de la serie Black Mirror por temporada y su respectiva calificación en IMDB (hasta agosto del 2023). El gráfico fue hecho con R." 
                 : "All episodes of the Black Mirror series are displayed by season along with their respective IMDb ratings (as of August 2023). Plot made in R."}</p>
-                
                 <iframe src={idioma === "es" ? "html/plotly1Es.html" : "html/plotly1En.html"}  width="1000vw"  height="750vh" title="Plotly 1"></iframe>
                 <h2> {idioma === "es" ? "Gráfico de líneas: Resultados de mundiales de fútbol FIFA" : "Line chart: FIFA World Cup results"} </h2>
                 <p> {idioma === "es" ? "El gráfico muestra la evolución de los resultados de 8 selecciones de fútbol en la Copa Mundial de la FIFA entre 1930 y 2022. Solo se incluyen equipos que hayan sido campeones al menos una vez. Los datos provienen de la FIFA. Hecho con R." 
