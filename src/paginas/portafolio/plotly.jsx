@@ -22,7 +22,7 @@ function Plotly() {
                 <iframe src={idioma === "es" ? "html/plotly2Es.html" : "html/plotly2En.html"} width="1000vw" height="750vh" title="Plotly 2"></iframe>
                 <h2> {idioma === "es" ? "Gráfico de barras: Resumen de la serie Civilization" : "Bar Chart: Summary of the Civilization series"} </h2>
                 <p> {idioma === "es" ? "La figura muestra la cantidad de civilizaciones disponibles en cada juego y expansión de la serie Civilization. El gráfico fue hecho con Python. Los datos provienen de " 
-                : "The figure displays the number of civilizations available in each game and expansion pack of the Civilization series. The plot was created using Python. Data comes from "}
+                : "The figure displays the number of civilizations available in each game and expansion pack or DLC of the Civilization series. The plot was created using Python. Data comes from "}
                 <a href="https://civilization.fandom.com/wiki/Civilization_Games_Wiki" target="_blank" rel="noreferrer">Civilization Wiki</a>.</p>
                 <iframe src="html/plotly3.html" width="1000vw" height="750vh" title="Plotly 3"></iframe>
                 <h2> {idioma === "es" ? "Mapa de calor: Civilizaciones y líderes" : "Heatmap: Civilizations and leaders"} </h2>
