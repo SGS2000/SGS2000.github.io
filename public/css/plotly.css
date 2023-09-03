@@ -1,19 +1,19 @@
 @font-face {
-    font-family: 'SFAlienEncounters';
-    src: local('SFAlienEncounters'), url(./fonts/SFAlienEncounters.ttf) format('truetype');
+    font-family: 'SF Alien Encounters';
+    src: local('SF Alien Encounters'), url(./fonts/SFAlienEncounters.ttf) format('truetype');
   }
   @font-face {
-    font-family: 'SFAlienEncounters';
+    font-family: 'SF Alien Encounters';
     src: local('SFAlienEncounters'), url(./fonts/SFAlienEncountersItalic.ttf) format('truetype');
     font-style: italic;
   }
   @font-face {
-    font-family: 'SFAlienEncounters';
+    font-family: 'SF Alien Encounters';
     src: local('SFAlienEncounters'), url(./fonts/SFAlienEncountersSolid.ttf) format('truetype');
     font-weight: bold;
   }
   @font-face {
-    font-family: 'SFAlienEncounters';
+    font-family: 'SF Alien Encounters';
     src: local('SFAlienEncounters'), url(./fonts/SFAlienEncountersSolidItalic.ttf) format('truetype');
     font-weight: bold;
     font-style: italic;
