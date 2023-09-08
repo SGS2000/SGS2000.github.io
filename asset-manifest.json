@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b683893b.css",
-    "main.js": "/static/js/main.0340e460.js",
+    "main.js": "/static/js/main.f1e3676c.js",
     "static/media/posterfutbol.pdf": "/static/media/posterfutbol.d2d4343144807e3d8651.pdf",
     "static/media/postertesina.pdf": "/static/media/postertesina.1e85dad299c4e36eeab2.pdf",
     "static/media/spain.png": "/static/media/spain.cee6525fb0219e12df32.png",
@@ -89,10 +89,10 @@
     "static/media/portafolio-sas-cp.png": "/static/media/portafolio-sas-cp.4686a76e0098581c8b33.png",
     "index.html": "/index.html",
     "main.b683893b.css.map": "/static/css/main.b683893b.css.map",
-    "main.0340e460.js.map": "/static/js/main.0340e460.js.map"
+    "main.f1e3676c.js.map": "/static/js/main.f1e3676c.js.map"
   },
   "entrypoints": [
     "static/css/main.b683893b.css",
-    "static/js/main.0340e460.js"
+    "static/js/main.f1e3676c.js"
   ]
 }
