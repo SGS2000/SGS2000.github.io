@@ -109,6 +109,20 @@ function Curriculum() {
                         <TablaLista
                             titulo={
                                 <>
+                                    <h3>{idioma === "es" ? "Full Stack - Desarrollo Web (JavaScript/Node.JS)" : "Full Stack - Web Development (JavaScript/Node.js)"}</h3>
+                                    <p><b>{idioma === "es" ? "Agencia de Aprendizaje a lo largo de la vida (Marzo-Junio de 2023)" : "Agencia de Aprendizaje a lo largo de la vida (March-June 2023)"}</b></p>
+                                </>
+                            }
+                            texto={
+                                <>
+                                    <p>{idioma === "es" ? "HTML y CSS, JavaScript, Node.js, REST, Express JS" : "HTML and CSS, JavaScript, Node.js, REST, Express JS"}</p>
+                                    <br></br>
+                                </>
+                            }
+                        />
+                        <TablaLista
+                            titulo={
+                                <>
                                     <h3>{idioma === "es" ? "Estadística bayesiana con aplicaciones en R y Python" : "Bayesian statistics with R and Python"}</h3>
                                     <p><b>{idioma === "es" ? "Sociedad Argentina de estadística (Noviembre de 2022)" : "Argentine Society of Statistics (November 2022)"}</b></p>
                                 </>
@@ -144,7 +158,7 @@ function Curriculum() {
 
                             texto={
                                 <>
-                                    <p>{idioma === "es" ? "Desarrollo web, HTML y CSS, Javascript, Git y GitHub, conexión con bases de datos." : "Web development, HTML and CSS, JavaScript, Git and GitHub, connection with databases."}</p>
+                                    <p>{idioma === "es" ? "Desarrollo web, HTML y CSS, JavaScript, Git y GitHub, conexión con bases de datos." : "Web development, HTML and CSS, JavaScript, Git and GitHub, connection with databases."}</p>
                                     <br></br>
                                 </>
                             }
