@@ -19,6 +19,7 @@ import imgMW from "../img/portafolio/mw/portafolio-mw-raza2-es.png"
 import imgJS from "../img/portafolio/portafolio-sitio-js.png"
 import imgPlotly from "../img/portafolio/portafolio-plotly-cover.png"
 import imgSeries from "../img/portafolio/series/portafolio-series-temperaturas-es.png"
+import imgPHP from "../img/portafolio/portafolio-sitio-php.png"
 
 
 function Portafolio() {
@@ -123,6 +124,13 @@ function Portafolio() {
             texto: idioma === "es" ? 'Sitio web para una conferencia ficticia, hecho para el curso "PHP Full Stack" (2021).' : "Website for a fictional event, created for the 'PHP Full Stack' course (2021).",
             imagen: imgJS,
             enlace: 'https://sgs2000.github.io/html/tpjavascript/index.html'
+        },
+        {
+            titulo: idioma === "es" ? "Sistema de registro de usuarios con PHP y MySQL" : "User Registration System with PHP and MySQL",
+            etiquetas: ['etiqueta-js','etiqueta-php'],
+            texto: idioma === "es" ? 'Ejemplo de un sistema de registro de usuarios, creado para el curso "PHP Full Stack" (2021).' : "Example of a user registration system, created for the 'PHP Full Stack' course (2021).",
+            imagen: imgPHP,
+            enlace: '/portafolio/sitiophp'
         }
     ];
 
@@ -203,6 +211,11 @@ function Portafolio() {
                 <Etiqueta
                     id="etiqueta-js"
                     etiqueta="JavaScript"
+                    manejarClic={manejarClic}
+                />
+                <Etiqueta
+                    id="etiqueta-php"
+                    etiqueta="PHP"
                     manejarClic={manejarClic}
                 />
              </div>
