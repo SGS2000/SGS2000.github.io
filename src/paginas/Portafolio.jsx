@@ -20,6 +20,7 @@ import imgJS from "../img/portafolio/portafolio-sitio-js.png"
 import imgPlotly from "../img/portafolio/portafolio-plotly-cover.png"
 import imgSeries from "../img/portafolio/series/portafolio-series-temperaturas-es.png"
 import imgPHP from "../img/portafolio/portafolio-sitio-php.png"
+import imgJava from "../img/portafolio/portafolio-java.png"
 
 
 function Portafolio() {
@@ -131,6 +132,13 @@ function Portafolio() {
             texto: idioma === "es" ? 'Ejemplo de un sistema de registro de usuarios, creado para el curso "PHP Full Stack" (2021).' : "Example of a user registration system, created for the 'PHP Full Stack' course (2021).",
             imagen: imgPHP,
             enlace: '/portafolio/sitiophp'
+        },
+        {
+            titulo: idioma === "es" ? "Calculadora de distribuciones de probabilidad" : "Probability distributions calculator",
+            etiquetas: ['etiqueta-proba', "etiqueta-java"],
+            texto: idioma === "es" ? 'Programa Java para visualizar distribuciones de probabilidad y realizar distintos cálculos.' : "Java program for visualizing probability distributions and performing various calculations.",
+            imagen: imgJava,
+            enlace: 'https://github.com/SGS2000/calculadora-distribuciones-probabilidad'
         }
     ];
 
@@ -167,6 +175,11 @@ function Portafolio() {
                 <Etiqueta
                     id="etiqueta-modeloslin"
                     etiqueta={idioma === "es" ? "Modelos lineales" : "Linear models"}
+                    manejarClic={manejarClic}
+                />
+                <Etiqueta
+                    id="etiqueta-proba"
+                    etiqueta={idioma === "es" ? "Probabilidades" : "Probability"}
                     manejarClic={manejarClic}
                 />
                 <Etiqueta
@@ -216,6 +229,11 @@ function Portafolio() {
                 <Etiqueta
                     id="etiqueta-php"
                     etiqueta="PHP"
+                    manejarClic={manejarClic}
+                />
+                <Etiqueta
+                    id="etiqueta-java"
+                    etiqueta="Java"
                     manejarClic={manejarClic}
                 />
              </div>
