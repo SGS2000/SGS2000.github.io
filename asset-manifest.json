@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.b683893b.css",
-    "main.js": "/static/js/main.5a5c672b.js",
+    "main.js": "/static/js/main.40fa75c4.js",
+    "static/media/portafolio-sitio-php-video.mp4": "/static/media/portafolio-sitio-php-video.a5426c9edb9fd049f307.mp4",
     "static/media/posterfutbol.pdf": "/static/media/posterfutbol.d2d4343144807e3d8651.pdf",
     "static/media/postertesina.pdf": "/static/media/postertesina.1e85dad299c4e36eeab2.pdf",
     "static/media/spain.png": "/static/media/spain.cee6525fb0219e12df32.png",
@@ -14,6 +15,7 @@
     "static/media/NuevoCV.pdf": "/static/media/NuevoCV.3be7c5142d1908814010.pdf",
     "static/media/NuevoCV_Eng.pdf": "/static/media/NuevoCV_Eng.5a936ecfa2fec7731ff1.pdf",
     "static/media/portafolio-posterfutbol.png": "/static/media/portafolio-posterfutbol.fbfaabb0c3be372ce9e9.png",
+    "static/media/portafolio-sitio-php.png": "/static/media/portafolio-sitio-php.f83a7453d114925605b2.png",
     "static/media/portafolio-series-tabla.png": "/static/media/portafolio-series-tabla.94bf6550d0dde2d179b9.png",
     "static/media/portafolio-mw-gif-razas.gif": "/static/media/portafolio-mw-gif-razas.5261030c52209f53b314.gif",
     "static/media/portafolio-mw-gif-facciones.gif": "/static/media/portafolio-mw-gif-facciones.7ebd7e1a688c0024a04c.gif",
@@ -107,10 +109,10 @@
     "static/media/portafolio-series-boxplot-en.png": "/static/media/portafolio-series-boxplot-en.2248bd1dca80977e702a.png",
     "index.html": "/index.html",
     "main.b683893b.css.map": "/static/css/main.b683893b.css.map",
-    "main.5a5c672b.js.map": "/static/js/main.5a5c672b.js.map"
+    "main.40fa75c4.js.map": "/static/js/main.40fa75c4.js.map"
   },
   "entrypoints": [
     "static/css/main.b683893b.css",
-    "static/js/main.5a5c672b.js"
+    "static/js/main.40fa75c4.js"
   ]
 }
