@@ -57,7 +57,7 @@ function Curriculum() {
                                     <p> {idioma === "es" ? "Análisis estadístico de datos vinculados al cursado de la Diplomatura en Acompañamiento y Abordaje Territorial de Situaciones de Violencia por Razones de Género, realizado por la Universidad Nacional de Rafaela y el Gobierno de la provincia de Santa Fe." : "Statistical analysis of data related to the development of the Diploma in Territorial Accompaniment and Approach to Situations of Gender-Based Violence, conducted by the National University of Rafaela and the Government of Santa Fe."}</p>
                                     <p> {idioma === "es" ? <b>Lugar</b> : <b>Location</b>}:  {idioma === "es" ? "Universidad Nacional de Rafaela" : "National University of Rafaela"}  </p>
                                     <p> {idioma === "es" ? <b>Duración</b> : <b>Duration</b>}: {idioma === "es" ? "Abril de 2023-presente" : "April 2023-Present"} </p>
-                                    <p> {idioma === "es" ? <b>Reponsabilidades</b> : <b>Reponsabilities</b>}: </p>
+                                    <p> {idioma === "es" ? <b>Responsabilidades</b> : <b>Responsibilities</b>}: </p>
                                     <ul>
                                         <li> {idioma === "es" ? "Elaboración de informes estadísticos." : "Writing statistical reports."}  </li>
                                         <li> {idioma === "es" ? "Depuración, formateo y organización de conjuntos de datos." : "Cleansing, formatting, and organizing datasets."} </li>
@@ -74,7 +74,7 @@ function Curriculum() {
                                 <>
                                     <p> {idioma === "es" ? <b>Lugar</b> : <b>Location</b>}:  {idioma === "es" ? "Facultad de Ciencias Económicas y Estadística, Universidad Nacional de Rosario" : "Faculty of Economic Sciences and Statistics, National University of Rosario"}  </p>
                                     <p> {idioma === "es" ? <b>Duración</b> : <b>Duration</b>}: {idioma === "es" ? "Mayo-Junio de 2022" : "May-June 2022"} </p>
-                                    <p> {idioma === "es" ? <b>Reponsabilidades</b> : <b>Reponsabilities</b>}: </p>
+                                    <p> {idioma === "es" ? <b>Responsabilidades</b> : <b>Responsibilities</b>}: </p>
                                     <ul>
                                         <li> {idioma === "es" ? "Elaboración y evaluación de los materiales de estudio." : "Development and evaluation of study materials."}  </li>
                                         <li> {idioma === "es" ? "Asistencia a los estudiantes durante el cursado." : "Assistance to students during the course."} </li>

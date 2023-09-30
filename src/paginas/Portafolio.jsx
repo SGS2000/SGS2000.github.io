@@ -18,6 +18,7 @@ import imgMapa from "../img/portafolio/portafolio-mapa-usa.png"
 import imgMW from "../img/portafolio/mw/portafolio-mw-raza2-es.png"
 import imgJS from "../img/portafolio/portafolio-sitio-js.png"
 import imgPlotly from "../img/portafolio/portafolio-plotly-cover.png"
+import imgSeries from "../img/portafolio/series/portafolio-series-temperaturas-es.png"
 
 
 function Portafolio() {
@@ -73,6 +74,13 @@ function Portafolio() {
             texto: idioma === "es" ? "Estudio del efecto del burnout en el personal de salud de una localidad en Argentina." : "Study of the effect of burnout on healthcare personnel in a town in Argentina.",
             imagen: imgBurnout,
             enlace: '/portafolio/burnout'
+        },
+        {
+            titulo: idioma === "es" ? "Series de tiempo: Temperaturas en Argentina" : "Time series: Temperatures in Argentina",
+            etiquetas: ['etiqueta-r',"etiqueta-series"],
+            texto: idioma === "es" ? "Pronóstico de las temperaturas en Argentina en 2020 utilizando modelos SARIMA." : "Time series forecasting of temperatures in Argentina using SARIMA models.",
+            imagen: imgSeries,
+            enlace: '/portafolio/seriestp'
         },
         {
             titulo: idioma === "es" ? "Personajes en The Elder Scrolls III: Morrowind" : "NPCs in The Elder Scrolls III: Morrowind",
@@ -151,6 +159,11 @@ function Portafolio() {
                 <Etiqueta
                     id="etiqueta-modeloslin"
                     etiqueta={idioma === "es" ? "Modelos lineales" : "Linear models"}
+                    manejarClic={manejarClic}
+                />
+                <Etiqueta
+                    id="etiqueta-series"
+                    etiqueta={idioma === "es" ? "Series de tiempo" : "Time Series"}
                     manejarClic={manejarClic}
                 />
                 <Etiqueta
