@@ -18,7 +18,7 @@ function Curriculum() {
         //Colores de los botones
         const buttons = document.querySelectorAll('.btn-secondary');
         buttons.forEach(otherButton => otherButton.classList.remove('active'));
-        buttons[val-1].classList.add('active');
+        buttons[val - 1].classList.add('active');
 
     }
 
@@ -51,7 +51,7 @@ function Curriculum() {
                 return (
                     <>
                         <TablaLista
-                            titulo={<h2> {idioma === "es" ? 'Analista de datos' : 'Data Analyst' } </h2>}
+                            titulo={<h2> {idioma === "es" ? 'Analista de datos' : 'Data Analyst'} </h2>}
                             texto={
                                 <>
                                     <p> {idioma === "es" ? "Análisis estadístico de datos vinculados al cursado de la Diplomatura en Acompañamiento y Abordaje Territorial de Situaciones de Violencia por Razones de Género, realizado por la Universidad Nacional de Rafaela y el Gobierno de la provincia de Santa Fe." : "Statistical analysis of data related to the development of the Diploma in Territorial Accompaniment and Approach to Situations of Gender-Based Violence, conducted by the National University of Rafaela and the Government of Santa Fe."}</p>
@@ -69,7 +69,7 @@ function Curriculum() {
                             }
                         />
                         <TablaLista
-                            titulo={<h2> {idioma === "es" ? 'Colaborador - Curso "Desarrollo de Shiny Apps"' : 'Course Assistant - Course: "Shiny Apps Development""' } </h2>}
+                            titulo={<h2> {idioma === "es" ? 'Colaborador - Curso "Desarrollo de Shiny Apps"' : 'Course Assistant - Course: "Shiny Apps Development""'} </h2>}
                             texto={
                                 <>
                                     <p> {idioma === "es" ? <b>Lugar</b> : <b>Location</b>}:  {idioma === "es" ? "Facultad de Ciencias Económicas y Estadística, Universidad Nacional de Rosario" : "Faculty of Economic Sciences and Statistics, National University of Rosario"}  </p>
@@ -90,13 +90,13 @@ function Curriculum() {
                 return (
                     <>
                         <TablaLista
-                            titulo={ <h2>{idioma === "es" ? "Licenciatura en Estadística" : "Bachelor's degree in Statistics"}</h2> }
+                            titulo={<h2>{idioma === "es" ? "Licenciatura en Estadística" : "Bachelor's degree in Statistics"}</h2>}
                             texto={
                                 <>
                                     <p>{idioma === "es" ? "Universidad Nacional de Rosario (2018-2022)" : "National University of Rosario (2018-2022)"}</p>
                                     <ul>
                                         <li> <b>{idioma === "es" ? "Promedio" : "Average"}</b>: {idioma === "es" ? "8,06" : "8.06"} </li>
-                                        <li> <b>{idioma === "es" ? "Tesina de grado" : "Undergraduate thesis"}</b>: {idioma === "es" ? '"Clasificación supervisada de textos de ficción según género utilizando bosques aleatorios"' : '"Supervised Classification of Fiction Texts by Genre using Random Forests"' } (2023)</li>
+                                        <li> <b>{idioma === "es" ? "Tesina de grado" : "Undergraduate thesis"}</b>: {idioma === "es" ? '"Clasificación supervisada de textos de ficción según género utilizando bosques aleatorios"' : '"Supervised Classification of Fiction Texts by Genre using Random Forests"'} (2023)</li>
                                     </ul>
                                 </>
                             }
@@ -106,6 +106,20 @@ function Curriculum() {
             case 4:
                 return (
                     <>
+                        <TablaLista
+                            titulo={
+                                <>
+                                    <h3>{idioma === "es" ? "Implementación de modelos de aprendizaje automático con Python" : "Implementation of Machine Learning Models with Python"}</h3>
+                                    <p><b>{idioma === "es" ? "Sociedad Argentina de Estadística (Octubre de 2023)" : "Argentine Society of Statistics (October 2023)"}</b></p>
+                                </>
+                            }
+                            texto={
+                                <>
+                                    <p>{idioma === "es" ? "Rutinas de preprocesamiento con Scikit-Learn, búsqueda de hiperparámetros utilizando GridSearchCV y Optimización Bayesiana, análisis de errores" : "Pre-Processing Routines with Scikit-Learn, hyperparameter Tuning Using GridSearchCV and Bayesian Optimization, error analysis"}</p>
+                                    <br></br>
+                                </>
+                            }
+                        />
                         <TablaLista
                             titulo={
                                 <>
@@ -124,7 +138,7 @@ function Curriculum() {
                             titulo={
                                 <>
                                     <h3>{idioma === "es" ? "Estadística bayesiana con aplicaciones en R y Python" : "Bayesian statistics with R and Python"}</h3>
-                                    <p><b>{idioma === "es" ? "Sociedad Argentina de estadística (Noviembre de 2022)" : "Argentine Society of Statistics (November 2022)"}</b></p>
+                                    <p><b>{idioma === "es" ? "Sociedad Argentina de Estadística (Noviembre de 2022)" : "Argentine Society of Statistics (November 2022)"}</b></p>
                                 </>
                             }
                             texto={
@@ -289,13 +303,35 @@ function Curriculum() {
 
                             texto={
                                 <ul>
-                                    <li>R ({idioma === "es" ? "incluyendo" : "including"} R Markdown {idioma === "es" ? "y" : "and"} Shiny)</li>
+                                    <li>R</li>
+                                    <details>
+                                        <summary> {idioma === "es" ? "Ver más" : "See more"} </summary>
+                                        <ul>
+                                            <li>Tidyverse </li>
+                                            <li>R Markdown </li>
+                                            <li>Shiny </li>
+                                        </ul>
+                                    </details>
                                     <li>Python</li>
+                                    <details>
+                                        <summary> {idioma === "es" ? "Ver más" : "See more"} </summary>
+                                        <ul>
+                                            <li>Numpy / Pandas </li>
+                                            <li>Scikit-learn / TensorFlow </li>
+                                            <li>Matplotlib / Seaborn / Plotly </li>
+                                        </ul>
+                                    </details>
                                     <li>SQL</li>
                                     <li>PHP</li>
                                     <li>HTML</li>
                                     <li>CSS</li>
-                                    <li>Javascript ({idioma === "es" ? "incluyendo" : "including"} React {idioma === "es" ? "y" : "and"} Node.js)</li>
+                                    <ul>
+                                        <li>Bootstrap </li>
+                                    </ul>
+                                    <li>Javascript</li>
+                                    <ul>
+                                        <li>React / Node.js </li>
+                                    </ul>
                                     <li>Java</li>
                                     <li>Markdown</li>
                                 </ul>
@@ -329,7 +365,7 @@ function Curriculum() {
                                 <ul>
                                     <li>Power BI</li>
                                     <li>Tableau</li>
-                                    <li>Web Scraping</li>
+                                    <li>Web Scraping / Selenium</li>
                                     <li>Microsoft Office (Word, Excel, Powerpoint, Publisher, Access)</li>
                                     <li>Google Docs</li>
                                     <li>LaTeX</li>
