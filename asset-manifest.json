@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b683893b.css",
-    "main.js": "/static/js/main.0e29240f.js",
+    "main.js": "/static/js/main.5050b96c.js",
     "static/media/portafolio-sitio-php-video.mp4": "/static/media/portafolio-sitio-php-video.a5426c9edb9fd049f307.mp4",
     "static/media/posterfutbol.pdf": "/static/media/posterfutbol.d2d4343144807e3d8651.pdf",
     "static/media/postertesina.pdf": "/static/media/postertesina.1e85dad299c4e36eeab2.pdf",
@@ -110,10 +110,10 @@
     "static/media/portafolio-series-boxplot-en.png": "/static/media/portafolio-series-boxplot-en.2248bd1dca80977e702a.png",
     "index.html": "/index.html",
     "main.b683893b.css.map": "/static/css/main.b683893b.css.map",
-    "main.0e29240f.js.map": "/static/js/main.0e29240f.js.map"
+    "main.5050b96c.js.map": "/static/js/main.5050b96c.js.map"
   },
   "entrypoints": [
     "static/css/main.b683893b.css",
-    "static/js/main.0e29240f.js"
+    "static/js/main.5050b96c.js"
   ]
 }
