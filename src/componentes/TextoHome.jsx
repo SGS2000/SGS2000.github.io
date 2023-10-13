@@ -34,7 +34,7 @@ const TextoHome = () => {
             </div>
             <img
                 src={foto}
-                alt="Second slide"
+                alt="Santiago Garcia Sanchez"
                 id="foto-principal"
             />
         </div>

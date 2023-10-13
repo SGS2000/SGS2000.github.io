@@ -55,7 +55,7 @@ function SeriesTP() {
                 <h2> {idioma === "es" ? "Análisis descriptivo" : "Descriptive Analysis"} </h2>
                 <p> {idioma === "es" ? "La siguiente tabla muestra la temperatura promedio (ºC) por mes en Argentina durante el período 2015-2020. Las últimas seis observaciones son removidas para ser utilizadas como conjunto de prueba."
                     : "The following table displays the average temperature (ºC) per month in Argentina during the 2015-2020 period. The last six observations are excluded for use as a test set."}</p>
-                <img src={tablaDatos} alt="tabla datos" className="imgCentrada"></img>
+                <img src={tablaDatos} alt="tabla datos" className="imgCentradaSinTamanio" style={{ width: "50%", height: "50%" }}></img>
                 <br></br>
                 <p> {idioma === "es" ? "Se grafican los datos. Se puede observar una estacionalidad de período 12, lo cuál es esperable al trabajar con temperaturas mensuales."
                     : "The data is shown in the following plot. Seasonality with a period of 12 can be observed, which is expected when working with monthly temperatures."}</p>
@@ -95,7 +95,7 @@ function SeriesTP() {
                 <p>{idioma === "es" ? "El modelo óptimo fue el modelo 3: " : "The optimal model was Model 3: "} 
                 SARIMA(0,1,1)(1,1,0)<sub>12</sub></p>
                 <p>{idioma === "es" ? "Se presenta un resumen del modelo:" : "A summary of the model is shown:"} </p>
-                <img src={salidaModelo} alt="modelo optimo" className="imgCentrada"></img>
+                <img src={salidaModelo} alt="modelo optimo"></img>
                 <p>{idioma === "es" ? "A continuación, se lleva a cabo el diagnóstico del modelo. Como se puede ver en los siguientes gráficos, los residuos parecen ser ruido blanco y seguir una distribución aproximadamente normal." :
                     "Next, the model diagnosis is performed. As seen in the following plots, the residuals seem to be white noise and follow an approximately normal distribution."} </p>
 
