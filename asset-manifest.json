@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.b683893b.css",
-    "main.js": "/static/js/main.5050b96c.js",
+    "main.css": "/static/css/main.a9f78af8.css",
+    "main.js": "/static/js/main.981f5911.js",
     "static/media/portafolio-sitio-php-video.mp4": "/static/media/portafolio-sitio-php-video.a5426c9edb9fd049f307.mp4",
     "static/media/posterfutbol.pdf": "/static/media/posterfutbol.d2d4343144807e3d8651.pdf",
     "static/media/postertesina.pdf": "/static/media/postertesina.1e85dad299c4e36eeab2.pdf",
-    "static/media/spain.png": "/static/media/spain.cee6525fb0219e12df32.png",
     "static/media/portafolio-postertesina.png": "/static/media/portafolio-postertesina.480b311f83a78f642f6d.png",
     "static/media/portafolio-futbolgif-es.gif": "/static/media/portafolio-futbolgif-es.199719251aa5213f53b9.gif",
     "static/media/portafolio-futbolgif-en.gif": "/static/media/portafolio-futbolgif-en.eb0a429c9febfb85b140.gif",
@@ -19,10 +18,11 @@
     "static/media/portafolio-series-tabla.png": "/static/media/portafolio-series-tabla.94bf6550d0dde2d179b9.png",
     "static/media/portafolio-mw-gif-razas.gif": "/static/media/portafolio-mw-gif-razas.5261030c52209f53b314.gif",
     "static/media/portafolio-mw-gif-facciones.gif": "/static/media/portafolio-mw-gif-facciones.7ebd7e1a688c0024a04c.gif",
+    "static/media/spain.png": "/static/media/spain.2526f203c248a918d8cd.png",
     "static/media/portafolio-series-predicciones-es.png": "/static/media/portafolio-series-predicciones-es.fce42178332d1713ba8f.png",
     "static/media/portafolio-series-predicciones-en.png": "/static/media/portafolio-series-predicciones-en.45a62819254f28062198.png",
-    "static/media/uk.png": "/static/media/uk.ee142fa7b9a99a888055.png",
     "static/media/portafolio-ggplotselector.png": "/static/media/portafolio-ggplotselector.bfb28d93a45adca4c1ce.png",
+    "static/media/portafolio-mapa-sae.gif": "/static/media/portafolio-mapa-sae.51906093fa2166c33107.gif",
     "static/media/portafolio-mw-confusion-es.png": "/static/media/portafolio-mw-confusion-es.68c036b83d15fa61bef4.png",
     "static/media/portafolio-mw-confusion-en.png": "/static/media/portafolio-mw-confusion-en.6820920bf054b7dcd1cd.png",
     "static/media/foto.jpg": "/static/media/foto.1511c237a47ed32f99a7.jpg",
@@ -56,6 +56,7 @@
     "static/media/portafolio-mw-componentes.png": "/static/media/portafolio-mw-componentes.2520f71135ff8856394c.png",
     "static/media/portafolio-mapa-santafe-en.png": "/static/media/portafolio-mapa-santafe-en.c63d244dfd47064b1b18.png",
     "static/media/portafolio-mapa-santafe-es.png": "/static/media/portafolio-mapa-santafe-es.bfbfde6fc78bc21afd77.png",
+    "static/media/uk.png": "/static/media/uk.8b953b3ecb523aec9513.png",
     "static/media/portafolio-mw-faccion-en.png": "/static/media/portafolio-mw-faccion-en.1d18420e5c7419855766.png",
     "static/media/portafolio-mw-faccion-es.png": "/static/media/portafolio-mw-faccion-es.bb741a11f2b6e31aca76.png",
     "static/media/portafolio-mw-sexo-raza-2-es.png": "/static/media/portafolio-mw-sexo-raza-2-es.27776f61ed81418e8c82.png",
@@ -109,11 +110,11 @@
     "static/media/portafolio-series-boxplot-es.png": "/static/media/portafolio-series-boxplot-es.769ae980d3fcca997387.png",
     "static/media/portafolio-series-boxplot-en.png": "/static/media/portafolio-series-boxplot-en.2248bd1dca80977e702a.png",
     "index.html": "/index.html",
-    "main.b683893b.css.map": "/static/css/main.b683893b.css.map",
-    "main.5050b96c.js.map": "/static/js/main.5050b96c.js.map"
+    "main.a9f78af8.css.map": "/static/css/main.a9f78af8.css.map",
+    "main.981f5911.js.map": "/static/js/main.981f5911.js.map"
   },
   "entrypoints": [
-    "static/css/main.b683893b.css",
-    "static/js/main.5050b96c.js"
+    "static/css/main.a9f78af8.css",
+    "static/js/main.981f5911.js"
   ]
 }
