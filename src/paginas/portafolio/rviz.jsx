@@ -62,6 +62,15 @@ function Rviz() {
                 : "Made with the ggplot2, ggthemes, extrafont, ggrepel, and scales packages. Data comes from Wikipedia."}
                 </p>
                 <img src={img538} alt="scatterplot 538" className="imgCentrada"></img>
+                {/* 3d */}
+                <h2> {idioma === "es" ? "Gráfico de dispersión 3D: Alfabetización, Esperanza de vida y PBI" : "3D Scatterplot: Literacy Rate, Life Expectancy, and GDP"} </h2>
+                <p> {idioma === "es" ? "Utilizando un conjunto de datos con información de múltiples países y territorios, se realiza un gráfico de dispersión en tres dimensiones mostrando la relación entre tres variables: alfabetización (porcentaje de la población que sabe leer y escribir), esperanza de vida al nacer (en años) y PBI per cápita PPA (en dólares). Estas variables son utilizadas para la construcción de medidas tales cómo el índice de desarrollo humano (IDH)." 
+                : "Using a dataset with information from multiple countries and territories, a 3D scatter plot is created to show the relationship between three variables: literacy (percentage of the population that can read and write), life expectancy at birth (in years), and GDP per capita PPP. These variables are used to construct measures such as the Human Development Index (HDI)."}</p>
+                <p> {idioma === "es" ? "El gráfico fue creado con el paquete rgl. Los datos provienen del " 
+                : "The rgl package was used to create the plot. Data comes from the "}
+                <a href='https://www.cia.gov/the-world-factbook/' target='blank'> <i>CIA World Factbook</i></a>.
+                </p>
+                <iframe src={idioma === "es" ? "html/R3D.html" : "html/R3DEn.html"}  width="1000vw"  height="750vh" title="Scatterplot 3D"></iframe>
             </div>
         </>
 

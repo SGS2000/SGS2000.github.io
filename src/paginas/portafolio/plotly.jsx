@@ -20,6 +20,16 @@ function Plotly() {
                 <p> {idioma === "es" ? "El gráfico muestra la evolución de los resultados de 8 selecciones de fútbol en la Copa Mundial de la FIFA entre 1930 y 2022. Solo se incluyen equipos que hayan sido campeones al menos una vez. Los datos provienen de la FIFA. Hecho con R." 
                 : "The chart displays the evolution of the results of 8 football teams in the FIFA World Cup between 1930 and 2022. Only teams that have been champions at least once are included. Data is sourced from FIFA. Plot made in R."}</p>
                 <iframe src={idioma === "es" ? "html/plotly2Es.html" : "html/plotly2En.html"} width="1000vw" height="750vh" title="Plotly 2"></iframe>
+                
+                <h2> {idioma === "es" ? "Gráfico de dispersión 3D: Alfabetización, Esperanza de vida y PBI" : "3D Scatterplot: Literacy Rate, Life Expectancy, and GDP"} </h2>
+                <p> {idioma === "es" ? "Utilizando un conjunto de datos con información de múltiples países y territorios, se realiza un gráfico de dispersión en tres dimensiones mostrando la relación entre tres variables: alfabetización (porcentaje de la población que sabe leer y escribir), esperanza de vida al nacer (en años) y PBI per cápita PPA (en dólares). Estas variables son utilizadas para la construcción de medidas tales cómo el índice de desarrollo humano (IDH)." 
+                : "Using a dataset with information from multiple countries and territories, a 3D scatter plot is created to show the relationship between three variables: literacy (percentage of the population that can read and write), life expectancy at birth (in years), and GDP per capita PPP. These variables are used to construct measures such as the Human Development Index (HDI)."}</p>
+                <p> {idioma === "es" ? "El gráfico fue creado en R. Los datos provienen del " 
+                : "The plot was created using R. Data comes from the "}
+                <a href='https://www.cia.gov/the-world-factbook/' target='blank'> <i>CIA World Factbook</i></a>.
+                </p>
+                <iframe src={idioma === "es" ? "html/plotlyScatter.html" : "html/plotlyScatterEn.html"} width="1000vw" height="750vh" title="Plotly Scatter"></iframe>
+
                 <h2> {idioma === "es" ? "Gráfico de barras: Resumen de la serie Civilization" : "Bar Chart: Summary of the Civilization series"} </h2>
                 <p> {idioma === "es" ? "La figura muestra la cantidad de civilizaciones disponibles en cada juego y expansión de la serie Civilization. El gráfico fue hecho con Python. Los datos provienen de " 
                 : "The figure displays the number of civilizations available in each game and expansion pack or DLC of the Civilization series. The plot was created using Python. Data comes from "}
