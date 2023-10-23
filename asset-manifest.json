@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a9f78af8.css",
-    "main.js": "/static/js/main.a15bf700.js",
+    "main.css": "/static/css/main.b7f3443b.css",
+    "main.js": "/static/js/main.829464e9.js",
     "static/media/portafolio-sitio-php-video.mp4": "/static/media/portafolio-sitio-php-video.a5426c9edb9fd049f307.mp4",
     "static/media/posterfutbol.pdf": "/static/media/posterfutbol.d2d4343144807e3d8651.pdf",
     "static/media/postertesina.pdf": "/static/media/postertesina.1e85dad299c4e36eeab2.pdf",
@@ -19,6 +19,7 @@
     "static/media/portafolio-mw-gif-razas.gif": "/static/media/portafolio-mw-gif-razas.5261030c52209f53b314.gif",
     "static/media/portafolio-mw-gif-facciones.gif": "/static/media/portafolio-mw-gif-facciones.7ebd7e1a688c0024a04c.gif",
     "static/media/spain.png": "/static/media/spain.2526f203c248a918d8cd.png",
+    "static/media/curriculum-unraf.png": "/static/media/curriculum-unraf.af22ecb9a7c3e20c975c.png",
     "static/media/portafolio-series-predicciones-es.png": "/static/media/portafolio-series-predicciones-es.fce42178332d1713ba8f.png",
     "static/media/portafolio-series-predicciones-en.png": "/static/media/portafolio-series-predicciones-en.45a62819254f28062198.png",
     "static/media/portafolio-ggplotselector.png": "/static/media/portafolio-ggplotselector.bfb28d93a45adca4c1ce.png",
@@ -36,6 +37,7 @@
     "static/media/portafolio-mw-tecnicas-es.png": "/static/media/portafolio-mw-tecnicas-es.b8dd2f728d5f4b40d6d2.png",
     "static/media/portafolio-mw-skills-matrix.png": "/static/media/portafolio-mw-skills-matrix.3111c8de73be67cf1a85.png",
     "static/media/portafolio-538.png": "/static/media/portafolio-538.c436588996a98fdf4b6f.png",
+    "static/media/curriculum-r.png": "/static/media/curriculum-r.3925a9d915bef82cbc65.png",
     "static/media/portafolio-mw-puntos-faccion.png": "/static/media/portafolio-mw-puntos-faccion.f563551abea2c5b808cb.png",
     "static/media/portafolio-mw-faccion-raza-en.png": "/static/media/portafolio-mw-faccion-raza-en.4a65f97f22a91107fe8e.png",
     "static/media/portafolio-mw-faccion-raza-es.png": "/static/media/portafolio-mw-faccion-raza-es.cfda9dbdbf92d61cf545.png",
@@ -69,12 +71,14 @@
     "static/media/portafolio-mapa-congreso-en.png": "/static/media/portafolio-mapa-congreso-en.e79fd062cc0ccc8a5e04.png",
     "static/media/portafolio-mw-contingencia.png": "/static/media/portafolio-mw-contingencia.2c9084b31362ee8b5ba1.png",
     "static/media/portafolio-mw-sexo-raza-en.png": "/static/media/portafolio-mw-sexo-raza-en.2aa303163eebe48bea36.png",
+    "static/media/curriculum-python.png": "/static/media/curriculum-python.632369df831d16241b59.png",
     "static/media/portafolio-mw-correspondencias.png": "/static/media/portafolio-mw-correspondencias.bd4d745a6b7c7658a80b.png",
     "static/media/portafolio-mw-skills-combat-es.png": "/static/media/portafolio-mw-skills-combat-es.8689ff91fbdba0143c3c.png",
     "static/media/portafolio-mw-skills-stealth-es.png": "/static/media/portafolio-mw-skills-stealth-es.a629bfa0b9bb167f5a35.png",
     "static/media/portafolio-mw-skills-combat-en.png": "/static/media/portafolio-mw-skills-combat-en.1171e2e914b52e226699.png",
     "static/media/portafolio-mw-inercia.png": "/static/media/portafolio-mw-inercia.703283fed89ce57159b0.png",
     "static/media/portafolio-mw-skills-stealth-en.png": "/static/media/portafolio-mw-skills-stealth-en.d848a079533084e0137a.png",
+    "static/media/curriculum-unr.png": "/static/media/curriculum-unr.67eaddec475b732b7bcb.png",
     "static/media/portafolio-mw-sexo-es.png": "/static/media/portafolio-mw-sexo-es.40e17221a2e53a954f71.png",
     "static/media/portafolio-burnout-muestraocup.png": "/static/media/portafolio-burnout-muestraocup.6f94b5dcaa8dddf5b4de.png",
     "static/media/portafolio-mw-sexo-en.png": "/static/media/portafolio-mw-sexo-en.bb47849b64c953122005.png",
@@ -87,6 +91,7 @@
     "static/media/portafolio-sas-cargas.png": "/static/media/portafolio-sas-cargas.f057636dc10078e4636f.png",
     "static/media/portafolio-series-test2.png": "/static/media/portafolio-series-test2.7a5e8c829f709a136b6d.png",
     "static/media/portafolio-burnout-muestrasexo.png": "/static/media/portafolio-burnout-muestrasexo.b1fb4fba5d24febc05ac.png",
+    "static/media/curriculum-excel.png": "/static/media/curriculum-excel.b57a1232955071e64e25.png",
     "static/media/portafolio-series-dif-en.png": "/static/media/portafolio-series-dif-en.d7f6d28027dbc3cff969.png",
     "static/media/portafolio-series-dif-es.png": "/static/media/portafolio-series-dif-es.322db103247db0f1089e.png",
     "static/media/portafolio-series-temperaturas-es.png": "/static/media/portafolio-series-temperaturas-es.792de2f3466f83603845.png",
@@ -109,12 +114,14 @@
     "static/media/portafolio-series-residuos2-es.png": "/static/media/portafolio-series-residuos2-es.752ce7c5bc388bb9b31c.png",
     "static/media/portafolio-series-boxplot-es.png": "/static/media/portafolio-series-boxplot-es.769ae980d3fcca997387.png",
     "static/media/portafolio-series-boxplot-en.png": "/static/media/portafolio-series-boxplot-en.2248bd1dca80977e702a.png",
+    "static/media/curriculum-php.png": "/static/media/curriculum-php.0a564540c19c7189202e.png",
+    "static/media/curriculum-power.svg": "/static/media/curriculum-power.7a4f4c21abc59e7dcad2941ebe478d49.svg",
     "index.html": "/index.html",
-    "main.a9f78af8.css.map": "/static/css/main.a9f78af8.css.map",
-    "main.a15bf700.js.map": "/static/js/main.a15bf700.js.map"
+    "main.b7f3443b.css.map": "/static/css/main.b7f3443b.css.map",
+    "main.829464e9.js.map": "/static/js/main.829464e9.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9f78af8.css",
-    "static/js/main.a15bf700.js"
+    "static/css/main.b7f3443b.css",
+    "static/js/main.829464e9.js"
   ]
 }
