@@ -33,7 +33,7 @@ function Rmap() {
                     {idioma === "es" ? " (2022)." : " contest (2022)."} </p>
                 <p>{idioma === "es" ? "El mapa fue hecho con los paquetes ggplot2 y sf. La animación se realizó con los paquetes gganimate, magick y gifski."
                     : "The map was created using the ggplot2 and sf packages. The animation was made using the gganimate, magick, and gifski packages."} </p>
-                <img src={imgMapaDef} alt="mapa defunciones" className="imgCentrada"></img>
+                <img src={imgMapaDef} alt="mapa defunciones" className="imgCentradaSinTamanio"></img>
 
                 {/* SAE */}
                 <h2> {idioma === "es" ? "Sedes del Coloquio Argentino de Estadística" : "Venues of the Argentine Statistics Colloquium"} </h2>

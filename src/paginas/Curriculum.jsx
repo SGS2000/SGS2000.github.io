@@ -4,6 +4,18 @@ import "../hojas/Curriculum.css";
 import { useState } from 'react';
 import BarraSeccion from '../componentes/BarraSeccion';
 
+// Imágenes
+import imgPython from "../img/curriculum/curriculum-python.png"
+import imgR from "../img/curriculum/curriculum-r.png"
+import imgSAS from "../img/curriculum/curriculum-sas.png"
+import imgExcel from "../img/curriculum/curriculum-excel.png"
+import imgPHP from "../img/curriculum/curriculum-php.png"
+import imgNode from "../img/curriculum/curriculum-node.png"
+import imgPower from "../img/curriculum/curriculum-power.svg"
+import imgUNR from "../img/curriculum/curriculum-unr.png"
+import imgSAE from "../img/curriculum/curriculum-sae.png"
+import imgUNRaf from "../img/curriculum/curriculum-unraf.png"
+
 function Curriculum() {
 
     // Idioma
@@ -52,6 +64,7 @@ function Curriculum() {
                     <>
                         <TablaLista
                             titulo={<h2> {idioma === "es" ? 'Analista de datos' : 'Data Analyst'} </h2>}
+                            imagen={<img src={imgUNRaf} className='curriculum-img' alt='logo'></img>}
                             texto={
                                 <>
                                     <p> {idioma === "es" ? "Análisis estadístico de datos vinculados al cursado de la Diplomatura en Acompañamiento y Abordaje Territorial de Situaciones de Violencia por Razones de Género, realizado por la Universidad Nacional de Rafaela y el Gobierno de la provincia de Santa Fe." : "Statistical analysis of data related to the development of the Diploma in Territorial Accompaniment and Approach to Situations of Gender-Based Violence, conducted by the National University of Rafaela and the Government of Santa Fe."}</p>
@@ -66,10 +79,11 @@ function Curriculum() {
                                 </>
 
 
-                            }
-                        />
+}
+/>
                         <TablaLista
                             titulo={<h2> {idioma === "es" ? 'Colaborador - Curso "Desarrollo de Shiny Apps"' : 'Course Assistant - Course: "Shiny Apps Development""'} </h2>}
+                            imagen={<img src={imgUNR} className='curriculum-img' alt='logo'></img>}
                             texto={
                                 <>
                                     <p> {idioma === "es" ? <b>Lugar</b> : <b>Location</b>}:  {idioma === "es" ? "Facultad de Ciencias Económicas y Estadística, Universidad Nacional de Rosario" : "Faculty of Economic Sciences and Statistics, National University of Rosario"}  </p>
@@ -91,6 +105,7 @@ function Curriculum() {
                     <>
                         <TablaLista
                             titulo={<h2>{idioma === "es" ? "Licenciatura en Estadística" : "Bachelor's degree in Statistics"}</h2>}
+                            imagen={<img src={imgUNR} className='curriculum-img' alt='logo'></img>}
                             texto={
                                 <>
                                     <p>{idioma === "es" ? "Universidad Nacional de Rosario (2018-2022)" : "National University of Rosario (2018-2022)"}</p>
@@ -110,11 +125,12 @@ function Curriculum() {
                             titulo={
                                 <>
                                     <h3>{idioma === "es" ? "Implementación de modelos de aprendizaje automático con Python" : "Implementation of Machine Learning Models with Python"}</h3>
-                                    <p><b>{idioma === "es" ? "Sociedad Argentina de Estadística (Octubre de 2023)" : "Argentine Society of Statistics (October 2023)"}</b></p>
                                 </>
                             }
+                            imagen={<img src={imgPython} className='curriculum-img' alt='logo'></img>}
                             texto={
                                 <>
+                                    <p><b>{idioma === "es" ? "Sociedad Argentina de Estadística (Octubre de 2023)" : "Argentine Society of Statistics (October 2023)"}</b></p>
                                     <p>{idioma === "es" ? "Rutinas de preprocesamiento con Scikit-Learn, búsqueda de hiperparámetros utilizando GridSearchCV y Optimización Bayesiana, análisis de errores" : "Pre-Processing Routines with Scikit-Learn, hyperparameter Tuning Using GridSearchCV and Bayesian Optimization, error analysis"}</p>
                                     <br></br>
                                 </>
@@ -124,11 +140,12 @@ function Curriculum() {
                             titulo={
                                 <>
                                     <h3>{idioma === "es" ? "Full Stack - Desarrollo Web (JavaScript/Node.JS)" : "Full Stack - Web Development (JavaScript/Node.js)"}</h3>
-                                    <p><b>{idioma === "es" ? "Agencia de Aprendizaje a lo largo de la vida (Marzo-Junio de 2023)" : "Agencia de Aprendizaje a lo largo de la vida (March-June 2023)"}</b></p>
                                 </>
                             }
+                            imagen={<img src={imgNode} className='curriculum-img' alt='logo'></img>}
                             texto={
                                 <>
+                                    <p><b>{idioma === "es" ? "Agencia de Aprendizaje a lo largo de la vida (Marzo-Junio de 2023)" : "Agencia de Aprendizaje a lo largo de la vida (March-June 2023)"}</b></p>
                                     <p>{idioma === "es" ? "HTML y CSS, JavaScript, Node.js, REST, Express JS" : "HTML and CSS, JavaScript, Node.js, REST, Express JS"}</p>
                                     <br></br>
                                 </>
@@ -138,11 +155,12 @@ function Curriculum() {
                             titulo={
                                 <>
                                     <h3>{idioma === "es" ? "Estadística bayesiana con aplicaciones en R y Python" : "Bayesian statistics with R and Python"}</h3>
-                                    <p><b>{idioma === "es" ? "Sociedad Argentina de Estadística (Noviembre de 2022)" : "Argentine Society of Statistics (November 2022)"}</b></p>
                                 </>
                             }
+                            imagen={<img src={imgSAE} className='curriculum-img' alt='logo'></img>}
                             texto={
                                 <>
+                                <p><b>{idioma === "es" ? "Sociedad Argentina de Estadística (Noviembre de 2022)" : "Argentine Society of Statistics (November 2022)"}</b></p>
                                     <br></br>
                                 </>
                             }
@@ -151,12 +169,12 @@ function Curriculum() {
                             titulo={
                                 <>
                                     <h3>Data analytics</h3>
-                                    <p><b>Perfil e-learning {idioma === "es" ? "(Septiembre-Noviembre de 2022)" : "(September-November 2022)"}</b></p>
                                 </>
                             }
-
+                            imagen={<img src={imgPower} className='curriculum-img' alt='logo'></img>}
                             texto={
                                 <>
+                                    <p><b>Perfil e-learning {idioma === "es" ? "(Septiembre-Noviembre de 2022)" : "(September-November 2022)"}</b></p>
                                     <p>{idioma === "es" ? "Data storytelling, visualización de datos con Power BI, SQL." : "Data storytelling, data visualization with Power BI, SQL."}</p>
                                     <br></br>
                                 </>
@@ -166,12 +184,12 @@ function Curriculum() {
                             titulo={
                                 <>
                                     <h3>PHP Full Stack</h3>
-                                    <p><b>Agencia de Aprendizaje a lo largo de la vida {idioma === "es" ? "(Agosto-Diciembre de 2021)" : "(August-December 2021)"}</b></p>
                                 </>
                             }
-
+                            imagen={<img src={imgPHP} className='curriculum-img' alt='logo'></img>}
                             texto={
                                 <>
+                                    <p><b>Agencia de Aprendizaje a lo largo de la vida {idioma === "es" ? "(Agosto-Diciembre de 2021)" : "(August-December 2021)"}</b></p>
                                     <p>{idioma === "es" ? "Desarrollo web, HTML y CSS, JavaScript, Git y GitHub, conexión con bases de datos." : "Web development, HTML and CSS, JavaScript, Git and GitHub, connection with databases."}</p>
                                     <br></br>
                                 </>
@@ -181,12 +199,12 @@ function Curriculum() {
                             titulo={
                                 <>
                                     <h3>{idioma === "es" ? "Procesamiento avanzado de la Información" : "Advanced Data Processing"}</h3>
-                                    <p><b>{idioma === "es" ? "Facultad de Ciencias Económicas y Estadística, UNR (Septiembre-Octubre de 2021)" : "Faculty of Economics and Statistics, National University of Rosario (September-October 2021)"}</b></p>
                                 </>
                             }
-
+                            imagen={<img src={imgUNR} className='curriculum-img' alt='logo'></img>}
                             texto={
                                 <>
+                                <p><b>{idioma === "es" ? "Facultad de Ciencias Económicas y Estadística, UNR (Septiembre-Octubre de 2021)" : "Faculty of Economics and Statistics, National University of Rosario (September-October 2021)"}</b></p>
                                     <p>{idioma === "es" ? "Minería de datos, limpieza de datos, Big Data, técnicas de Machine Learning." : "Data mining, data cleansing, Big Data, Machine Learning."}</p>
                                     <br></br>
                                 </>
@@ -196,24 +214,26 @@ function Curriculum() {
                             titulo={
                                 <>
                                     <h3>{idioma === "es" ? "Estadística Bayesiana" : "Bayesian Statistics"}</h3>
-                                    <p><b>{idioma === "es" ? "Facultad de Ciencias Económicas y Estadística, UNR (Mayo-Septiembre de 2021)" : "Faculty of Economics and Statistics, National University of Rosario (May-September 2021)"}</b></p>
                                 </>
                             }
-
+                            imagen={<img src={imgUNR} className='curriculum-img' alt='logo'></img>}
                             texto={
+                                <>
+                                <p><b>{idioma === "es" ? "Facultad de Ciencias Económicas y Estadística, UNR (Mayo-Septiembre de 2021)" : "Faculty of Economics and Statistics, National University of Rosario (May-September 2021)"}</b></p>
                                 <br></br>
+                                </>
                             }
                         />
                         <TablaLista
                             titulo={
                                 <>
                                     <h3>{idioma === "es" ? "Curso avanzado de R" : "Advanced R"}</h3>
-                                    <p><b>{idioma === "es" ? "Facultad de Ciencias Económicas y Estadística, UNR (Agosto-Septiembre de 2020)" : "Faculty of Economics and Statistics, National University of Rosario (August-September 2020)"} </b></p>
                                 </>
                             }
-
+                            imagen={<img src={imgR} className='curriculum-img' alt='logo'></img>}
                             texto={
                                 <>
+                                    <p><b>{idioma === "es" ? "Facultad de Ciencias Económicas y Estadística, UNR (Agosto-Septiembre de 2020)" : "Faculty of Economics and Statistics, National University of Rosario (August-September 2020)"} </b></p>
                                     <p>{idioma === "es" ? "Funciones, Creación de paquetes, R Markdown, Datos georreferenciados, Shiny." : "Functions, Packages, R Markdown, Georeferenced data, Shiny."}</p>
                                     <br></br>
                                 </>
@@ -223,12 +243,12 @@ function Curriculum() {
                             titulo={
                                 <>
                                     <h3>{idioma === "es" ? "Funciones y herramientas avanzadas con Microsoft Excel" : "Advanced functions and tools with Microsoft Excel"}</h3>
-                                    <p><b>FACES Consultores ({idioma === "es" ? "Junio de 2020" : "June 2020"})</b></p>
                                 </>
                             }
-
+                            imagen={<img src={imgExcel} className='curriculum-img' alt='logo'></img>}
                             texto={
                                 <>
+                                    <p><b>FACES Consultores ({idioma === "es" ? "Junio de 2020" : "June 2020"})</b></p>
                                     <p>{idioma === "es" ? "Tipos de errores, Funcion AGREGAR, Filtros avanzados, Análisis de hipótesis." : "Types of errors, AGGREGATE function, Advanced filters, Hypothesis testing."}</p>
                                     <br></br>
                                 </>
@@ -238,12 +258,14 @@ function Curriculum() {
                             titulo={
                                 <>
                                     <h3>Introduction to ANOVA, Regression and Logistic Regression</h3>
-                                    <p><b>SAS ({idioma === "es" ? "Abril de 2020" : "April 2020"})</b></p>
                                 </>
                             }
-
+                            imagen={<img src={imgSAS} className='curriculum-img' alt='logo'></img>}
                             texto={
-                                ""
+                                <>
+                                    <p><b>SAS ({idioma === "es" ? "Abril de 2020" : "April 2020"})</b></p>
+                                    <p>{idioma === "es" ? "ANOVA y Regresión, Tests de hipótesis, Análisis de los residuos,  Datos categóricos." : "ANOVA and Regression, Hypothesis testing, Residual analysis, Categorical data"}</p>
+                                </>
                             }
                         />
                     </>
@@ -317,7 +339,7 @@ function Curriculum() {
                                         <summary> {idioma === "es" ? "Ver más" : "See more"} </summary>
                                         <ul>
                                             <li>Numpy / Pandas </li>
-                                            <li>Scikit-learn / TensorFlow </li>
+                                            <li>Scikit-learn / TensorFlow / Keras / Fairlearn</li>
                                             <li>Matplotlib / Seaborn / Plotly </li>
                                         </ul>
                                     </details>
@@ -369,6 +391,7 @@ function Curriculum() {
                                     <li>Microsoft Office (Word, Excel, Powerpoint, Publisher, Access)</li>
                                     <li>Google Docs</li>
                                     <li>LaTeX</li>
+                                    <li>Quarto</li>
                                     <li>Adobe Premiere Pro {idioma === "es" ? "y" : "and"} Adobe After Effects</li>
                                     <li>Adobe Photoshop</li>
                                 </ul>
