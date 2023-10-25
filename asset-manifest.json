@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b7f3443b.css",
-    "main.js": "/static/js/main.829464e9.js",
+    "main.js": "/static/js/main.d23fc821.js",
     "static/media/portafolio-sitio-php-video.mp4": "/static/media/portafolio-sitio-php-video.a5426c9edb9fd049f307.mp4",
     "static/media/posterfutbol.pdf": "/static/media/posterfutbol.d2d4343144807e3d8651.pdf",
     "static/media/postertesina.pdf": "/static/media/postertesina.1e85dad299c4e36eeab2.pdf",
@@ -18,6 +18,7 @@
     "static/media/portafolio-series-tabla.png": "/static/media/portafolio-series-tabla.94bf6550d0dde2d179b9.png",
     "static/media/portafolio-mw-gif-razas.gif": "/static/media/portafolio-mw-gif-razas.5261030c52209f53b314.gif",
     "static/media/portafolio-mw-gif-facciones.gif": "/static/media/portafolio-mw-gif-facciones.7ebd7e1a688c0024a04c.gif",
+    "static/media/selectorggplot.pdf": "/static/media/selectorggplot.a4d6e2be548f274ef86d.pdf",
     "static/media/spain.png": "/static/media/spain.2526f203c248a918d8cd.png",
     "static/media/curriculum-unraf.png": "/static/media/curriculum-unraf.af22ecb9a7c3e20c975c.png",
     "static/media/portafolio-series-predicciones-es.png": "/static/media/portafolio-series-predicciones-es.fce42178332d1713ba8f.png",
@@ -118,10 +119,10 @@
     "static/media/curriculum-power.svg": "/static/media/curriculum-power.7a4f4c21abc59e7dcad2941ebe478d49.svg",
     "index.html": "/index.html",
     "main.b7f3443b.css.map": "/static/css/main.b7f3443b.css.map",
-    "main.829464e9.js.map": "/static/js/main.829464e9.js.map"
+    "main.d23fc821.js.map": "/static/js/main.d23fc821.js.map"
   },
   "entrypoints": [
     "static/css/main.b7f3443b.css",
-    "static/js/main.829464e9.js"
+    "static/js/main.d23fc821.js"
   ]
 }
