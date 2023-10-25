@@ -96,7 +96,7 @@ function Portafolio() {
             etiquetas: ['etiqueta-r', "etiqueta-data-viz"],
             texto: idioma === "es" ? 'App Shiny que permite al usuario subir un archivo ggplot y probar distintos estilos.' : "Shiny App that allows the user to upload a ggplot file and test different themes.",
             imagen: imgSelector,
-            enlace: 'https://sgs2000.shinyapps.io/themeselector/'
+            enlace: '/portafolio/selector'
         },
         {
             titulo: idioma === "es" ? "Visualización de datos con R" : "Data Visualization with R",
