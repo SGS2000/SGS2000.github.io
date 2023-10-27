@@ -1,3 +1,4 @@
 .curriculum-img {
-    width: 7.5vh;
+    width: 8vh;
+    max-width: 75px;
 }
