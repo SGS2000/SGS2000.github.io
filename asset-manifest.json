@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.492eac5d.css",
+    "main.css": "/static/css/main.59df818c.css",
     "main.js": "/static/js/main.e1263ed7.js",
     "static/media/portafolio-sitio-php-video.mp4": "/static/media/portafolio-sitio-php-video.a5426c9edb9fd049f307.mp4",
     "static/media/posterfutbol.pdf": "/static/media/posterfutbol.d2d4343144807e3d8651.pdf",
@@ -118,11 +118,11 @@
     "static/media/curriculum-php.png": "/static/media/curriculum-php.0a564540c19c7189202e.png",
     "static/media/curriculum-power.svg": "/static/media/curriculum-power.7a4f4c21abc59e7dcad2941ebe478d49.svg",
     "index.html": "/index.html",
-    "main.492eac5d.css.map": "/static/css/main.492eac5d.css.map",
+    "main.59df818c.css.map": "/static/css/main.59df818c.css.map",
     "main.e1263ed7.js.map": "/static/js/main.e1263ed7.js.map"
   },
   "entrypoints": [
-    "static/css/main.492eac5d.css",
+    "static/css/main.59df818c.css",
     "static/js/main.e1263ed7.js"
   ]
 }
