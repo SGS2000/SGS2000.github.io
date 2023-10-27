@@ -15,6 +15,7 @@ import imgPower from "../img/curriculum/curriculum-power.svg"
 import imgUNR from "../img/curriculum/curriculum-unr.png"
 import imgSAE from "../img/curriculum/curriculum-sae.png"
 import imgUNRaf from "../img/curriculum/curriculum-unraf.png"
+import imgUBP from "../img/curriculum/curriculum-ubp.png"
 
 function Curriculum() {
 
@@ -132,6 +133,20 @@ function Curriculum() {
                                 <>
                                     <p><b>{idioma === "es" ? "Sociedad Argentina de Estadística (Octubre de 2023)" : "Argentine Society of Statistics (October 2023)"}</b></p>
                                     <p>{idioma === "es" ? "Rutinas de preprocesamiento con Scikit-Learn, búsqueda de hiperparámetros utilizando GridSearchCV y Optimización Bayesiana, análisis de errores" : "Pre-Processing Routines with Scikit-Learn, hyperparameter Tuning Using GridSearchCV and Bayesian Optimization, error analysis"}</p>
+                                    <br></br>
+                                </>
+                            }
+                        />
+                        <TablaLista
+                            titulo={
+                                <>
+                                    <h3>{idioma === "es" ? "Curso: Internet de las cosas" : "Internet of Things"}</h3>
+                                </>
+                            }
+                            imagen={<img src={imgUBP} className='curriculum-img' alt='logo'></img>}
+                            texto={
+                                <>
+                                    <p><b>{idioma === "es" ? "Universidad Blas Pascal (Agosto-Septiembre de 2023)" : "Blas Pascal University (August-September 2023)"}</b></p>
                                     <br></br>
                                 </>
                             }
