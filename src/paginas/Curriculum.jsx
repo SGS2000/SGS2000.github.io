@@ -16,6 +16,7 @@ import imgUNR from "../img/curriculum/curriculum-unr.png"
 import imgSAE from "../img/curriculum/curriculum-sae.png"
 import imgUNRaf from "../img/curriculum/curriculum-unraf.png"
 import imgUBP from "../img/curriculum/curriculum-ubp.png"
+import imgQuarto from "../img/curriculum/curriculum-quarto.png"
 
 function Curriculum() {
 
@@ -125,6 +126,21 @@ function Curriculum() {
                         <TablaLista
                             titulo={
                                 <>
+                                    <h3>{idioma === "es" ? "Creación de reportes reproducibles con Quarto" : "Reproducible Reports with Quarto"}</h3>
+                                </>
+                            }
+                            imagen={<img src={imgQuarto} className='curriculum-img' alt='logo'></img>}
+                            texto={
+                                <>
+                                    <p><b>{idioma === "es" ? "LatinR (Octubre de 2023)" : "LatinR (October 2023)"}</b></p>
+                                    <p>{idioma === "es" ? "Elaboración de reportes, parametrización, temas HTML, publicación con GitHub Pages y Netlify" : "Report Creation, Parameterization, HTML Themes, Publishing with GitHub Pages and Netlify"}.</p>
+                                    <br></br>
+                                </>
+                            }
+                        />
+                        <TablaLista
+                            titulo={
+                                <>
                                     <h3>{idioma === "es" ? "Implementación de modelos de aprendizaje automático con Python" : "Implementation of Machine Learning Models with Python"}</h3>
                                 </>
                             }
@@ -132,7 +148,7 @@ function Curriculum() {
                             texto={
                                 <>
                                     <p><b>{idioma === "es" ? "Sociedad Argentina de Estadística (Octubre de 2023)" : "Argentine Society of Statistics (October 2023)"}</b></p>
-                                    <p>{idioma === "es" ? "Rutinas de preprocesamiento con Scikit-Learn, búsqueda de hiperparámetros utilizando GridSearchCV y Optimización Bayesiana, análisis de errores" : "Pre-Processing Routines with Scikit-Learn, hyperparameter Tuning Using GridSearchCV and Bayesian Optimization, error analysis"}</p>
+                                    <p>{idioma === "es" ? "Rutinas de preprocesamiento con Scikit-Learn, búsqueda de hiperparámetros utilizando GridSearchCV y Optimización Bayesiana, análisis de errores" : "Pre-Processing Routines with Scikit-Learn, hyperparameter Tuning Using GridSearchCV and Bayesian Optimization, error analysis"}.</p>
                                     <br></br>
                                 </>
                             }
@@ -161,7 +177,7 @@ function Curriculum() {
                             texto={
                                 <>
                                     <p><b>{idioma === "es" ? "Agencia de Aprendizaje a lo largo de la vida (Marzo-Junio de 2023)" : "Agencia de Aprendizaje a lo largo de la vida (March-June 2023)"}</b></p>
-                                    <p>{idioma === "es" ? "HTML y CSS, JavaScript, Node.js, REST, Express JS" : "HTML and CSS, JavaScript, Node.js, REST, Express JS"}</p>
+                                    <p>{idioma === "es" ? "HTML y CSS, JavaScript, Node.js, REST, Express JS" : "HTML and CSS, JavaScript, Node.js, REST, Express JS"}.</p>
                                     <br></br>
                                 </>
                             }
