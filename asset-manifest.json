@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.59df818c.css",
-    "main.js": "/static/js/main.e1263ed7.js",
+    "main.css": "/static/css/main.601a2f41.css",
+    "main.js": "/static/js/main.af3acd8d.js",
     "static/media/portafolio-sitio-php-video.mp4": "/static/media/portafolio-sitio-php-video.a5426c9edb9fd049f307.mp4",
     "static/media/posterfutbol.pdf": "/static/media/posterfutbol.d2d4343144807e3d8651.pdf",
     "static/media/postertesina.pdf": "/static/media/postertesina.1e85dad299c4e36eeab2.pdf",
@@ -95,6 +95,7 @@
     "static/media/curriculum-excel.png": "/static/media/curriculum-excel.b57a1232955071e64e25.png",
     "static/media/portafolio-series-dif-en.png": "/static/media/portafolio-series-dif-en.d7f6d28027dbc3cff969.png",
     "static/media/portafolio-series-dif-es.png": "/static/media/portafolio-series-dif-es.322db103247db0f1089e.png",
+    "static/media/curriculum-quarto.png": "/static/media/curriculum-quarto.a4930b856f2d483b5dca.png",
     "static/media/portafolio-series-temperaturas-es.png": "/static/media/portafolio-series-temperaturas-es.792de2f3466f83603845.png",
     "static/media/portafolio-series-temperaturas-en.png": "/static/media/portafolio-series-temperaturas-en.13dbf55aa448e39b5ff8.png",
     "static/media/portafolio-series-facp-dif-en.png": "/static/media/portafolio-series-facp-dif-en.6590b6acfa8ba2757c68.png",
@@ -118,11 +119,11 @@
     "static/media/curriculum-php.png": "/static/media/curriculum-php.0a564540c19c7189202e.png",
     "static/media/curriculum-power.svg": "/static/media/curriculum-power.7a4f4c21abc59e7dcad2941ebe478d49.svg",
     "index.html": "/index.html",
-    "main.59df818c.css.map": "/static/css/main.59df818c.css.map",
-    "main.e1263ed7.js.map": "/static/js/main.e1263ed7.js.map"
+    "main.601a2f41.css.map": "/static/css/main.601a2f41.css.map",
+    "main.af3acd8d.js.map": "/static/js/main.af3acd8d.js.map"
   },
   "entrypoints": [
-    "static/css/main.59df818c.css",
-    "static/js/main.e1263ed7.js"
+    "static/css/main.601a2f41.css",
+    "static/js/main.af3acd8d.js"
   ]
 }
