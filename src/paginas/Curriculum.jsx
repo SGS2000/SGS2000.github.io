@@ -340,6 +340,13 @@ function Curriculum() {
                                 <ul>
                                     <li> <b>{idioma === "es" ? "Español" : "Spanish"}</b>- {idioma === "es" ? "Hablante nativo" : "Native speaker"}</li>
                                     <li> <b>{idioma === "es" ? "Inglés" : "English"}</b> - {idioma === "es" ? "Nivel avanzado (C1)" : "Advanced level (C1)"}</li>
+                                    <details>
+                                        <summary> {idioma === "es" ? "Certificados" : "Certificates"} </summary>
+                                        <ul>
+                                            <li>B2 First (Cambridge English) - Score 184 (2017) </li>
+                                            <li>GESE (Trinity College London) - Grade 9 (2017) </li>
+                                        </ul>
+                                    </details>
                                     <li> <b>{idioma === "es" ? "Francés" : "French"}</b> - {idioma === "es" ? "Nivel intermedio" : "Intermediate level"} </li>
                                     <li> <b>{idioma === "es" ? "Portugués" : "Portuguese"}</b> - {idioma === "es" ? "Nivel intermedio" : "Intermediate level"}</li>
                                     <li> <b>{idioma === "es" ? "Italiano" : "Italian"}</b> - {idioma === "es" ? "Nivel básico" : "Basic level"}</li>
@@ -381,7 +388,7 @@ function Curriculum() {
                                     <ul>
                                         <li>Bootstrap </li>
                                     </ul>
-                                    <li>Javascript</li>
+                                    <li>JavaScript</li>
                                     <ul>
                                         <li>React / Node.js </li>
                                     </ul>
@@ -423,6 +430,7 @@ function Curriculum() {
                                     <li>Google Docs</li>
                                     <li>LaTeX</li>
                                     <li>Quarto</li>
+                                    <li>Prezi</li>
                                     <li>Adobe Premiere Pro {idioma === "es" ? "y" : "and"} Adobe After Effects</li>
                                     <li>Adobe Photoshop</li>
                                 </ul>
