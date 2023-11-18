@@ -1,4 +1,5 @@
 import TablaLista from '../componentes/TablaLista';
+import { Link } from "react-router-dom";
 import { useOutletContext } from "react-router-dom";
 import pdf from "../doc/promedio2021.pdf"
 
@@ -16,7 +17,7 @@ function Reconocimientos() {
                         <li> {idioma === "es" ? "Concurso de pósteres para estudiantes - Primer premio (Año 2022)" : "Student Poster Competition - First prize (2022)" } </li>
 
                         <ul>
-                            <li> {idioma === "es" ? 'Póster "Análisis del valor de mercado de jugadores de fútbol de élite", en coautoría con Agustina Margaritis, Natalia Macchi y Román Tanducci.' : 'Poster "Analysis of the market value of elite football players", co-authored with Agustina Margaritis, Natalia Macchi y Roman Tanducci.' }  </li>
+                            <li> {idioma === "es" ? 'Póster' : 'Poster' }  "<Link to="/portafolio/posterfutbol" target="_blank">Análisis del valor de mercado de jugadores de fútbol de élite</Link>",  {idioma === "es" ? 'en coautoría con Agustina Margaritis, Natalia Macchi y Román Tanducci.' : 'co-authored with Agustina Margaritis, Natalia Macchi y Roman Tanducci.' }  </li>
                             <li> {idioma === "es" ? 'Presentado en el ' : 'Presented at the ' } <a href='https://sites.google.com/view/cae-jee-2022' target='blank'> {idioma === "es" ? 'XLIX Coloquio Argentino de Estadística' : 'XLIX Argentine Colloquium of Statistics' }</a>.</li>
                         </ul>
 

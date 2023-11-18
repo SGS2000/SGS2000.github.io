@@ -17,6 +17,7 @@ import imgSAE from "../img/curriculum/curriculum-sae.png"
 import imgUNRaf from "../img/curriculum/curriculum-unraf.png"
 import imgUBP from "../img/curriculum/curriculum-ubp.png"
 import imgQuarto from "../img/curriculum/curriculum-quarto.png"
+import imgGrafico from "../img/curriculum/curriculum-grafico.png"
 
 function Curriculum() {
 
@@ -81,8 +82,21 @@ function Curriculum() {
                                 </>
 
 
-}
-/>
+                            }
+                        />
+                        <TablaLista
+                            titulo={<h2> {idioma === "es" ? 'Estadístico autónomo' : 'Freelance Statistician'} </h2>}
+                            imagen={<img src={imgGrafico} className='curriculum-img' alt='logo'></img>}
+                            texto={
+                                <>
+                                    <p> {idioma === "es" ? "Diversos estudios estadísticos y asistencia técnica para múltiples organismos públicos y privados" : "Data analysis and technical assistance for multiple public and private organizations"}.</p>
+                                    <p> {idioma === "es" ? <b>Lugar</b> : <b>Location</b>}:  {idioma === "es" ? "Varios" : "Various"}  </p>
+                                    <p> {idioma === "es" ? <b>Duración</b> : <b>Duration</b>}: {idioma === "es" ? "Noviembre de 2022-presente" : "November 2022-present"} </p>
+                                </>
+
+
+                            }
+                        />
                         <TablaLista
                             titulo={<h2> {idioma === "es" ? 'Colaborador - Curso "Desarrollo de Shiny Apps"' : 'Course Assistant - Course: "Shiny Apps Development""'} </h2>}
                             imagen={<img src={imgUNR} className='curriculum-img' alt='logo'></img>}
@@ -191,7 +205,7 @@ function Curriculum() {
                             imagen={<img src={imgSAE} className='curriculum-img' alt='logo'></img>}
                             texto={
                                 <>
-                                <p><b>{idioma === "es" ? "Sociedad Argentina de Estadística (Noviembre de 2022)" : "Argentine Society of Statistics (November 2022)"}</b></p>
+                                    <p><b>{idioma === "es" ? "Sociedad Argentina de Estadística (Noviembre de 2022)" : "Argentine Society of Statistics (November 2022)"}</b></p>
                                     <br></br>
                                 </>
                             }
@@ -235,7 +249,7 @@ function Curriculum() {
                             imagen={<img src={imgUNR} className='curriculum-img' alt='logo'></img>}
                             texto={
                                 <>
-                                <p><b>{idioma === "es" ? "Facultad de Ciencias Económicas y Estadística, UNR (Septiembre-Octubre de 2021)" : "Faculty of Economics and Statistics, National University of Rosario (September-October 2021)"}</b></p>
+                                    <p><b>{idioma === "es" ? "Facultad de Ciencias Económicas y Estadística, UNR (Septiembre-Octubre de 2021)" : "Faculty of Economics and Statistics, National University of Rosario (September-October 2021)"}</b></p>
                                     <p>{idioma === "es" ? "Minería de datos, limpieza de datos, Big Data, técnicas de Machine Learning." : "Data mining, data cleansing, Big Data, Machine Learning."}</p>
                                     <br></br>
                                 </>
@@ -250,8 +264,8 @@ function Curriculum() {
                             imagen={<img src={imgUNR} className='curriculum-img' alt='logo'></img>}
                             texto={
                                 <>
-                                <p><b>{idioma === "es" ? "Facultad de Ciencias Económicas y Estadística, UNR (Mayo-Septiembre de 2021)" : "Faculty of Economics and Statistics, National University of Rosario (May-September 2021)"}</b></p>
-                                <br></br>
+                                    <p><b>{idioma === "es" ? "Facultad de Ciencias Económicas y Estadística, UNR (Mayo-Septiembre de 2021)" : "Faculty of Economics and Statistics, National University of Rosario (May-September 2021)"}</b></p>
+                                    <br></br>
                                 </>
                             }
                         />
@@ -314,10 +328,11 @@ function Curriculum() {
                                 <>
                                     <ul>
                                         <li>{idioma === "es" ? "Modelos estadísticos" : "Statistical models"}</li>
-                                        <li>{idioma === "es" ? "Anállisis multivariado" : "Multivariate analysis"}</li>
+                                        <li>{idioma === "es" ? "Análisis multivariado" : "Multivariate analysis"}</li>
                                         <li>{idioma === "es" ? "Visualización de datos" : "Data visualization"}</li>
                                         <li>{idioma === "es" ? "Muestreo" : "Statistical sampling"}</li>
                                         <li>{idioma === "es" ? "Diseño de experimentos" : "Design of experiments"} </li>
+                                        <li>{idioma === "es" ? "Series de tiempo" : "Time series"} </li>
                                         <li>{idioma === "es" ? "Procesamiento de datos" : "Data processing"}</li>
                                         <li>{idioma === "es" ? "Simulaciones" : "Simulations"}</li>
                                         <li>{idioma === "es" ? "Aprendizaje automático" : "Machine learning"}</li>

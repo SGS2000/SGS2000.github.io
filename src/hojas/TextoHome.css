@@ -30,6 +30,7 @@
     min-width: 245px;
     min-height: 300px;
     padding: 3%;
+    border-radius: 40%;
   }
 
   #texto-presentacion{
