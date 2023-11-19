@@ -326,21 +326,25 @@ function Curriculum() {
                             }
                             texto={
                                 <>
-                                    <ul>
-                                        <li>{idioma === "es" ? "Modelos estadísticos" : "Statistical models"}</li>
-                                        <li>{idioma === "es" ? "Análisis multivariado" : "Multivariate analysis"}</li>
-                                        <li>{idioma === "es" ? "Visualización de datos" : "Data visualization"}</li>
-                                        <li>{idioma === "es" ? "Muestreo" : "Statistical sampling"}</li>
-                                        <li>{idioma === "es" ? "Diseño de experimentos" : "Design of experiments"} </li>
-                                        <li>{idioma === "es" ? "Series de tiempo" : "Time series"} </li>
-                                        <li>{idioma === "es" ? "Procesamiento de datos" : "Data processing"}</li>
-                                        <li>{idioma === "es" ? "Simulaciones" : "Simulations"}</li>
-                                        <li>{idioma === "es" ? "Aprendizaje automático" : "Machine learning"}</li>
-                                        <li>{idioma === "es" ? "Estadística bayesiana" : "Bayesian statistics"}</li>
-                                        <li>{idioma === "es" ? "Bioestadística" : "Biostatistics"}</li>
-                                        <li>{idioma === "es" ? "Econometría" : "Econometrics"}</li>
-                                        <li>{idioma === "es" ? "Métodos numéricos" : "Numerical methods"}</li>
-                                    </ul>
+                                    <div className='tabla-lista-doble'>
+                                        <ul>
+                                            <li>{idioma === "es" ? "Modelos estadísticos" : "Statistical models"}</li>
+                                            <li>{idioma === "es" ? "Análisis multivariado" : "Multivariate analysis"}</li>
+                                            <li>{idioma === "es" ? "Muestreo" : "Statistical sampling"}</li>
+                                            <li>{idioma === "es" ? "Diseño de experimentos" : "Design of experiments"} </li>
+                                            <li>{idioma === "es" ? "Series de tiempo" : "Time series"} </li>
+                                            <li>{idioma === "es" ? "Simulaciones" : "Simulations"}</li>
+                                            <li>{idioma === "es" ? "Métodos numéricos" : "Numerical methods"}</li>
+                                        </ul>
+                                        <ul>
+                                            <li>{idioma === "es" ? "Procesamiento de datos" : "Data processing"}</li>
+                                            <li>{idioma === "es" ? "Visualización de datos" : "Data visualization"}</li>
+                                            <li>{idioma === "es" ? "Aprendizaje automático" : "Machine learning"}</li>
+                                            <li>{idioma === "es" ? "Estadística bayesiana" : "Bayesian statistics"}</li>
+                                            <li>{idioma === "es" ? "Bioestadística" : "Biostatistics"}</li>
+                                            <li>{idioma === "es" ? "Econometría" : "Econometrics"}</li>
+                                        </ul>
+                                    </div>
                                 </>
                             }
                         />
@@ -377,39 +381,45 @@ function Curriculum() {
                             }
 
                             texto={
-                                <ul>
-                                    <li>R</li>
-                                    <details>
-                                        <summary> {idioma === "es" ? "Ver más" : "See more"} </summary>
-                                        <ul>
-                                            <li>Tidyverse </li>
-                                            <li>R Markdown </li>
-                                            <li>Shiny </li>
-                                        </ul>
-                                    </details>
-                                    <li>Python</li>
-                                    <details>
-                                        <summary> {idioma === "es" ? "Ver más" : "See more"} </summary>
-                                        <ul>
-                                            <li>Numpy / Pandas </li>
-                                            <li>Scikit-learn / TensorFlow / Keras / Fairlearn</li>
-                                            <li>Matplotlib / Seaborn / Plotly </li>
-                                        </ul>
-                                    </details>
-                                    <li>SQL</li>
-                                    <li>PHP</li>
-                                    <li>HTML</li>
-                                    <li>CSS</li>
+                                <div className='tabla-lista-doble'>
                                     <ul>
-                                        <li>Bootstrap </li>
+                                        <li>R</li>
+                                        <details>
+                                            <summary> {idioma === "es" ? "Ver más" : "See more"} </summary>
+                                            <ul>
+                                                <li>Tidyverse </li>
+                                                <li>R Markdown </li>
+                                                <li>Shiny </li>
+                                                <li>RStan </li>
+                                            </ul>
+                                        </details>
+                                        <li>Python</li>
+                                        <details>
+                                            <summary> {idioma === "es" ? "Ver más" : "See more"} </summary>
+                                            <ul>
+                                                <li>Numpy / Pandas </li>
+                                                <li>Scikit-learn / TensorFlow / Keras / Fairlearn</li>
+                                                <li>Matplotlib / Seaborn / Plotly </li>
+                                            </ul>
+                                        </details>
+                                        <li>SQL</li>
+                                        <li>Java</li>
+                                        <li>Markdown</li>
                                     </ul>
-                                    <li>JavaScript</li>
+
                                     <ul>
-                                        <li>React / Node.js </li>
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <ul>
+                                            <li>Bootstrap </li>
+                                        </ul>
+                                        <li>JavaScript</li>
+                                        <ul>
+                                            <li>React / Node.js </li>
+                                        </ul>
+                                        <li>PHP</li>
                                     </ul>
-                                    <li>Java</li>
-                                    <li>Markdown</li>
-                                </ul>
+                                </div>
                             }
                         />
                         <TablaLista
@@ -437,18 +447,28 @@ function Curriculum() {
                             }
 
                             texto={
-                                <ul>
-                                    <li>Power BI</li>
-                                    <li>Tableau</li>
-                                    <li>Web Scraping / Selenium</li>
-                                    <li>Microsoft Office (Word, Excel, Powerpoint, Publisher, Access)</li>
-                                    <li>Google Docs</li>
-                                    <li>LaTeX</li>
-                                    <li>Quarto</li>
-                                    <li>Prezi</li>
-                                    <li>Adobe Premiere Pro {idioma === "es" ? "y" : "and"} Adobe After Effects</li>
-                                    <li>Adobe Photoshop</li>
-                                </ul>
+                                <div className='tabla-lista-doble'>
+                                    <ul>
+                                        <li>Power BI</li>
+                                        <li>Tableau</li>
+                                        <li>Microsoft Office</li>
+                                        <details>
+                                            <summary> {idioma === "es" ? "Ver más" : "See more"} </summary>
+                                            <ul>
+                                                <li>Word / Excel / PowerPoint / Publisher / Access </li>
+                                            </ul>
+                                        </details>
+                                        <li>Google Docs</li>
+                                        <li>Prezi</li>
+                                    </ul>
+                                    <ul>
+                                        <li>LaTeX</li>
+                                        <li>Quarto</li>
+                                        <li>Adobe Premiere Pro / After Effects</li>
+                                        <li>Adobe Photoshop</li>
+                                        <li>Web Scraping / Selenium</li>
+                                    </ul>
+                                </div>
                             }
                         />
                     </>

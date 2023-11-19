@@ -1,9 +1,0 @@
-{
-    "grammarly.selectors": [
-        {
-            "language": "javascriptreact",
-            "scheme": "file",
-            "pattern": "src/paginas/Curriculum.jsx"
-        }
-    ]
-}

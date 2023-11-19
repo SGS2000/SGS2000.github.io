@@ -2,3 +2,19 @@
     width: 8.5vh;
     max-width: 80px;
 }
+
+.tabla-lista-doble {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width: 600px) {
+    .tabla-lista-doble {
+        grid-template-columns: 1fr;
+    }
+}
+
+.tabla-lista-doble > *{
+    margin: 0px !important;
+    margin-left: 1px !important;
+}
