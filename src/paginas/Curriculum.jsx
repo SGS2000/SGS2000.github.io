@@ -265,6 +265,7 @@ function Curriculum() {
                             texto={
                                 <>
                                     <p><b>{idioma === "es" ? "Facultad de Ciencias Económicas y Estadística, UNR (Mayo-Septiembre de 2021)" : "Faculty of Economics and Statistics, National University of Rosario (May-September 2021)"}</b></p>
+                                    <p>{idioma === "es" ? "Inferencia bayesiana, distribuciones conjugadas, modelos bayesianos, RStan" : "Bayesian inference, Conjugate distributions, Bayesian models, RStan"}.</p>
                                     <br></br>
                                 </>
                             }
