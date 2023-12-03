@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.fd05e4fe.css",
-    "main.js": "/static/js/main.b371905b.js",
+    "main.js": "/static/js/main.437253b5.js",
     "static/media/portafolio-sitio-php-video.mp4": "/static/media/portafolio-sitio-php-video.a5426c9edb9fd049f307.mp4",
     "static/media/posterfutbol.pdf": "/static/media/posterfutbol.d2d4343144807e3d8651.pdf",
     "static/media/postertesina.pdf": "/static/media/postertesina.1e85dad299c4e36eeab2.pdf",
@@ -11,8 +11,8 @@
     "static/media/morrowind_npcs.xlsx": "/static/media/morrowind_npcs.db1fbe616d1f448f021d.xlsx",
     "static/media/promedio2021.pdf": "/static/media/promedio2021.47b735a3f967bff5b0a3.pdf",
     "static/media/portafolio-mapa-defunciones.gif": "/static/media/portafolio-mapa-defunciones.175f3f29827a1c930660.gif",
-    "static/media/NuevoCV.pdf": "/static/media/NuevoCV.3be7c5142d1908814010.pdf",
-    "static/media/NuevoCV_Eng.pdf": "/static/media/NuevoCV_Eng.5a936ecfa2fec7731ff1.pdf",
+    "static/media/NuevoCV.pdf": "/static/media/NuevoCV.7030329d83ab65f61203.pdf",
+    "static/media/NuevoCV_Eng.pdf": "/static/media/NuevoCV_Eng.45152e2bd41b5bae31c9.pdf",
     "static/media/portafolio-posterfutbol.png": "/static/media/portafolio-posterfutbol.fbfaabb0c3be372ce9e9.png",
     "static/media/portafolio-sitio-php.png": "/static/media/portafolio-sitio-php.f83a7453d114925605b2.png",
     "static/media/portafolio-series-tabla.png": "/static/media/portafolio-series-tabla.94bf6550d0dde2d179b9.png",
@@ -121,10 +121,10 @@
     "static/media/curriculum-power.svg": "/static/media/curriculum-power.7a4f4c21abc59e7dcad2941ebe478d49.svg",
     "index.html": "/index.html",
     "main.fd05e4fe.css.map": "/static/css/main.fd05e4fe.css.map",
-    "main.b371905b.js.map": "/static/js/main.b371905b.js.map"
+    "main.437253b5.js.map": "/static/js/main.437253b5.js.map"
   },
   "entrypoints": [
     "static/css/main.fd05e4fe.css",
-    "static/js/main.b371905b.js"
+    "static/js/main.437253b5.js"
   ]
 }
