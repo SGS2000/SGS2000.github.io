@@ -11,8 +11,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', 'SF Alien Encounters',
     monospace;
 }
-
-@font-face {
-  font-family: 'SF Alien Encounters';
-  src: local('SFAlienEncounters'), url(./fonts/SFAlienEncounters.ttf) format('truetype');
-}
