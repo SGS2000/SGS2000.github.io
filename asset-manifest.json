@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.fd05e4fe.css",
+    "main.css": "/static/css/main.9d530770.css",
     "main.js": "/static/js/main.437253b5.js",
     "static/media/portafolio-sitio-php-video.mp4": "/static/media/portafolio-sitio-php-video.a5426c9edb9fd049f307.mp4",
     "static/media/posterfutbol.pdf": "/static/media/posterfutbol.d2d4343144807e3d8651.pdf",
@@ -33,7 +33,6 @@
     "static/media/portafolio-sitio-js.png": "/static/media/portafolio-sitio-js.f45acfc18acd5b807cb7.png",
     "static/media/fondo3.png": "/static/media/fondo3.12df2530d0e24b27cae7.png",
     "static/media/portafolio-mw-skills-table.png": "/static/media/portafolio-mw-skills-table.7d49493868f8f81eac13.png",
-    "static/media/SFAlienEncounters.ttf": "/static/media/SFAlienEncounters.99e2ab9c38a9d62192ce.ttf",
     "static/media/portafolio-mw-puntos-razas.png": "/static/media/portafolio-mw-puntos-razas.be914fb89b1547acc385.png",
     "static/media/portafolio-mw-tecnicas-es.png": "/static/media/portafolio-mw-tecnicas-es.b8dd2f728d5f4b40d6d2.png",
     "static/media/portafolio-mw-skills-matrix.png": "/static/media/portafolio-mw-skills-matrix.3111c8de73be67cf1a85.png",
@@ -120,11 +119,11 @@
     "static/media/curriculum-php.png": "/static/media/curriculum-php.0a564540c19c7189202e.png",
     "static/media/curriculum-power.svg": "/static/media/curriculum-power.7a4f4c21abc59e7dcad2941ebe478d49.svg",
     "index.html": "/index.html",
-    "main.fd05e4fe.css.map": "/static/css/main.fd05e4fe.css.map",
+    "main.9d530770.css.map": "/static/css/main.9d530770.css.map",
     "main.437253b5.js.map": "/static/js/main.437253b5.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd05e4fe.css",
+    "static/css/main.9d530770.css",
     "static/js/main.437253b5.js"
   ]
 }
