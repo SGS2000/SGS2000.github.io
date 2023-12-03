@@ -18,6 +18,7 @@ import imgUNRaf from "../img/curriculum/curriculum-unraf.png"
 import imgUBP from "../img/curriculum/curriculum-ubp.png"
 import imgQuarto from "../img/curriculum/curriculum-quarto.png"
 import imgGrafico from "../img/curriculum/curriculum-grafico.png"
+import imgXpandete from "../img/curriculum/curriculum-xpandete.png"
 
 function Curriculum() {
 
@@ -66,11 +67,23 @@ function Curriculum() {
                 return (
                     <>
                         <TablaLista
+                            titulo={<h2> {idioma === "es" ? 'Redactor académico' : 'Academic Writer'} </h2>}
+                            imagen={<img src={imgXpandete} className='curriculum-img' alt='logo'></img>}
+                            texto={
+                                <>
+                                    <p> {idioma === "es" ? "Redacción de contenidos académicos con temáticas vinculadas a la estadística" : "Writing of academic content on topics related to statistics"}.</p>
+                                    <p> {idioma === "es" ? <b>Duración</b> : <b>Duration</b>}: {idioma === "es" ? "Noviembre de 2023-presente" : "November 2023-Present"} </p>
+                                </>
+
+
+                            }
+                        />
+                        <TablaLista
                             titulo={<h2> {idioma === "es" ? 'Analista de datos' : 'Data Analyst'} </h2>}
                             imagen={<img src={imgUNRaf} className='curriculum-img' alt='logo'></img>}
                             texto={
                                 <>
-                                    <p> {idioma === "es" ? "Análisis estadístico de datos vinculados al cursado de la Diplomatura en Acompañamiento y Abordaje Territorial de Situaciones de Violencia por Razones de Género, realizado por la Universidad Nacional de Rafaela y el Gobierno de la provincia de Santa Fe." : "Statistical analysis of data related to the development of the Diploma in Territorial Accompaniment and Approach to Situations of Gender-Based Violence, conducted by the National University of Rafaela and the Government of Santa Fe."}</p>
+                                    <p> {idioma === "es" ? "Análisis estadístico de datos vinculados al cursado de la Diplomatura en Acompañamiento y Abordaje Territorial de Situaciones de Violencia por Razones de Género, realizado por la Universidad Nacional de Rafaela y el Gobierno de la provincia de Santa Fe" : "Statistical analysis of data related to the development of the Diploma in Territorial Accompaniment and Approach to Situations of Gender-Based Violence, conducted by the National University of Rafaela and the Government of Santa Fe"}.</p>
                                     <p> {idioma === "es" ? <b>Lugar</b> : <b>Location</b>}:  {idioma === "es" ? "Universidad Nacional de Rafaela" : "National University of Rafaela"}  </p>
                                     <p> {idioma === "es" ? <b>Duración</b> : <b>Duration</b>}: {idioma === "es" ? "Abril de 2023-presente" : "April 2023-Present"} </p>
                                     <p> {idioma === "es" ? <b>Responsabilidades</b> : <b>Responsibilities</b>}: </p>
@@ -401,6 +414,7 @@ function Curriculum() {
                                                 <li>Numpy / Pandas </li>
                                                 <li>Scikit-learn / TensorFlow / Keras / Fairlearn</li>
                                                 <li>Matplotlib / Seaborn / Plotly </li>
+                                                <li>NLTK </li>
                                             </ul>
                                         </details>
                                         <li>SQL</li>
@@ -437,6 +451,7 @@ function Curriculum() {
                                     <li>Statgraphics</li>
                                     <li>SPSS</li>
                                     <li>Stata</li>
+                                    <li>Infostat</li>
                                 </ul>
                             }
                         />
