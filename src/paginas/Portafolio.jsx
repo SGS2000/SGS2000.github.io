@@ -21,6 +21,7 @@ import imgPlotly from "../img/portafolio/portafolio-plotly-cover.png"
 import imgSeries from "../img/portafolio/series/portafolio-series-temperaturas-es.png"
 import imgPHP from "../img/portafolio/portafolio-sitio-php.png"
 import imgJava from "../img/portafolio/portafolio-java.png"
+import imgTests from "../img/portafolio/portafolio-tests.png"
 
 
 function Portafolio() {
@@ -83,6 +84,13 @@ function Portafolio() {
             texto: idioma === "es" ? "Pronóstico de las temperaturas en Argentina en 2020 utilizando modelos SARIMA." : "Time series forecasting of temperatures in Argentina using SARIMA models.",
             imagen: imgSeries,
             enlace: '/portafolio/seriestp'
+        },
+        {
+            titulo: idioma === "es" ? "Prezi - Comparación de dos tratamientos" : "Prezi - Comparison of two treatments",
+            etiquetas: ['etiqueta-prezi',"etiqueta-infer"],
+            texto: idioma === "es" ? "Presentación sobre pruebas para comparar dos tratamientos en muestras dependientes e independientes, creada en Prezi." : "Prezi presentation about tests to compare two treatments in dependent and independent samples.",
+            imagen: imgTests,
+            enlace: '/portafolio/prezitests'
         },
         {
             titulo: idioma === "es" ? "Personajes en The Elder Scrolls III: Morrowind" : "NPCs in The Elder Scrolls III: Morrowind",
@@ -163,6 +171,11 @@ function Portafolio() {
                     manejarClic={manejarClic}
                 />
                 <Etiqueta
+                    id="etiqueta-infer"
+                    etiqueta={idioma === "es" ? "Inferencia estadística" : "Statistical inference"}
+                    manejarClic={manejarClic}
+                />
+                <Etiqueta
                     id="etiqueta-machine-learning"
                     etiqueta="Machine learning"
                     manejarClic={manejarClic}
@@ -219,6 +232,11 @@ function Portafolio() {
                 <Etiqueta
                     id="etiqueta-power"
                     etiqueta="PowerPoint"
+                    manejarClic={manejarClic}
+                />
+                <Etiqueta
+                    id="etiqueta-prezi"
+                    etiqueta="Prezi"
                     manejarClic={manejarClic}
                 />
                 <Etiqueta

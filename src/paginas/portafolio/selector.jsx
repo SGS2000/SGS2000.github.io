@@ -5,7 +5,7 @@ import { useOutletContext } from "react-router-dom";
 import "../../hojas/PortafolioEstilo.css"
 
 //Documentos
-import pdfLatinR from "../../img/portafolio/selectorggplot.pdf"
+import pdfLatinR from "../../doc/portafolio/selectorggplot.pdf"
 
 function Selector() {
     //Idioma

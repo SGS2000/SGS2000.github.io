@@ -5,7 +5,7 @@ import { useOutletContext } from "react-router-dom";
 import "../../hojas/PortafolioEstilo.css"
 
 // Imagenes
-import videoPHP from "../../img/portafolio/portafolio-sitio-php-video.mp4"
+import videoPHP from "../../video/portafolio/portafolio-sitio-php-video.mp4"
 
 function SitioPHP() {
     //Idioma

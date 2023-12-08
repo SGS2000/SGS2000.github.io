@@ -5,7 +5,7 @@ import { useOutletContext } from "react-router-dom";
 import "../../hojas/PortafolioEstilo.css"
 
 //Documentos
-import pdfTesinaPoster from "../../img/portafolio/postertesina.pdf"
+import pdfTesinaPoster from "../../doc/portafolio/postertesina.pdf"
 
 function Postertesina() {
     //Idioma
