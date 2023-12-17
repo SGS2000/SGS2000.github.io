@@ -7,6 +7,7 @@ import Home from "./paginas/Home.jsx";
 import Portafolio from "./paginas/Portafolio";
 import Curriculum from "./paginas/Curriculum";
 import Reconocimientos from './paginas/Reconocimientos';
+import Publicaciones from './paginas/Publicaciones';
 import Contacto from "./paginas/Contacto";
 import Error from "./paginas/Error";
 
@@ -52,6 +53,7 @@ function App() {
             <Route path="portafolio/selector" element={<PortafolioSelector/>} /> 
             <Route path="portafolio/prezitests" element={<PortafolioPreziTests/>} /> 
           <Route path="reconocimientos" element={<Reconocimientos/>} />
+          <Route path="publicaciones" element={<Publicaciones/>} />
           <Route path="contacto" element={<Contacto/>} />
           <Route path="*" element={<Error />} />
         </Route>

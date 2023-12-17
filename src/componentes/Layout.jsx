@@ -32,6 +32,7 @@ const [idioma, setIdioma] = React.useState("es");
                     <Nav.Link className="linkBarra" as={Link} to="/curriculum"> Curriculum </Nav.Link>
                     <Nav.Link className="linkBarra" as={Link} to="/portafolio"> {idioma === "es" ?  "Portafolio" : "Portfolio"} </Nav.Link>
                     <Nav.Link className="linkBarra" as={Link} to="/reconocimientos"> {idioma === "es" ?  "Premios" : "Awards"} </Nav.Link>
+                    <Nav.Link className="linkBarra" as={Link} to="/publicaciones"> {idioma === "es" ?  "Publicaciones" : "Publications"} </Nav.Link>
                     <Nav.Link className="linkBarra" as={Link} to="/contacto"> {idioma === "es" ?  "Contacto" : "Contact"} </Nav.Link>
                     {/* Boton de idiomas */}
                     <NavLink>

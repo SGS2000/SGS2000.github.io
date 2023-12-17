@@ -30,14 +30,14 @@ function Reconocimientos() {
                 }
             />
             <TablaLista
-                titulo={idioma === "es" ? <h3>Mejores promedios</h3> : <h3>Highest grades</h3>}
+                titulo={idioma === "es" ? <h2>Mejores promedios</h2> : <h2>Highest grades</h2>}
                 texto={
                     <>
                     <p> {idioma === "es" ? 'Estuve entre los mejores promedios de la Facultad de Ciencias Económicas y Estadística en mis dos últimos años.' : 'I was among the best performing students at the Faculty of Economics and Statistics during my last two years.' }
                          </p>
                     <ul>
                         <li> <a href="https://www.fcecon.unr.edu.ar/noticias/2022-12-12/mejores-promedios-2022" target="blank"> {idioma === "es" ? 'Año 2022' : 'Year 2022' } </a> </li>
-                        <li> <a href ={pdf}  attributes-list download ="promedios2021.pdf"> {idioma === "es" ? 'Año 2021' : 'Year 2021' } </a> </li>
+                        <li> <a href ={pdf}  target='_blank' rel='noopener noreferrer' > {idioma === "es" ? 'Año 2021' : 'Year 2021' } </a> </li>
                     </ul>
                     </>
                 }

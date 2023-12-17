@@ -219,6 +219,8 @@ function Curriculum() {
                             texto={
                                 <>
                                     <p><b>{idioma === "es" ? "Sociedad Argentina de Estadística (Noviembre de 2022)" : "Argentine Society of Statistics (November 2022)"}</b></p>
+                                    <p>{idioma === "es" ? "Inferencia bayesiana, Regresión lineal, Modelos lineales generalizados, WinBUGS" : 
+                                    "Bayesian inference, Regression, Generalized linear models, WinBUGS"}.</p>
                                     <br></br>
                                 </>
                             }
@@ -411,10 +413,10 @@ function Curriculum() {
                                         <details>
                                             <summary> {idioma === "es" ? "Ver más" : "See more"} </summary>
                                             <ul>
-                                                <li>Numpy / Pandas </li>
-                                                <li>Scikit-learn / TensorFlow / Keras / Fairlearn</li>
-                                                <li>Matplotlib / Seaborn / Plotly </li>
-                                                <li>NLTK </li>
+                                                <li>Numpy / Pandas</li>
+                                                <li>Scikit-learn / TensorFlow / Keras / Fairlearn / SciPy</li>
+                                                <li>Matplotlib / Seaborn / Plotly</li>
+                                                <li>NLTK</li>
                                             </ul>
                                         </details>
                                         <li>SQL</li>
@@ -452,6 +454,7 @@ function Curriculum() {
                                     <li>SPSS</li>
                                     <li>Stata</li>
                                     <li>Infostat</li>
+                                    <li>WinBUGS</li>
                                 </ul>
                             }
                         />

@@ -53,7 +53,7 @@ function Portafolio() {
         {
             titulo: idioma === "es" ? "Tesina - póster" : "Thesis (poster)",
             etiquetas: ["etiqueta-power"],
-            texto: idioma === "es" ? "Póster presentado en las V Jornadas de Jóvenes Investigadores de la UNR." : "Poster presented at the V Young Researchers Conference.",
+            texto: idioma === "es" ? "Póster presentado en las V Jornadas de Jóvenes Investigadores de la Facultad de Ciencias Económicas y Estadística." : "Poster presented at the V Young Researchers Conference.",
             imagen: imgPosterTesina,
             enlace: '/portafolio/postertesina'
         },
