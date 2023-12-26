@@ -414,7 +414,8 @@ function Curriculum() {
                                             <summary> {idioma === "es" ? "Ver más" : "See more"} </summary>
                                             <ul>
                                                 <li>Numpy / Pandas</li>
-                                                <li>Scikit-learn / TensorFlow / Keras / Fairlearn / SciPy</li>
+                                                <li>Statsmodels / SciPy</li>
+                                                <li>Scikit-learn / TensorFlow / Keras / Fairlearn</li>
                                                 <li>Matplotlib / Seaborn / Plotly</li>
                                                 <li>NLTK</li>
                                             </ul>

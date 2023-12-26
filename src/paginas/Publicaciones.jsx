@@ -15,7 +15,7 @@ function Publicaciones() {
                 titulo={<h2>Papers</h2>}
                 texto={
                     <ul className='lista-publicaciones'>
-                        <li> <b>Analisis del valor de mercado de jugadores de futbol de elite</b>. <i>Revista de la Facultad de Ingeniería, Universidad de Atacama</i> (2023) </li>
+                        <li> <b> <a href="https://revistaingenieria.uda.cl/Publicaciones/360006.pdf" target="blank">Analisis del valor de mercado de jugadores de futbol de elite</a></b>. <i> <a href="https://revistaingenieria.uda.cl/vistas/edicion.php?id=36" target="blank">Revista de la Facultad de Ingeniería, Universidad de Atacama</a></i> (2023) </li>
                     </ul>
                 }
             />
