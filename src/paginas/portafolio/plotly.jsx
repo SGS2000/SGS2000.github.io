@@ -21,14 +21,32 @@ function Plotly() {
                 : "The chart displays the evolution of the results of 8 football teams in the FIFA World Cup between 1930 and 2022. Only teams that have been champions at least once are included. Data is sourced from FIFA. Plot made in R."}</p>
                 <iframe src={idioma === "es" ? "html/plotly2Es.html" : "html/plotly2En.html"} width="1000vw" height="750vh" title="Plotly 2"></iframe>
                 
-                <h2> {idioma === "es" ? "Gráfico de dispersión 3D: Alfabetización, Esperanza de vida y PBI" : "3D Scatterplot: Literacy Rate, Life Expectancy, and GDP"} </h2>
+                {/* <h2> {idioma === "es" ? "Gráfico de dispersión 3D: Alfabetización, Esperanza de vida y PBI" : "3D Scatterplot: Literacy Rate, Life Expectancy, and GDP"} </h2>
                 <p> {idioma === "es" ? "Utilizando un conjunto de datos con información de múltiples países y territorios, se realiza un gráfico de dispersión en tres dimensiones mostrando la relación entre tres variables: alfabetización (porcentaje de la población que sabe leer y escribir), esperanza de vida al nacer (en años) y PBI per cápita PPA (en dólares). Estas variables son utilizadas para la construcción de medidas tales cómo el índice de desarrollo humano (IDH)." 
                 : "Using a dataset with information from multiple countries and territories, a 3D scatter plot is created to show the relationship between three variables: literacy (percentage of the population that can read and write), life expectancy at birth (in years), and GDP per capita PPP. These variables are used to construct measures such as the Human Development Index (HDI)."}</p>
                 <p> {idioma === "es" ? "El gráfico fue creado en R. Los datos provienen del " 
                 : "The plot was created using R. Data comes from the "}
                 <a href='https://www.cia.gov/the-world-factbook/' target='blank'> <i>CIA World Factbook</i></a>.
                 </p>
-                <iframe src={idioma === "es" ? "html/plotlyScatter.html" : "html/plotlyScatterEn.html"} width="1000vw" height="750vh" title="Plotly Scatter"></iframe>
+                <iframe src={idioma === "es" ? "html/plotlyScatter.html" : "html/plotlyScatterEn.html"} width="1000vw" height="750vh" title="Plotly Scatter"></iframe> */}
+
+                <h2> {idioma === "es" ? "Mapa de árbol: Población mundial" : "Treemap: World Population"} </h2>
+                <p>
+                {idioma === "es" ? "La población mundial es representada mediante distintas cajas, cuya área es proporcional a la población de su país correspondiente. Se indica también el porcentaje que representa cada país del total de habitantes del continente. Hecho en R con datos del paquete gapminder" : 
+                "The world population is represented by different boxes, the size of which is proportional to that of the corresponding country. The percentage of the total inhabitants of the continent that each country represents is also indicated. Made in R with data from the gapminder package."}.
+                </p>
+                <iframe src="html/plotlyTreemap.html" width="1000vw" height="750vh" title="Plotly Treemap"></iframe>
+
+                <h2> {idioma === "es" ? "Línea de tiempo: Voces latinas de Los Simpson" : "Timeline: Latin American dub voices in The Simpsons"} </h2>
+                <p> {idioma === "es" ? "Linea de tiempo mostrando los actores de voz de los protagonistas de la serie Los Simpson y los años y temporadas en los que trabajaron." 
+                : "Timeline showing the Latin American dub voice actors of the main characters of The Simpsons and the years and seasons in which they worked."}
+                </p>
+                <p> {idioma === "es" ? "El gráfico fue creado en R. Los datos provienen de "
+                    : "The plot was created using R. Data comes from "}
+                    <a href="https://doblaje.fandom.com/es/wiki/Los_Simpson" target="_blank" rel="noreferrer">Doblaje Wiki</a>.
+                </p>
+                <iframe src="html/plotlyLinea.html" width="1000vw" height="750vh" title="Plotly Linea de tiempo"></iframe>
+
 
                 <h2> {idioma === "es" ? "Gráfico de barras: Resumen de la serie Civilization" : "Bar Chart: Summary of the Civilization series"} </h2>
                 <p> {idioma === "es" ? "La figura muestra la cantidad de civilizaciones disponibles en cada juego y expansión de la serie Civilization. El gráfico fue hecho con Python. Los datos provienen de " 

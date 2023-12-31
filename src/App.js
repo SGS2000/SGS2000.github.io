@@ -24,6 +24,7 @@ import PortafolioSeriesTP from "./paginas/portafolio/seriestp";
 import PortafolioSitioPHP from "./paginas/portafolio/sitiophp";
 import PortafolioSelector from "./paginas/portafolio/selector";
 import PortafolioPreziTests from "./paginas/portafolio/prezitests.jsx";
+import PortafolioR3D from "./paginas/portafolio/r3d.jsx";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -52,6 +53,7 @@ function App() {
             <Route path="portafolio/sitiophp" element={<PortafolioSitioPHP/>} /> 
             <Route path="portafolio/selector" element={<PortafolioSelector/>} /> 
             <Route path="portafolio/prezitests" element={<PortafolioPreziTests/>} /> 
+            <Route path="portafolio/r3d" element={<PortafolioR3D/>} /> 
           <Route path="reconocimientos" element={<Reconocimientos/>} />
           <Route path="publicaciones" element={<Publicaciones/>} />
           <Route path="contacto" element={<Contacto/>} />

@@ -22,6 +22,7 @@ import imgSeries from "../img/portafolio/series/portafolio-series-temperaturas-e
 import imgPHP from "../img/portafolio/portafolio-sitio-php.png"
 import imgJava from "../img/portafolio/portafolio-java.png"
 import imgTests from "../img/portafolio/portafolio-tests.png"
+import img3d from "../img/portafolio/portafolio-3d.png"
 
 
 function Portafolio() {
@@ -112,6 +113,13 @@ function Portafolio() {
             texto: idioma === "es" ? "Diversos gráficos realizados en R, incluyendo gráficos animados." : "Various plots made with R, including animated graphics.",
             imagen: imgPinguino,
             enlace: '/portafolio/rviz'
+        },
+        {
+            titulo: idioma === "es" ? "Gráficos 3D con R" : "3D plots in R",
+            etiquetas: ['etiqueta-r', "etiqueta-data-viz"],
+            texto: idioma === "es" ? "Comparación de paquetes para crear visualizaciones en más de dos dimensiones." : "Comparison of packages to create visualizations in more than two dimensions.",
+            imagen: img3d,
+            enlace: '/portafolio/r3d'
         },
         {
             titulo: idioma === "es" ? "Mapas con R" : "Maps with R",
