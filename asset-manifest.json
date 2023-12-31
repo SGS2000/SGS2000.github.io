@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2df74933.css",
-    "main.js": "/static/js/main.839a5aaa.js",
+    "main.js": "/static/js/main.1ba16c02.js",
     "static/media/portafolio-tests-video.mp4": "/static/media/portafolio-tests-video.9a1c48a5fc805bc507d8.mp4",
     "static/media/portafolio-sitio-php-video.mp4": "/static/media/portafolio-sitio-php-video.a5426c9edb9fd049f307.mp4",
     "static/media/posterfutbol.pdf": "/static/media/posterfutbol.d2d4343144807e3d8651.pdf",
@@ -16,8 +16,10 @@
     "static/media/NuevoCV.pdf": "/static/media/NuevoCV.7030329d83ab65f61203.pdf",
     "static/media/NuevoCV_Eng.pdf": "/static/media/NuevoCV_Eng.45152e2bd41b5bae31c9.pdf",
     "static/media/portafolio-posterfutbol.png": "/static/media/portafolio-posterfutbol.fbfaabb0c3be372ce9e9.png",
+    "static/media/portafolio-3d-rayshader.png": "/static/media/portafolio-3d-rayshader.375c1853b19f0e2bf144.png",
     "static/media/portafolio-sitio-php.png": "/static/media/portafolio-sitio-php.f83a7453d114925605b2.png",
     "static/media/portafolio-series-tabla.png": "/static/media/portafolio-series-tabla.94bf6550d0dde2d179b9.png",
+    "static/media/portafolio-3d-rayshader-en.png": "/static/media/portafolio-3d-rayshader-en.e040e82425a93cb6dd4b.png",
     "static/media/portafolio-mw-gif-razas.gif": "/static/media/portafolio-mw-gif-razas.5261030c52209f53b314.gif",
     "static/media/foto.jpg": "/static/media/foto.e00b08bfe602d10403ea.jpg",
     "static/media/portafolio-mw-gif-facciones.gif": "/static/media/portafolio-mw-gif-facciones.7ebd7e1a688c0024a04c.gif",
@@ -27,6 +29,7 @@
     "static/media/portafolio-series-predicciones-es.png": "/static/media/portafolio-series-predicciones-es.fce42178332d1713ba8f.png",
     "static/media/portafolio-series-predicciones-en.png": "/static/media/portafolio-series-predicciones-en.45a62819254f28062198.png",
     "static/media/portafolio-ggplotselector.png": "/static/media/portafolio-ggplotselector.bfb28d93a45adca4c1ce.png",
+    "static/media/portafolio-3d.png": "/static/media/portafolio-3d.f8e3d9594a9526a8fe39.png",
     "static/media/portafolio-mapa-sae.gif": "/static/media/portafolio-mapa-sae.51906093fa2166c33107.gif",
     "static/media/portafolio-mw-confusion-es.png": "/static/media/portafolio-mw-confusion-es.68c036b83d15fa61bef4.png",
     "static/media/portafolio-mw-confusion-en.png": "/static/media/portafolio-mw-confusion-en.6820920bf054b7dcd1cd.png",
@@ -82,6 +85,7 @@
     "static/media/portafolio-mw-skills-combat-en.png": "/static/media/portafolio-mw-skills-combat-en.1171e2e914b52e226699.png",
     "static/media/portafolio-mw-inercia.png": "/static/media/portafolio-mw-inercia.703283fed89ce57159b0.png",
     "static/media/portafolio-mw-skills-stealth-en.png": "/static/media/portafolio-mw-skills-stealth-en.d848a079533084e0137a.png",
+    "static/media/portafolio-linea-tiempo.png": "/static/media/portafolio-linea-tiempo.747a45a635e18dde8163.png",
     "static/media/curriculum-unr.png": "/static/media/curriculum-unr.67eaddec475b732b7bcb.png",
     "static/media/portafolio-mw-sexo-es.png": "/static/media/portafolio-mw-sexo-es.40e17221a2e53a954f71.png",
     "static/media/portafolio-burnout-muestraocup.png": "/static/media/portafolio-burnout-muestraocup.6f94b5dcaa8dddf5b4de.png",
@@ -123,10 +127,10 @@
     "static/media/curriculum-power.svg": "/static/media/curriculum-power.7a4f4c21abc59e7dcad2941ebe478d49.svg",
     "index.html": "/index.html",
     "main.2df74933.css.map": "/static/css/main.2df74933.css.map",
-    "main.839a5aaa.js.map": "/static/js/main.839a5aaa.js.map"
+    "main.1ba16c02.js.map": "/static/js/main.1ba16c02.js.map"
   },
   "entrypoints": [
     "static/css/main.2df74933.css",
-    "static/js/main.839a5aaa.js"
+    "static/js/main.1ba16c02.js"
   ]
 }
