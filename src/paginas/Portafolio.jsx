@@ -23,6 +23,7 @@ import imgPHP from "../img/portafolio/portafolio-sitio-php.png"
 import imgJava from "../img/portafolio/portafolio-java.png"
 import imgTests from "../img/portafolio/portafolio-tests.png"
 import img3d from "../img/portafolio/portafolio-3d.png"
+import imgReviews from "../img/portafolio/portafolio-reviews.png"
 
 
 function Portafolio() {
@@ -127,6 +128,13 @@ function Portafolio() {
             texto: idioma === "es" ? "Mapas varios realizados con diversos paquetes de R." : "Various maps created with different R packages.",
             imagen: imgMapa,
             enlace: '/portafolio/rmapas'
+        },
+        {
+            titulo: idioma === "es" ? "Clasificación automática de reseñas" : "Automatic classification of movie reviews",
+            etiquetas: ['etiqueta-python', "etiqueta-machine-learning", "etiqueta-analisis-texto"],
+            texto: idioma === "es" ? "Aplicación de técnicas de machine learning para clasificar reseñas de películas, utilizando Python." : "Application of machine learning techniques to classify movie reviews, using Python.",
+            imagen: imgReviews,
+            enlace: 'https://sgs2000.github.io/html/ClasificacionPython.html'
         },
         {
             titulo: idioma === "es" ? "Gráficos interactivos con Plotly" : "Interactive plots with Plotly",
