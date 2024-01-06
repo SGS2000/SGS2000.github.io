@@ -21,14 +21,14 @@ function Plots3D() {
                 
                 <h1>{idioma === "es" ? "Gráficos 3D en R" : "3D plots in R"}</h1>
 
-                <TablaContenidos/>
-
                 <p> {idioma === "es" ? "Utilizando un conjunto de datos con información de múltiples países y territorios, se desea realizar un gráfico de dispersión en tres dimensiones mostrando la relación entre tres variables: alfabetización (porcentaje de la población que sabe leer y escribir), esperanza de vida al nacer (en años) y PBI per cápita PPA (en dólares). Estas variables son utilizadas para la construcción de medidas tales cómo el índice de desarrollo humano (IDH)."
                     : "Using a dataset with information from multiple countries and territories, the goal is to create a 3D scatter plot to show the relationship between three variables: literacy (percentage of the population that can read and write), life expectancy at birth (in years), and GDP per capita PPP. These variables are used to construct measures such as the Human Development Index (HDI)."}</p>
                 <p> {idioma === "es" ? "A continuación, se muestran distintos paquetes de R que permiten crear gráficos como el indicado. Los datos provienen del "
                     : "The following are different R packages that allow the user to create graphs like the specified one. Data comes from the "}
                     <a href='https://www.cia.gov/the-world-factbook/' target='blank'> <i>CIA World Factbook</i></a>.
                 </p>
+
+                <TablaContenidos/>
 
                 <h2 id="rayshader"> {idioma === "es" ? "Paquete rayshader" : "rayshader package"} </h2>
                 <p>{idioma === "es" ? "rayshader es un paquete de código abierto para producir visualizaciones de datos 2D y 3D en R. Utilizando la función plot_gg(), es posible transformar cualquier objeto ggplot2 en un gráfico 3D. Tutoriales disponibles en el " :
@@ -51,6 +51,14 @@ function Plots3D() {
                 </p>
 
                 <iframe src={idioma === "es" ? "html/plotlyScatter.html" : "html/plotlyScatterEn.html"} width="1000vw" height="750vh" title="Plotly Scatter"></iframe>
+
+                <h2 id="detourr"> {idioma === "es" ? "Paquete detourr" : "detourr package"} </h2>
+                <p>{idioma === "es" ? "Paquete que proporciona animaciones de recorrido en 2D y 3D como widgets HTML. Guía disponible en " :
+                    "Package that provides 2D and 3D tour animations as HTML widgets. Tutorial available "}
+                    <a href='https://casperhart.github.io/detourr/index.html' target='blank'> {idioma === "es" ? "este enlace" : "here"}</a>.
+                </p>
+
+                <iframe src={idioma === "es" ? "html/RDetourEs.html" : "html/RDetourEn.html"} width="1000vw" height="750vh" title="detour"></iframe>
             </div>
         </>
     )
