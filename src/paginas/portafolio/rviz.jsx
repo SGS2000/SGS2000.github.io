@@ -16,6 +16,8 @@ import imgFutbol from "../../img/portafolio/portafolio-futbolgif-es.gif"
 import imgFutbolEn from "../../img/portafolio/portafolio-futbolgif-en.gif"
 import img538 from "../../img/portafolio/portafolio-538.png"
 import imgSimpsons from "../../img/portafolio/portafolio-linea-tiempo.png"
+import imgSectores from "../../img/portafolio/portafolio-sectores.png"
+import imgSectoresEn from "../../img/portafolio/portafolio-sectores-en.png"
 
 
 function Rviz() {
@@ -81,6 +83,16 @@ function Rviz() {
                     <a href="https://doblaje.fandom.com/es/wiki/Los_Simpson" target="_blank" rel="noreferrer">Doblaje Wiki</a>.
                 </p>
                 <img src={imgSimpsons} alt="voces simpsons" className="imgCentrada"></img>
+
+                {/* Graficos sectores */}
+                <h2  id="linea"> {idioma === "es" ? "Gráficos circulares: Comparación de paquetes" : "Pie charts: Package comparison"} </h2>
+                <p> {idioma === "es" ? "Comparación de múltiples paquetes que permiten crear gráficos de sectores circulares en R." 
+                : "Comparison of multiple packages that allow the creation of pie charts in R."}
+                </p>
+                <p> {idioma === "es" ? "Además de los paquetes mostrados en la imagen, se utilizó el paquete png para combinar los gráficos. Los datos utilizados pueden obtenerse instalando el paquete palmerpenguins."
+                    : "In addition to the packages shown in the image, the png package was used to combine the graphics. The data used can be obtained by installing the palmerpenguins package."}</p>
+                <img src={idioma === "es" ? imgSectores : imgSectoresEn} alt="graficos sectores" className="imgCentrada"></img>
+
             </div>
         </>
 
