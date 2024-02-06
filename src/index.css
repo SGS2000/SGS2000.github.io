@@ -2,12 +2,12 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif, 'SF Alien Encounters';
+    sans-serif, 'SF Alien Encounters', "KG Summer Sunshine Blackout";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', 'SF Alien Encounters',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', 'SF Alien Encounters', "KG Summer Sunshine Blackout",
     monospace;
 }
