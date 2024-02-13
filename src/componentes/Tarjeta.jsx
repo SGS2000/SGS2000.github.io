@@ -16,9 +16,11 @@ function Tarjeta({ titulo, texto, etiquetas, imagen = placeholder1, enlace = "#"
 
   return (
 
-    <Card className="text-center" id="tarjeta-contenedor" style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={imagen} id="imagen-carta" />
-      <Card.Body className="tarjeta-cuerpo">
+    <Card className="text-center" id="tarjeta-contenedor">
+      <div id="tarjeta-imagen">
+        <Card.Img variant="top" src={imagen} id="imagen-carta" />
+      </div>
+      <Card.Body id="tarjeta-cuerpo">
         <Card.Title> {titulo} </Card.Title>
         <Card.Text>
           {texto}

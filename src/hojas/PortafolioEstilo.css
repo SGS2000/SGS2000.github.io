@@ -23,6 +23,12 @@
     margin-right: auto;
 }
 
+.imgTexto {
+    height: 1.75em;
+    width: auto;
+    padding-left: 0.5%;
+}
+
 .iframeCentrado {
     display: block;
     margin-left: auto;

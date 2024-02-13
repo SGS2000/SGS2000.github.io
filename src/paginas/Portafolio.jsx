@@ -24,6 +24,7 @@ import imgJava from "../img/portafolio/portafolio-java.png"
 import imgTests from "../img/portafolio/portafolio-tests.png"
 import img3d from "../img/portafolio/portafolio-3d.png"
 import imgReviews from "../img/portafolio/portafolio-reviews.png"
+import imgSpssReg from "../img/portafolio/portafolio-spssreg-portada.png"
 
 
 function Portafolio() {
@@ -93,6 +94,13 @@ function Portafolio() {
             texto: idioma === "es" ? "Presentación sobre pruebas para comparar dos tratamientos en muestras dependientes e independientes, creada en Prezi." : "Prezi presentation about tests to compare two treatments in dependent and independent samples.",
             imagen: imgTests,
             enlace: '/portafolio/prezitests'
+        },
+        {
+            titulo: idioma === "es" ? "Regresión lineal: Precios de viviendas" : "Linear regression: Housing prices",
+            etiquetas: ['etiqueta-spss',"etiqueta-econ","etiqueta-modeloslin"],
+            texto: idioma === "es" ? "Estimación de un modelo de regresión para explicar los precios de las viviendas, usando SPSS." : "Estimating a regression model to explain house prices, using SPSS.",
+            imagen: imgSpssReg,
+            enlace: '/portafolio/spssreg'
         },
         {
             titulo: idioma === "es" ? "Personajes en The Elder Scrolls III: Morrowind" : "NPCs in The Elder Scrolls III: Morrowind",

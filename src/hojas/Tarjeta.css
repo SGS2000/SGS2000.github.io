@@ -3,14 +3,23 @@
     border-radius: 8%;
     padding: 0.4%;
     margin-top: 0.25%;
+    width: 18rem;
 }
 
-#imagen-carta{
-    border-radius: 8%;
+#tarjeta-imagen{
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.tarjeta-cuerpo{
+#tarjeta-cuerpo{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+#imagen-carta{
+    /* border-radius: 8%; */
+    max-height: 15rem;
 }
