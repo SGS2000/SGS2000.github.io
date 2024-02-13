@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1a8bb161.css",
-    "main.js": "/static/js/main.7db83677.js",
+    "main.css": "/static/css/main.fd4ec957.css",
+    "main.js": "/static/js/main.4ec0bab4.js",
     "static/media/portafolio-tests-video.mp4": "/static/media/portafolio-tests-video.9a1c48a5fc805bc507d8.mp4",
     "static/media/portafolio-sitio-php-video.mp4": "/static/media/portafolio-sitio-php-video.a5426c9edb9fd049f307.mp4",
     "static/media/posterfutbol.pdf": "/static/media/posterfutbol.d2d4343144807e3d8651.pdf",
@@ -30,6 +30,7 @@
     "static/media/spain.png": "/static/media/spain.2526f203c248a918d8cd.png",
     "static/media/curriculum-unraf.png": "/static/media/curriculum-unraf.af22ecb9a7c3e20c975c.png",
     "static/media/portafolio-series-predicciones-es.png": "/static/media/portafolio-series-predicciones-es.fce42178332d1713ba8f.png",
+    "static/media/portafolio-spssreg-diagnostico.png": "/static/media/portafolio-spssreg-diagnostico.ec0e460800ac4a3918fe.png",
     "static/media/portafolio-series-predicciones-en.png": "/static/media/portafolio-series-predicciones-en.45a62819254f28062198.png",
     "static/media/portafolio-ggplotselector.png": "/static/media/portafolio-ggplotselector.bfb28d93a45adca4c1ce.png",
     "static/media/portafolio-3d.png": "/static/media/portafolio-3d.f8e3d9594a9526a8fe39.png",
@@ -41,12 +42,15 @@
     "static/media/portafolio-sitio-js.png": "/static/media/portafolio-sitio-js.f45acfc18acd5b807cb7.png",
     "static/media/fondo3.png": "/static/media/fondo3.12df2530d0e24b27cae7.png",
     "static/media/portafolio-mapa-xkcd.png": "/static/media/portafolio-mapa-xkcd.e60872658ddfd9bebbdb.png",
+    "static/media/portafolio-spssreg-portada.png": "/static/media/portafolio-spssreg-portada.9d9ef4890d272498796d.png",
     "static/media/portafolio-mw-skills-table.png": "/static/media/portafolio-mw-skills-table.7d49493868f8f81eac13.png",
+    "static/media/portafolio-spssreg-resumen3.png": "/static/media/portafolio-spssreg-resumen3.ba6852d2a287ac86fd9b.png",
     "static/media/portafolio-mw-puntos-razas.png": "/static/media/portafolio-mw-puntos-razas.be914fb89b1547acc385.png",
     "static/media/portafolio-mw-tecnicas-es.png": "/static/media/portafolio-mw-tecnicas-es.b8dd2f728d5f4b40d6d2.png",
     "static/media/portafolio-mw-skills-matrix.png": "/static/media/portafolio-mw-skills-matrix.3111c8de73be67cf1a85.png",
     "static/media/portafolio-538.png": "/static/media/portafolio-538.c436588996a98fdf4b6f.png",
     "static/media/curriculum-r.png": "/static/media/curriculum-r.3925a9d915bef82cbc65.png",
+    "static/media/portafolio-spssreg-coeficientes2.png": "/static/media/portafolio-spssreg-coeficientes2.c426fd5d99d3de6a454d.png",
     "static/media/portafolio-mw-puntos-faccion.png": "/static/media/portafolio-mw-puntos-faccion.f563551abea2c5b808cb.png",
     "static/media/portafolio-tests.png": "/static/media/portafolio-tests.285ef9344561b05361a6.png",
     "static/media/portafolio-mw-faccion-raza-en.png": "/static/media/portafolio-mw-faccion-raza-en.4a65f97f22a91107fe8e.png",
@@ -72,7 +76,9 @@
     "static/media/uk.png": "/static/media/uk.8b953b3ecb523aec9513.png",
     "static/media/portafolio-mw-faccion-en.png": "/static/media/portafolio-mw-faccion-en.1d18420e5c7419855766.png",
     "static/media/portafolio-mw-faccion-es.png": "/static/media/portafolio-mw-faccion-es.bb741a11f2b6e31aca76.png",
+    "static/media/portafolio-spssreg-coeficientes.png": "/static/media/portafolio-spssreg-coeficientes.cbfa20a2d479d13b505d.png",
     "static/media/portafolio-mw-sexo-raza-2-es.png": "/static/media/portafolio-mw-sexo-raza-2-es.27776f61ed81418e8c82.png",
+    "static/media/portafolio-spssreg-resumen.png": "/static/media/portafolio-spssreg-resumen.5b0765c92ae957676a0c.png",
     "static/media/portafolio-mw-sexo-raza-2-en.png": "/static/media/portafolio-mw-sexo-raza-2-en.72cc8725ee72b6acbae1.png",
     "static/media/portafolio-bb-es.png": "/static/media/portafolio-bb-es.c58b7cb73154024c382a.png",
     "static/media/portafolio-bb-en.png": "/static/media/portafolio-bb-en.23e3d911c85b505752a7.png",
@@ -99,8 +105,10 @@
     "static/media/portafolio-mw-skills-magic-en.png": "/static/media/portafolio-mw-skills-magic-en.ce35aa92a48e6d9f11df.png",
     "static/media/portafolio-mapa-africa-en.png": "/static/media/portafolio-mapa-africa-en.4d5211462e0bdf74a96c.png",
     "static/media/portafolio-mapa-africa-es.png": "/static/media/portafolio-mapa-africa-es.1f1c338f06bb15359c05.png",
+    "static/media/portafolio-spssreg-modelo2.png": "/static/media/portafolio-spssreg-modelo2.23f5f3795aea07520b9f.png",
     "static/media/portafolio-mapa-usa.png": "/static/media/portafolio-mapa-usa.6861b5efdd351478bf32.png",
     "static/media/portafolio-sas-cargas.png": "/static/media/portafolio-sas-cargas.f057636dc10078e4636f.png",
+    "static/media/portafolio-spssreg-modelo.png": "/static/media/portafolio-spssreg-modelo.14e811d7905b5bedef3d.png",
     "static/media/portafolio-series-test2.png": "/static/media/portafolio-series-test2.7a5e8c829f709a136b6d.png",
     "static/media/portafolio-burnout-muestrasexo.png": "/static/media/portafolio-burnout-muestrasexo.b1fb4fba5d24febc05ac.png",
     "static/media/curriculum-excel.png": "/static/media/curriculum-excel.b57a1232955071e64e25.png",
@@ -130,11 +138,11 @@
     "static/media/curriculum-php.png": "/static/media/curriculum-php.0a564540c19c7189202e.png",
     "static/media/curriculum-power.svg": "/static/media/curriculum-power.7a4f4c21abc59e7dcad2941ebe478d49.svg",
     "index.html": "/index.html",
-    "main.1a8bb161.css.map": "/static/css/main.1a8bb161.css.map",
-    "main.7db83677.js.map": "/static/js/main.7db83677.js.map"
+    "main.fd4ec957.css.map": "/static/css/main.fd4ec957.css.map",
+    "main.4ec0bab4.js.map": "/static/js/main.4ec0bab4.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a8bb161.css",
-    "static/js/main.7db83677.js"
+    "static/css/main.fd4ec957.css",
+    "static/js/main.4ec0bab4.js"
   ]
 }
