@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fd4ec957.css",
-    "main.js": "/static/js/main.4ec0bab4.js",
+    "main.css": "/static/css/main.4830d64b.css",
+    "main.js": "/static/js/main.6fc23cc6.js",
     "static/media/portafolio-tests-video.mp4": "/static/media/portafolio-tests-video.9a1c48a5fc805bc507d8.mp4",
     "static/media/portafolio-sitio-php-video.mp4": "/static/media/portafolio-sitio-php-video.a5426c9edb9fd049f307.mp4",
     "static/media/posterfutbol.pdf": "/static/media/posterfutbol.d2d4343144807e3d8651.pdf",
@@ -16,17 +16,19 @@
     "static/media/portafolio-reviews.png": "/static/media/portafolio-reviews.cb5ad811de09eaa8151b.png",
     "static/media/NuevoCV.pdf": "/static/media/NuevoCV.7030329d83ab65f61203.pdf",
     "static/media/NuevoCV_Eng.pdf": "/static/media/NuevoCV_Eng.45152e2bd41b5bae31c9.pdf",
-    "static/media/portafolio-posterfutbol.png": "/static/media/portafolio-posterfutbol.fbfaabb0c3be372ce9e9.png",
+    "static/media/portafolio-posterfutbol.png": "/static/media/portafolio-posterfutbol.4b685e5adf2d3362f6bd.png",
     "static/media/portafolio-3d-rayshader.png": "/static/media/portafolio-3d-rayshader.375c1853b19f0e2bf144.png",
     "static/media/portafolio-sitio-php.png": "/static/media/portafolio-sitio-php.f83a7453d114925605b2.png",
     "static/media/portafolio-series-tabla.png": "/static/media/portafolio-series-tabla.94bf6550d0dde2d179b9.png",
     "static/media/portafolio-3d-rayshader-en.png": "/static/media/portafolio-3d-rayshader-en.e040e82425a93cb6dd4b.png",
+    "static/media/portafolio-pinguinos-portada.png": "/static/media/portafolio-pinguinos-portada.7083199d443412365731.png",
     "static/media/portafolio-mw-gif-razas.gif": "/static/media/portafolio-mw-gif-razas.5261030c52209f53b314.gif",
     "static/media/portafolio-sectores-en.png": "/static/media/portafolio-sectores-en.97e81a1f9b89514878c9.png",
     "static/media/portafolio-sectores.png": "/static/media/portafolio-sectores.bb9c9016cc815635c563.png",
     "static/media/foto.jpg": "/static/media/foto.e00b08bfe602d10403ea.jpg",
     "static/media/portafolio-mw-gif-facciones.gif": "/static/media/portafolio-mw-gif-facciones.7ebd7e1a688c0024a04c.gif",
     "static/media/selectorggplot.pdf": "/static/media/selectorggplot.a4d6e2be548f274ef86d.pdf",
+    "static/media/portafolio-mapa-portada.png": "/static/media/portafolio-mapa-portada.259e8d3e04a54d2f3837.png",
     "static/media/spain.png": "/static/media/spain.2526f203c248a918d8cd.png",
     "static/media/curriculum-unraf.png": "/static/media/curriculum-unraf.af22ecb9a7c3e20c975c.png",
     "static/media/portafolio-series-predicciones-es.png": "/static/media/portafolio-series-predicciones-es.fce42178332d1713ba8f.png",
@@ -40,6 +42,7 @@
     "static/media/portafolio-sas-paises.png": "/static/media/portafolio-sas-paises.c42c701260eb5012dc38.png",
     "static/media/portafolio-mw-tecnicas-en.png": "/static/media/portafolio-mw-tecnicas-en.f188fd787b5d9c40db59.png",
     "static/media/portafolio-sitio-js.png": "/static/media/portafolio-sitio-js.f45acfc18acd5b807cb7.png",
+    "static/media/portafolio-mw-portada.png": "/static/media/portafolio-mw-portada.87bb638b0db2adf1f081.png",
     "static/media/fondo3.png": "/static/media/fondo3.12df2530d0e24b27cae7.png",
     "static/media/portafolio-mapa-xkcd.png": "/static/media/portafolio-mapa-xkcd.e60872658ddfd9bebbdb.png",
     "static/media/portafolio-spssreg-portada.png": "/static/media/portafolio-spssreg-portada.9d9ef4890d272498796d.png",
@@ -47,6 +50,7 @@
     "static/media/portafolio-spssreg-resumen3.png": "/static/media/portafolio-spssreg-resumen3.ba6852d2a287ac86fd9b.png",
     "static/media/portafolio-mw-puntos-razas.png": "/static/media/portafolio-mw-puntos-razas.be914fb89b1547acc385.png",
     "static/media/portafolio-mw-tecnicas-es.png": "/static/media/portafolio-mw-tecnicas-es.b8dd2f728d5f4b40d6d2.png",
+    "static/media/portafolio-tesina.png": "/static/media/portafolio-tesina.0f26916a3252ac1483c8.png",
     "static/media/portafolio-mw-skills-matrix.png": "/static/media/portafolio-mw-skills-matrix.3111c8de73be67cf1a85.png",
     "static/media/portafolio-538.png": "/static/media/portafolio-538.c436588996a98fdf4b6f.png",
     "static/media/curriculum-r.png": "/static/media/curriculum-r.3925a9d915bef82cbc65.png",
@@ -59,8 +63,8 @@
     "static/media/portafolio-pinguinos-en.png": "/static/media/portafolio-pinguinos-en.d5209d59e3b9bc6c9dc2.png",
     "static/media/portafolio-mw-sexo-tabla-es.png": "/static/media/portafolio-mw-sexo-tabla-es.39f47e9f7a05d1be3acb.png",
     "static/media/portafolio-mw-sexo-tabla-en.png": "/static/media/portafolio-mw-sexo-tabla-en.1e2e4c98f6f9fa945b4c.png",
+    "static/media/portafolio-burnout-portada.png": "/static/media/portafolio-burnout-portada.b06b381573d722622cb2.png",
     "static/media/portafolio-mw-raza2-es.png": "/static/media/portafolio-mw-raza2-es.6db43e2017564fa96c2e.png",
-    "static/media/portafolio-plotly-cover.png": "/static/media/portafolio-plotly-cover.22fb5871fca0eb3931f1.png",
     "static/media/fondo.png": "/static/media/fondo.f8ad65e1fe00fab8f3dd.png",
     "static/media/portafolio-mw-raza2-en.png": "/static/media/portafolio-mw-raza2-en.d7fae7be6dc60279ba9f.png",
     "static/media/portafolio-mw-raza1-es.png": "/static/media/portafolio-mw-raza1-es.a1cc021ede68c95a960b.png",
@@ -77,6 +81,7 @@
     "static/media/portafolio-mw-faccion-en.png": "/static/media/portafolio-mw-faccion-en.1d18420e5c7419855766.png",
     "static/media/portafolio-mw-faccion-es.png": "/static/media/portafolio-mw-faccion-es.bb741a11f2b6e31aca76.png",
     "static/media/portafolio-spssreg-coeficientes.png": "/static/media/portafolio-spssreg-coeficientes.cbfa20a2d479d13b505d.png",
+    "static/media/portafolio-series-portada.png": "/static/media/portafolio-series-portada.8ebda9e4690eca9b686d.png",
     "static/media/portafolio-mw-sexo-raza-2-es.png": "/static/media/portafolio-mw-sexo-raza-2-es.27776f61ed81418e8c82.png",
     "static/media/portafolio-spssreg-resumen.png": "/static/media/portafolio-spssreg-resumen.5b0765c92ae957676a0c.png",
     "static/media/portafolio-mw-sexo-raza-2-en.png": "/static/media/portafolio-mw-sexo-raza-2-en.72cc8725ee72b6acbae1.png",
@@ -138,11 +143,11 @@
     "static/media/curriculum-php.png": "/static/media/curriculum-php.0a564540c19c7189202e.png",
     "static/media/curriculum-power.svg": "/static/media/curriculum-power.7a4f4c21abc59e7dcad2941ebe478d49.svg",
     "index.html": "/index.html",
-    "main.fd4ec957.css.map": "/static/css/main.fd4ec957.css.map",
-    "main.4ec0bab4.js.map": "/static/js/main.4ec0bab4.js.map"
+    "main.4830d64b.css.map": "/static/css/main.4830d64b.css.map",
+    "main.6fc23cc6.js.map": "/static/js/main.6fc23cc6.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd4ec957.css",
-    "static/js/main.4ec0bab4.js"
+    "static/css/main.4830d64b.css",
+    "static/js/main.6fc23cc6.js"
   ]
 }
