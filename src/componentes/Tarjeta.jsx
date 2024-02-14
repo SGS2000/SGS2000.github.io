@@ -26,10 +26,7 @@ function Tarjeta({ titulo, texto, etiquetas, imagen = placeholder1, enlace = "#"
           {texto}
         </Card.Text>
         <div>
-          <ListGroup variant="flush">
-            <ListGroup.Item> </ListGroup.Item>
-            <ListGroup.Item> </ListGroup.Item>
-          </ListGroup>
+          <hr></hr>
           <Link to={enlace} target="_blank">
             <Button variant="primary" > {idioma === "es" ? "Ver más" : "More"}  </Button>
           </Link>

@@ -1,25 +1,42 @@
 #tarjeta-contenedor{
-    border: 0.5px solid #00471b;
-    border-radius: 8%;
-    padding: 0.4%;
-    margin-top: 0.25%;
     width: 18rem;
-}
-
-#tarjeta-imagen{
-    height: 15rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-#tarjeta-cuerpo{
+    margin-top: 1rem;
+    border: 1px solid #00471b;
+    border-radius: 8%;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    overflow: hidden
+}
+
+
+#tarjeta-contenedor:hover{
+    transform: translate3D(0,-1px,0) scale(1.03);
+    transition: all .25s ease;
+}
+
+
+#tarjeta-imagen{
+    height: 13rem;
+    border-bottom: 0.5px solid #00471b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    /* border: 2px solid black; */
+}
+
+#tarjeta-cuerpo{
+    background-color: #f5f6f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 2px solid blue; */
 }
 
 #imagen-carta{
-    /* border-radius: 8%; */
-    max-height: 15rem;
+    max-height: 13rem;
+    /* border: 2px solid red; */
 }
+
