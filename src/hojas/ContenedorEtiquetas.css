@@ -1,0 +1,12 @@
+.contenedor-de-etiquetas {
+    margin: 0.1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-tema-etiqueta {
+    margin: 0.45%;
+    margin-right: 0px;
+}

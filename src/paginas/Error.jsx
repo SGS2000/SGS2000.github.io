@@ -7,12 +7,12 @@ import "../hojas/Error.css";
 function Home() {
 
     //Idioma
-    const [idioma, setIdioma] = useOutletContext();
+    const [idioma] = useOutletContext();
 
     return (
         <div>
             <h1>Error</h1>
-            <p>{idioma === "es" ?  "Página no encontrada" : "Page not found"}</p>
+            <p>{idioma === "es" ? "Página no encontrada" : "Page not found"}</p>
         </div>
     );
 }

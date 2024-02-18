@@ -1,12 +1,18 @@
-import TablaLista from '../componentes/TablaLista';
 import { Link } from "react-router-dom";
 import { useOutletContext } from "react-router-dom";
+
+//Componentes
+import TablaLista from '../componentes/TablaLista';
+
+//CSS
 import "../hojas/Publicaciones.css";
+
+//Documentos
 import pdfColoquio2023 from "../doc/presentacion-coloquio-2023.pdf"
 
 function Publicaciones() {
 
-    const [idioma, setIdioma] = useOutletContext();
+    const [idioma] = useOutletContext();
 
     return (
         <>
@@ -35,7 +41,7 @@ function Publicaciones() {
                                 'L Argentine Colloquium of Statistics'}</a> (2023)
                                 <ul>
                                     <li>
-                                        {idioma === "es" ? 'Presentación' : 'Presentation'}: "<a href ={pdfColoquio2023} target='_blank' rel='noopener noreferrer'>{idioma === "es" ? "Clasificación supervisada de textos de ficción según género utilizando bosques aleatorios" : "Supervised Classification of Fiction Texts by Genre using Random Forests"}</a>"
+                                        {idioma === "es" ? 'Presentación' : 'Presentation'}: "<a href={pdfColoquio2023} target='_blank' rel='noopener noreferrer'>{idioma === "es" ? "Clasificación supervisada de textos de ficción según género utilizando bosques aleatorios" : "Supervised Classification of Fiction Texts by Genre using Random Forests"}</a>"
                                     </li>
                                 </ul>
                             </li>

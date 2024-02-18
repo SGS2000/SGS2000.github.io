@@ -1,7 +1,9 @@
 import React from 'react';
-import './App.css';
 import { HashRouter, Routes, Route } from "react-router-dom";
+
+//Componentes
 import Layout from "./componentes/Layout";
+
 // Páginas
 import Home from "./paginas/Home.jsx";
 import Portafolio from "./paginas/Portafolio";
@@ -27,6 +29,8 @@ import PortafolioPreziTests from "./paginas/portafolio/prezitests.jsx";
 import PortafolioR3D from "./paginas/portafolio/r3d.jsx";
 import PortafolioSpssreg from "./paginas/portafolio/spssreg.jsx";
 
+//CSS
+import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {

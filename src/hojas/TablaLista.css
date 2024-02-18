@@ -1,48 +1,67 @@
 .tabla-lista-contenedor {
-    /* Alinear */
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items:flex-start;    
-    justify-content: flex-start;
-    /* Borde */
-    border-bottom: 1px solid black;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
-    border-top: 1px solid black;
-    /* Colores */
-    background-color:  Azure;
+  /* Alinear */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  /* Borde */
+  border-bottom: 1px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 1px solid black;
+  /* Colores */
+  background-color: Azure;
+  /* Prevenir overflow */
+  overflow: hidden;
+  /* Animacion */
+  animation: horizontal 0.7s ease-in-out;
+}
+
+/* Aparecer horizontalmente */
+@keyframes horizontal {
+  from {
+    opacity: 0;
+    transform: translatex(-20px);
   }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 .tabla-lista-contenido {
-    /* Alinear */
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items:center;    
-    justify-content: flex-start;
-    /* Tamaño */
-    width: 100vw;
-  }
+  /* Alinear */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  /* Tamaño */
+  width: 100vw;
+  /* Texto */
+  line-height: 1.65em;
+}
 
-  .tabla-lista-titulo{
-    margin-left: 1%;
-    margin-bottom: 0.25%;
-  }
+.tabla-lista-titulo {
+  margin-left: 1%;
+  margin-bottom: 0.25%;
+}
 
-  .tabla-lista-titulo > * {
-    margin: 0px;
-  }
+.tabla-lista-titulo>* {
+  margin: 0px;
+}
 
-  .tabla-lista-texto{
-    margin-left: 0.5%;
-  }
+.tabla-lista-texto {
+  margin-left: 0.5%;
+}
 
- .tabla-lista-texto > * {
-    margin: 1px;
-  }
+.tabla-lista-texto>* {
+  margin: 1px;
+}
 
-  .tabla-lista-imagen{
-    align-self: center;
-    margin-left: 0.5%;
-  }
+.tabla-lista-imagen {
+  align-self: center;
+  margin-left: 0.5%;
+}

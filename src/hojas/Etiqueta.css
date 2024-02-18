@@ -1,14 +1,39 @@
-.etiqueta-boton{
-    margin: 0.45%;
+/* Checkbox */
+.etiqueta-boton {
+    margin: 0.2%;
     border-radius: 100%;
+}
+
+/* Estilo del botón */
+.btn.btn-outline-danger {
+    border-radius: 65%;
     cursor: pointer;
 }
 
-.btn.btn-outline-danger{
-    border-radius: 65%;
+.btn.btn-danger-outline {
+    background-color: white;
 }
 
-.btn.btn-outline-danger:hover{
-    background-color: #ff9999
+.btn.activada {
+    background-color: red;
 }
 
+/* Hover en escritorio */
+@media screen and (min-width: 600px) {
+    .btn.btn-outline-danger:hover {
+        background-color: #ff9999
+    }
+}
+
+/* Corrige errores en móvil */
+@media screen and (max-width: 600px) {
+    .btn.btn-outline-danger:hover {
+        background-color: white;
+        color: #dc3545;
+
+    }
+
+    .btn.activada:hover {
+        background-color: red
+    }
+}

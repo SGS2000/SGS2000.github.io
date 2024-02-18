@@ -1,34 +1,36 @@
 import React from "react";
-import "../hojas/TablaContenidos.css";
 import { useOutletContext } from "react-router-dom";
 import { useEffect, useState } from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
+
+//CSS
+import "../hojas/TablaContenidos.css";
 
 function TablaContenidos() {
     //Idioma
     const [idioma] = useOutletContext();
 
     //Array para guardar encabezados
-    const [headings, setHeadings] = useState([])
+    const [encabezados, setEncabezados] = useState([])
 
     //Buscar encabezados en la página y guardar id y nivel
     useEffect(() => {
-        const elements = Array.from(document.querySelectorAll("h2, h3, h4"))
+        const elementos = Array.from(document.querySelectorAll("h2, h3, h4"))
             .filter((elem) => elem.id !== "tituloTabla")
             .map((elem) => ({
                 id: elem.id,
-                text: elem.innerText,
-                level: Number(elem.nodeName.charAt(1))
+                texto: elem.innerText,
+                nivel: Number(elem.nodeName.charAt(1))
             }))
-        setHeadings(elements)
-    }, 
-    // Añadir idioma como dependencia
-    [idioma]
+        setEncabezados(elementos)
+    },
+        // Añadir idioma como dependencia
+        [idioma]
     )
 
     //Asignar clase según nivel
-    const getClassName = (level) => {
-        switch (level) {
+    const getClassName = (nivel) => {
+        switch (nivel) {
             case 2:
                 return 'head2'
             case 3:
@@ -41,25 +43,23 @@ function TablaContenidos() {
     }
 
     return (
-        <div className="contenedorTabla">
+        <div id="contenedorTabla">
             <h2 id="tituloTabla"> {idioma === "es" ? "Tabla de contenidos" : "Contents"} </h2>
             <ul>
-                {headings.map(heading => (
+                {encabezados.map(encabezado => (
                     <li
-                        key={heading.id}
-                        className={getClassName(heading.level)}
+                        key={encabezado.id}
+                        className={getClassName(encabezado.nivel)}
                     >
                         {/* Link a la sección */}
-                        <Link to={`#${heading.id}`}
+                        <Link to={`#${encabezado.id}`}
                             onClick={(e) => {
                                 //Scrolling más suave
                                 e.preventDefault()
-                                document.querySelector(`#${heading.id}`).scrollIntoView({
-                                    behavior: "smooth"
-                                })
+                                document.querySelector(`#${encabezado.id}`).scrollIntoView({ behavior: "smooth" })
                             }}
                         >
-                            {heading.text}
+                            {encabezado.texto}
                         </Link>
                     </li>
                 ))}

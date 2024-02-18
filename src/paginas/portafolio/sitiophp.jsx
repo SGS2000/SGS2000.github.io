@@ -23,7 +23,7 @@ function SitioPHP() {
                     {idioma === "es" ? "La página donde se alojaba el proyecto original ya no está disponible, pero el siguiente video permite visualizar su funcionamiento:"
                         : "The page hosting the original project is no longer available, but the following video shows how it worked.:"}
                 </p>
-                <video controls >
+                <video className="video" controls >
                     <source src={videoPHP} type="video/mp4" />
                     {idioma === "es" ? "Ha ocurrido un error, el video no puede reproducirse" : "An error has occurred; the video cannot be played."}
                 </video>

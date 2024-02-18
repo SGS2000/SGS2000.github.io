@@ -1,38 +1,39 @@
-.contenedor-principal {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items:center;    
-    justify-content: center;
-  }
+#contenedor-principal {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-family:"Lato",'Segoe UI';
+}
 
-  .btn.btn-primary.btn-lg{
-    margin-left: 5px;
-  }
+.btn.btn-primary.btn-lg {
+  margin-left: 5px;
+}
 
-  .btn.btn-primary.btn-lg:hover {
-    font-size: 150%;
-    background-color: darkblue !important;
-    border-color: darkblue !important;
-  }
+.btn.btn-primary.btn-lg:hover {
+  font-size: 150%;
+  background-color: darkblue !important;
+  border-color: darkblue !important;
+}
 
-  #contenedor-texto{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items:center;    
-    justify-content: flex-start;
-  }
+#contenedor-texto {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
 
-  #foto-principal{
-    width: 40%; 
-    height: 40%;
-    min-width: 245px;
-    min-height: 300px;
-    padding: 3%;
-    border-radius: 40%;
-  }
+#foto-principal {
+  width: 40%;
+  height: 40%;
+  min-width: 245px;
+  min-height: 300px;
+  padding: 3%;
+  border-radius: 40%;
+}
 
-  #texto-presentacion{
-    font-size: large !important;
-  }
+#texto-presentacion {
+  font-size: large !important;
+}

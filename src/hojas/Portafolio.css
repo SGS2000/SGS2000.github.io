@@ -1,21 +1,3 @@
-.contenedor-de-etiquetas{
-    margin: 5px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center !important;
-
-}
-
-.contenedor-de-tarjetas{
-    margin: 5px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around !important;
-}
-
-.texto-tema-etiqueta{
-    margin: 0.45%;
-    margin-right: 0px;
-    padding-top: 0.5%;
-    padding-bottom: 0.5%;
+#contenedor-portafolio {
+    margin-top: 1em;
 }

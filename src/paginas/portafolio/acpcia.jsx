@@ -44,42 +44,46 @@ function Acpcia() {
                 <p>
                     {idioma === "es" ? "En base a los distintos criterios, se decidió utilizar dos componentes principales." : "Based on different criteria, it was decided to use two principal components."}
                 </p>
-                <img src={imgAutovalores} alt="autovalores" ></img>
-                <img src={imgScree} alt="scree"></img>
+
+                <div className="contenedorImagen">
+                    <img src={imgAutovalores} alt="autovalores" ></img>
+                    <img src={imgScree} alt="scree"></img>
+                </div>
 
                 <h2>{idioma === "es" ? "Componentes" : "Components"}</h2>
-                <p>
-                    <ul>
-                        <li>
-                            {idioma === "es" ? "La primera componente está altamente correlacionada en sentido positivo con las variables " : "The first component is highly positively correlated with "}
-                            <i>pbippa</i>, <i>porcserv</i>,  <i>alf</i>, <i>expect</i> {idioma === "es" ? " y " : " and "} <i>urban</i>
-                            {idioma === "es" ? " y en sentido negativo con las variables " : " and negatively correlated with "}
-                            <i>porcagr</i>, <i>mortif</i> {idioma === "es" ? " y " : " and "} <i>nac</i>.
-                            <ul>
-                                <li>
-                                    {idioma === "es" ? "Esta componente distingue entre los países más desarrollados y aquellos en vías de desarrollo." : "This component distinguishes more developed countries from those that are still developing."}
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            {idioma === "es" ? "La segunda componente está altamente correlacionada en sentido positivo con la variable " : "The second component is highly positively correlated with "}
-                            <i>porcindu</i>
-                            {idioma === "es" ? " y moderadamente correlacionada en sentido negativo con la variable " : " and moderately negatively correlated with "}
-                            <i>porcserv</i>.
-                            <ul>
-                                <li>
-                                    {idioma === "es" ? "Esta componente divide los países donde predomina el sector secundario de aquellos donde predomina el sector terciario." : "This component divides countries between those where the secondary sector predominates from those where the tertiary sector predominates."}
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-
-                </p>
-                <img src={imgComp} alt="componentes" ></img>
-                <img src={imgCargas} alt="cargas" ></img>
+                <ul>
+                    <li>
+                        {idioma === "es" ? "La primera componente está altamente correlacionada en sentido positivo con las variables " : "The first component is highly positively correlated with "}
+                        <i>pbippa</i>, <i>porcserv</i>,  <i>alf</i>, <i>expect</i> {idioma === "es" ? " y " : " and "} <i>urban</i>
+                        {idioma === "es" ? " y en sentido negativo con las variables " : " and negatively correlated with "}
+                        <i>porcagr</i>, <i>mortif</i> {idioma === "es" ? " y " : " and "} <i>nac</i>.
+                        <ul>
+                            <li>
+                                {idioma === "es" ? "Esta componente distingue entre los países más desarrollados y aquellos en vías de desarrollo." : "This component distinguishes more developed countries from those that are still developing."}
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        {idioma === "es" ? "La segunda componente está altamente correlacionada en sentido positivo con la variable " : "The second component is highly positively correlated with "}
+                        <i>porcindu</i>
+                        {idioma === "es" ? " y moderadamente correlacionada en sentido negativo con la variable " : " and moderately negatively correlated with "}
+                        <i>porcserv</i>.
+                        <ul>
+                            <li>
+                                {idioma === "es" ? "Esta componente divide los países donde predomina el sector secundario de aquellos donde predomina el sector terciario." : "This component divides countries between those where the secondary sector predominates from those where the tertiary sector predominates."}
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div className="contenedorImagen">
+                    <img src={imgComp} alt="componentes" ></img>
+                    <img src={imgCargas} alt="cargas" ></img>
+                </div>
                 <h2>{idioma === "es" ? "Gráfico de Scores" : "Score plot"}</h2>
                 <p>{idioma === "es" ? "Se presenta un gráfico de scores mostrando los 227 territorios del conjunto de datos. Los colores indican el continente al que pertenecen." : "A score plot is presented showing the 227 territories from the dataset. The colors indicate the continent to which they belong."}</p>
-                <img src={imgScores} alt="cargas" ></img>
+                <div className="contenedorImagen">
+                    <img src={imgScores} alt="cargas" ></img>
+                </div>
             </div>
         </>
     )

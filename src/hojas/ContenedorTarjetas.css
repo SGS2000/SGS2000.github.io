@@ -1,0 +1,6 @@
+.contenedor-de-tarjetas {
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around !important;
+}

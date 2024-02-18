@@ -18,7 +18,7 @@ function Home() {
 
     return (
         <div>
-            <Carousel fade  indicators={false} controls={false}>
+            <Carousel fade indicators={false} controls={false}>
 
                 <Carousel.Item>
                     <img
@@ -26,9 +26,9 @@ function Home() {
                         src={fondo1}
                         alt="Primer fondo"
                     />
-                    <Carousel.Caption className="contenedor-Texto-Home">
+                    <Carousel.Caption>
                         <TextoHome>
-                            
+
                         </TextoHome>
                     </Carousel.Caption>
 
@@ -41,9 +41,9 @@ function Home() {
                         alt="Segundo fondo"
                     />
 
-                    <Carousel.Caption className="contenedor-Texto-Home">
+                    <Carousel.Caption>
                         <TextoHome>
-                            
+
                         </TextoHome>
                     </Carousel.Caption>
 
@@ -56,18 +56,16 @@ function Home() {
                         alt="Tercer fondo"
                     />
 
-                    <Carousel.Caption className="contenedor-Texto-Home">
+                    <Carousel.Caption>
                         <TextoHome>
-                            
+
                         </TextoHome>
                     </Carousel.Caption>
 
                 </Carousel.Item>
 
             </Carousel>
-
         </div>
-
     );
 }
 

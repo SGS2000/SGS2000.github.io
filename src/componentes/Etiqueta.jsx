@@ -1,15 +1,27 @@
 import React from "react";
+
+//CSS
 import "../hojas/Etiqueta.css";
 
-function Etiqueta(props) {
-
+function Etiqueta({ id, etiqueta, manejarClic }) {
   return (
     <div className="etiqueta-boton">
-        <input type="checkbox" className="btn-check" id={props.id} autoComplete="off" onClick={() =>props.manejarClic(props.id)}/> 
-        <label  className="btn btn-outline-danger shadow-none" htmlFor={props.id}> <b>{props.etiqueta}</b> </label>
+      {/* Checkbox (invisible) */}
+      <input
+        type="checkbox"
+        className="btn-check"
+        id={id}
+        autoComplete="off"
+        onClick={() => manejarClic(id)}
+      />
+      {/* Botón y texto */}
+      <label className="btn btn-outline-danger shadow-none"
+        htmlFor={id}
+      >
+        <b>{etiqueta}</b>
+      </label>
     </div>
-
   );
-};
+}
 
 export default Etiqueta;

@@ -20,11 +20,11 @@ function Postertesina() {
                         : "Poster presented at the "}
                     <a href='https://www.fcecon.unr.edu.ar/seccion/investigacion/jornadas-de-jovenes-investigadores' target='blank'> {idioma === "es" ? 'V Jornadas de Jóvenes Investigadores (FCEyE)' :
                         'V Young Researchers Conference'}</a>
-                    {idioma === "es" ? " basado en mi tesina de grado."
-                        : " based on my undergraduate thesis."}
+                    {idioma === "es" ? " basado en mi tesina de grado"
+                        : " based on my undergraduate thesis"}.
                 </p>
             </div>
-            <iframe src={pdfTesinaPoster} width="100%" height="750px" title="poster"></iframe>
+            <iframe className="docCentrado" src={pdfTesinaPoster} title="poster"></iframe>
         </>
     )
 }

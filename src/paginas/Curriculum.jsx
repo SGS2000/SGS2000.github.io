@@ -1,7 +1,11 @@
-import TablaLista from '../componentes/TablaLista';
 import { useOutletContext } from "react-router-dom";
-import "../hojas/Curriculum.css";
 import { useState } from 'react';
+
+//CSS
+import "../hojas/Curriculum.css";
+
+// Componentes
+import TablaLista from '../componentes/TablaLista';
 import BarraSeccion from '../componentes/BarraSeccion';
 
 // Imágenes
@@ -32,9 +36,9 @@ function Curriculum() {
         setSeccion(val);
 
         //Colores de los botones
-        const buttons = document.querySelectorAll('.btn-secondary');
-        buttons.forEach(otherButton => otherButton.classList.remove('active'));
-        buttons[val - 1].classList.add('active');
+        const botones = document.querySelectorAll('.btn-secondary');
+        botones.forEach(otroBoton => otroBoton.classList.remove('active'));
+        botones[val - 1].classList.add('active');
 
     }
 
@@ -51,6 +55,7 @@ function Curriculum() {
                                     <li> {idioma === "es" ? <b>Lugar de residencia:</b> : <b>Place of residence:</b>}  Rosario, Santa Fe, Argentina</li>
                                 </ul>
                             }
+                            key="datos"
                         />
                         <TablaLista
                             titulo={<h2> {idioma === "es" ? "Información de contacto" : "Contact information"} </h2>}
@@ -60,6 +65,7 @@ function Curriculum() {
                                     <li> <b>WhatsApp</b>: +5492945690132 </li>
                                 </ul>
                             }
+                            key="contacto"
                         />
                     </>
                 )
@@ -74,9 +80,8 @@ function Curriculum() {
                                     <p> {idioma === "es" ? "Redacción de contenidos académicos con temáticas vinculadas a la estadística" : "Writing of academic content on topics related to statistics"}.</p>
                                     <p> {idioma === "es" ? <b>Duración</b> : <b>Duration</b>}: {idioma === "es" ? "Noviembre de 2023-presente" : "November 2023-Present"} </p>
                                 </>
-
-
                             }
+                            key="redactor"
                         />
                         <TablaLista
                             titulo={<h2> {idioma === "es" ? 'Analista de datos' : 'Data Analyst'} </h2>}
@@ -93,9 +98,8 @@ function Curriculum() {
                                         <li> {idioma === "es" ? "Confección de mapas, gráficos y otros elementos visuales para comunicar resultados." : "Creation of maps, graphs, and other visual elements to communicate results."} </li>
                                     </ul>
                                 </>
-
-
                             }
+                            key="analista"
                         />
                         <TablaLista
                             titulo={<h2> {idioma === "es" ? 'Estadístico autónomo' : 'Freelance Statistician'} </h2>}
@@ -106,9 +110,8 @@ function Curriculum() {
                                     <p> {idioma === "es" ? <b>Lugar</b> : <b>Location</b>}:  {idioma === "es" ? "Varios" : "Various"}  </p>
                                     <p> {idioma === "es" ? <b>Duración</b> : <b>Duration</b>}: {idioma === "es" ? "Noviembre de 2022-presente" : "November 2022-present"} </p>
                                 </>
-
-
                             }
+                            key="estadistico"
                         />
                         <TablaLista
                             titulo={<h2> {idioma === "es" ? 'Colaborador - Curso "Desarrollo de Shiny Apps"' : 'Course Assistant - Course: "Shiny Apps Development""'} </h2>}
@@ -123,9 +126,8 @@ function Curriculum() {
                                         <li> {idioma === "es" ? "Asistencia a los estudiantes durante el cursado." : "Assistance to students during the course."} </li>
                                     </ul>
                                 </>
-
-
                             }
+                            key="colaborador"
                         />
                     </>
                 )
@@ -144,6 +146,7 @@ function Curriculum() {
                                     </ul>
                                 </>
                             }
+                            key="licenciatura"
                         />
                     </>
                 )
@@ -219,8 +222,8 @@ function Curriculum() {
                             texto={
                                 <>
                                     <p><b>{idioma === "es" ? "Sociedad Argentina de Estadística (Noviembre de 2022)" : "Argentine Society of Statistics (November 2022)"}</b></p>
-                                    <p>{idioma === "es" ? "Inferencia bayesiana, Regresión lineal, Modelos lineales generalizados, WinBUGS" : 
-                                    "Bayesian inference, Regression, Generalized linear models, WinBUGS"}.</p>
+                                    <p>{idioma === "es" ? "Inferencia bayesiana, Regresión lineal, Modelos lineales generalizados, WinBUGS" :
+                                        "Bayesian inference, Regression, Generalized linear models, WinBUGS"}.</p>
                                     <br></br>
                                 </>
                             }
@@ -336,9 +339,7 @@ function Curriculum() {
                     <>
                         <TablaLista
                             titulo={
-                                <>
-                                    <h2>{idioma === "es" ? "Estadística" : "Statistics"}</h2>
-                                </>
+                                <h2>{idioma === "es" ? "Estadística" : "Statistics"}</h2>
                             }
                             texto={
                                 <>
@@ -363,14 +364,12 @@ function Curriculum() {
                                     </div>
                                 </>
                             }
+                            key="estadistica"
                         />
                         <TablaLista
                             titulo={
-                                <>
-                                    <h3>{idioma === "es" ? "Idiomas" : "Languages"} </h3>
-                                </>
+                                <h3>{idioma === "es" ? "Idiomas" : "Languages"} </h3>
                             }
-
                             texto={
                                 <ul>
                                     <li> <b>{idioma === "es" ? "Español" : "Spanish"}</b>- {idioma === "es" ? "Hablante nativo" : "Native speaker"}</li>
@@ -388,14 +387,12 @@ function Curriculum() {
                                     <li> <b>{idioma === "es" ? "Lenguaje de señas americano (ASL)" : "American Sign Language (ASL)"}</b> - {idioma === "es" ? "Nivel básico" : "Basic level"}</li>
                                 </ul>
                             }
+                            key="idiomas"
                         />
                         <TablaLista
                             titulo={
-                                <>
-                                    <h3> {idioma === "es" ? "Lenguajes de programación" : "Programming languages"} </h3>
-                                </>
+                                <h3> {idioma === "es" ? "Lenguajes de programación" : "Programming languages"} </h3>
                             }
-
                             texto={
                                 <div className='tabla-lista-doble'>
                                     <ul>
@@ -439,12 +436,11 @@ function Curriculum() {
                                     </ul>
                                 </div>
                             }
+                            key="lenguajes"
                         />
                         <TablaLista
                             titulo={
-                                <>
-                                    <h3> {idioma === "es" ? "Software estadístico" : "Statistical software"} </h3>
-                                </>
+                                <h3> {idioma === "es" ? "Software estadístico" : "Statistical software"} </h3>
                             }
 
                             texto={
@@ -458,14 +454,12 @@ function Curriculum() {
                                     <li>WinBUGS</li>
                                 </ul>
                             }
+                            key="software"
                         />
                         <TablaLista
                             titulo={
-                                <>
-                                    <h3> {idioma === "es" ? "Otras herramientas" : "Other knowledge"}  </h3>
-                                </>
+                                <h3> {idioma === "es" ? "Otras herramientas" : "Other knowledge"}  </h3>
                             }
-
                             texto={
                                 <div className='tabla-lista-doble'>
                                     <ul>
@@ -490,6 +484,7 @@ function Curriculum() {
                                     </ul>
                                 </div>
                             }
+                            key="herramientas"
                         />
                     </>
                 )
