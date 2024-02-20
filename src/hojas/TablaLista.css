@@ -6,10 +6,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   /* Borde */
-  border-bottom: 1px solid black;
-  border-left: 2px solid black;
-  border-right: 2px solid black;
-  border-top: 1px solid black;
+  border: 1px solid black;
   /* Colores */
   background-color: Azure;
   /* Prevenir overflow */

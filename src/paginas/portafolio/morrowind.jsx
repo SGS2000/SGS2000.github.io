@@ -92,7 +92,7 @@ function Morrowind() {
                     <a href="https://en.uesp.net/wiki/Morrowind:High_Elf" target="_blank" rel="noreferrer"> High Elf / Altmer</a>.
                 </p>
 
-                <div className="contenedorImagen">
+                <div className="contenedorGaleria">
                     <img src={idioma === "es" ? SPSSRaza1Es : SPSSRaza1En} alt="Razas" ></img>
                     <img src={idioma === "es" ? SPSSRaza2Es : SPSSRaza2En} alt="Razas sin Dark Elf"></img>
                 </div>
@@ -106,12 +106,12 @@ function Morrowind() {
                     {idioma === "es" ? " y " : " and "}
                     <a href="https://en.uesp.net/wiki/Morrowind:Breton" target="_blank" rel="noreferrer">Breton</a>.
                 </p>
-                <div className="contenedorImagen">
+                <div className="contenedorGaleria">
                     <img src={idioma === "es" ? SPSSSexoEs : SPSSSexoEn} alt="Genero"></img>
                     <img src={idioma === "es" ? SPSSSexoTablaEs : SPSSSexoTablaEn} alt="Genero Tabla"></img>
                 </div>
 
-                <div className="contenedorImagen">
+                <div className="contenedorGaleria">
                     <img src={idioma === "es" ? SPSSSexoRazaEs : SPSSSexoRazaEn} alt="Sexo y raza"></img>
                     <img src={idioma === "es" ? SPSSSexoRaza2Es : SPSSSexoRaza2En} alt="Sexo y raza sin Dark Elf"></img>
                 </div>
@@ -129,7 +129,7 @@ function Morrowind() {
                 </p>
 
                 <div className="contenedorGaleria">
-                    <img src={idioma === "es" ? SPSSFaccionEs : SPSSFaccionEn} alt="Faccion"></img>
+                    <img src={idioma === "es" ? SPSSFaccionEs : SPSSFaccionEn} alt="Faccion" className="imgGrande"></img>
                     <img src={idioma === "es" ? SPSSFaccionSexoEs : SPSSFaccionSexoEn} alt="Faccion y sexo"></img>
                     <img src={idioma === "es" ? SPSSFaccionRazaEs : SPSSFaccionRazaEn} alt="Faccion y raza"></img>
                 </div>
@@ -146,9 +146,9 @@ function Morrowind() {
                 </p>
 
                 <div className="contenedorGaleria">
-                    <img src={idioma === "es" ? RSkillsCEs : RSkillsCEn} alt="Habilidades combate"></img>
-                    <img src={idioma === "es" ? RSkillsMEs : RSkillsMEn} alt="Habilidades magia"></img>
-                    <img src={idioma === "es" ? RSkillsSEs : RSkillsSEn} alt="Habilidades sigilo"></img>
+                    <img src={idioma === "es" ? RSkillsCEs : RSkillsCEn} alt="Habilidades combate" className="imgGrande"></img>
+                    <img src={idioma === "es" ? RSkillsMEs : RSkillsMEn} alt="Habilidades magia" className="imgGrande"></img>
+                    <img src={idioma === "es" ? RSkillsSEs : RSkillsSEn} alt="Habilidades sigilo" className="imgGrande"></img>
                 </div>
 
                 <p>
@@ -176,8 +176,8 @@ function Morrowind() {
                 <p>
                     {idioma === "es" ? "El mejor desempeño se obtuvo con bosques aleatorios. Los resultados completos son los siguientes: " : "The best performance was achieved with random forests. The complete results are as follows:"}
                 </p>
-                <div className="contenedorImagen">
-                    <img src={idioma === "es" ? RResEs : RResEn} alt="Tabla resultados"></img>
+                <div className="contenedorImagenCentrada">
+                    <img src={idioma === "es" ? RResEs : RResEn} alt="Tabla resultados" className="imgCentrada"></img>
                 </div>
 
                 <p>
@@ -192,12 +192,10 @@ function Morrowind() {
                     {idioma === "es" ? ' Las habilidades que presentaron una mayor importancia para el algoritmo fueron  "destruction", "short blade" y "light armor", mientras que "spear" y "conjuration" fueron las que presentaron una menor importancia.  ' : ' The skills that showed the greatest importance for the algorithm were "destruction," "short blade," and "light armor", while "spear" and "conjuration" were the least important. '}
                 </p>
 
-                {/* <div className="contenedorImagen"> */}
                 <div className="contenedorGaleria">
-                    <img src={idioma === "es" ? RConfusionEs : RConfusionEn} alt="Confusion"></img>
-                    <img src={idioma === "es" ? RImpEs : RImpEn} alt="Importancia"></img>
+                    <img src={idioma === "es" ? RConfusionEs : RConfusionEn} alt="Confusion" className="imgGrande"></img>
+                    <img src={idioma === "es" ? RImpEs : RImpEn} alt="Importancia" className="imgGrande"></img>
                 </div>
-                {/* </div> */}
 
                 {/* Análisis Multivariado SAS */}
                 <h2> {idioma === "es" ? "Análisis multivariado (SAS)" : "Multivariate statistics (SAS)"} </h2>
@@ -213,15 +211,15 @@ function Morrowind() {
                     {idioma === "es" ? "Se construye el gráfico de scores para los distintos personajes del juego, indicando con colores la facción a la que pertenece. En el segundo gráfico, se muestran por separado las distintas facciones y se indica el nombre de cada personaje junto a su punto correspondiente." : "The scores plot is constructed for the different characters in the game, indicating their factions with colors. In the second plot, the different factions are shown separately, and the name of each character is indicated next to their respective point."}
                 </p>
                 <div className="contenedorImagen">
-                    <img src={SASPuntosFacciones} alt="puntos facciones"></img>
-                    <img src={SASGifFacciones} alt="gif facciones"></img>
+                    <img src={SASPuntosFacciones} alt="puntos facciones" className="imgGrande"></img>
+                    <img src={SASGifFacciones} alt="gif facciones" className="imgGrande"></img>
                 </div>
                 <p>
                     {idioma === "es" ? "De manera similar, se construyen gráficos de scores para las distintas razas." : "Similarly, score plots are constructed for the different races."}
                 </p>
                 <div className="contenedorImagen">
-                    <img src={SASPuntosRazas} alt="puntos razas"></img>
-                    <img src={SASGifRazas} alt="gif razas"></img>
+                    <img src={SASPuntosRazas} alt="puntos razas" className="imgGrande"></img>
+                    <img src={SASGifRazas} alt="gif razas" className="imgGrande"></img>
                 </div>
 
                 <h3> {idioma === "es" ? "Análisis de correspondencias" : "Correspondence analysis"} </h3>

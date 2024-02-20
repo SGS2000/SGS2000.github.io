@@ -7,6 +7,11 @@
   border: solid 1px black;
 }
 
+.btn-group {
+  margin-right: 2%;
+  padding: 1px;
+}
+
 .btn.btn-secondary {
   background-color: #1164aa;
   cursor: pointer;
@@ -14,27 +19,28 @@
   border: solid 1px black;
 }
 
-.btn.btn-secondary:hover {
-  background-color: blueviolet;
+/* Cambiar colores */
+.btn.btn-secondary:hover,
+.btn.btn-secondary:checked,
+.btn.btn-secondary.checked {
+  background-color: mediumorchid;
 }
 
-.btn.btn-secondary:checked {
-  background-color: blueviolet;
+.btn.btn-secondary:focus{ /* Evita error del color al arrastrar */
+  background-color: #1164aa;
 }
+
 
 .btn.btn-secondary.active {
   background-color: blueviolet;
   animation: efecto 0.4s ease-in-out;
 }
 
+/* Animación, solo en computadora */
 @media screen and (min-width: 800px) {
   @keyframes efecto {
     to {
       background-color: mediumorchid;
     }
   }
-}
-
-.btn-group {
-  margin-right: 2%;
 }

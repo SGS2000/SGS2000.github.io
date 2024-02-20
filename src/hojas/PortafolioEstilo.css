@@ -61,6 +61,12 @@
     padding-left: 0.5%;
 }
 
+.imgGrande {
+    max-height: 50vh;
+    width: auto;
+    max-width: 100%;
+}
+
 /* Iframes */
 .contenedorIframeBarraHorizontal {
     overflow-x: auto;

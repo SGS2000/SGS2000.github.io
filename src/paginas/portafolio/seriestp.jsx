@@ -72,15 +72,15 @@ function SeriesTP() {
                     : "The autocorrelation function (ACF) and partial autocorrelation function (PACF) are plotted. Once again, the seasonality with a period of 12 is confirmed."}</p>
 
                 <div className="contenedorGaleria">
-                    <img src={idioma === "es" ? graficoFacEs : graficoFacEn} alt="FAC"></img>
-                    <img src={idioma === "es" ? graficoFacpEs : graficoFacpEn} alt="FACP"></img>
+                    <img src={idioma === "es" ? graficoFacEs : graficoFacEn} alt="FAC" className="imgGrande"></img>
+                    <img src={idioma === "es" ? graficoFacpEs : graficoFacpEn} alt="FACP" className="imgGrande"></img>
                 </div>
 
                 <p> {idioma === "es" ? "Se aprecia una distribución similar por año, la variancia no parece aumentar ni disminuir con el tiempo. Se utiliza el test de Portmanteau para confirmar que la serie no es ruido blanco."
                     : "A similar distribution can be observed each year, and there doesn't seem to be an increase or decrease in variance over time. The Portmanteau test is used to confirm that the series is not white noise."}</p>
 
                 <div className="contenedorImagen">
-                    <img src={idioma === "es" ? graficoBoxplotEs : graficoBoxplotEn} alt="Boxplot"></img>
+                    <img src={idioma === "es" ? graficoBoxplotEs : graficoBoxplotEn} alt="Boxplot" className="imgGrande"></img>
                     <img src={salidaTest} alt="test portmanteau"></img>
                 </div>
 
@@ -90,9 +90,9 @@ function SeriesTP() {
                     : "It was decided to apply a first-order differencing to both the regular and seasonal components. Below are the corresponding plots for the differenced series."}</p>
 
                 <div className="contenedorGaleria">
-                    <img src={idioma === "es" ? graficoSerieDifEs : graficoSerieDifEn} alt="Serie diferenciada"></img>
-                    <img src={idioma === "es" ? graficoFacDifEs : graficoFacDifEn} alt="FAC diferenciada"></img>
-                    <img src={idioma === "es" ? graficoFacpDifEs : graficoFacpDifEn} alt="Boxplot"></img>
+                    <img src={idioma === "es" ? graficoSerieDifEs : graficoSerieDifEn} alt="Serie diferenciada" className="imgGrande"></img>
+                    <img src={idioma === "es" ? graficoFacDifEs : graficoFacDifEn} alt="FAC diferenciada" className="imgGrande"></img>
+                    <img src={idioma === "es" ? graficoFacpDifEs : graficoFacpDifEn} alt="Boxplot" className="imgGrande"></img>
                 </div>
 
                 <p> {idioma === "es" ? "Los modelos que se contrastaron fueron los siguientes:"
@@ -119,9 +119,9 @@ function SeriesTP() {
                     "Next, the model diagnosis is performed. As seen in the following plots, the residuals seem to be white noise and follow an approximately normal distribution."} </p>
 
                 <div className="contenedorGaleria">
-                    <img src={idioma === "es" ? graficoDiagnostico1Es : graficoDiagnostico1En} alt="Residuos 1"></img>
-                    <img src={idioma === "es" ? graficoDiagnostico2Es : graficoDiagnostico2En} alt="Residuos 2"></img>
-                    <img src={idioma === "es" ? graficoDiagnostico3Es : graficoDiagnostico3En} alt="Residuos 3"></img>
+                    <img src={idioma === "es" ? graficoDiagnostico1Es : graficoDiagnostico1En} alt="Residuos 1" className="imgGrande"></img>
+                    <img src={idioma === "es" ? graficoDiagnostico2Es : graficoDiagnostico2En} alt="Residuos 2" className="imgGrande"></img>
+                    <img src={idioma === "es" ? graficoDiagnostico3Es : graficoDiagnostico3En} alt="Residuos 3" className="imgGrande"></img>
                 </div>
 
                 <p>{idioma === "es" ? "El test de Portmanteau confirma que los residuos son ruido blanco. Finalmente, se aplica el test de Lilliefors para confirmar la normalidad de los residuos." :
@@ -136,8 +136,8 @@ function SeriesTP() {
                 <p>{idioma === "es" ? "Se realizan los pronósticos con el modelo SARIMA seleccionado. La siguiente tabla muestra los valores predichos, el valor verdadero presente en el conjunto de datos y la diferencia entre ambos. Se incluye además el intervalo de confianza del 95%. En todos los casos, el intervalo cubrió al verdadero valor de la temperatura mensual promedio." :
                     "The forecasts are made with the selected SARIMA model. The following table displays the predicted values, the true value from the dataset, and the difference between them. Additionally, the 95% confidence interval is included. In all cases, the CI covered the true value of the average monthly temperature."} </p>
 
-                <div className="contenedorImagen">
-                    <img src={idioma === "es" ? tablaPredEs : tablaPredEn} alt="Predicciones" ></img>
+                <div className="contenedorImagenCentrada">
+                    <img src={idioma === "es" ? tablaPredEs : tablaPredEn} alt="Predicciones" className="imgCentrada"></img>
                 </div>
 
             </div>
