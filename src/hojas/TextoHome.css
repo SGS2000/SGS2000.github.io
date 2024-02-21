@@ -7,16 +7,6 @@
   font-family:"Lato",'Segoe UI';
 }
 
-.btn.btn-primary.btn-lg {
-  margin-left: 5px;
-}
-
-.btn.btn-primary.btn-lg:hover {
-  font-size: 150%;
-  background-color: darkblue !important;
-  border-color: darkblue !important;
-}
-
 #contenedor-texto {
   display: flex;
   flex-direction: column;
@@ -37,3 +27,16 @@
 #texto-presentacion {
   font-size: large !important;
 }
+
+.btn.btn-primary.btn-lg {
+  margin-left: 5px;
+  margin-top: 2px;
+}
+
+.btn.btn-primary.btn-lg:hover {
+  font-size: 150%;
+  background-color: darkblue !important;
+  border-color: darkblue !important;
+}
+
+

@@ -152,18 +152,18 @@ function Portafolio() {
             enlace: '/portafolio/rmapas'
         },
         {
-            titulo: idioma === "es" ? "Clasificación automática de reseñas" : "Automatic classification of movie reviews",
-            etiquetas: ['etiqueta-python', "etiqueta-machine-learning", "etiqueta-analisis-texto"],
-            texto: idioma === "es" ? "Aplicación de técnicas de machine learning para clasificar reseñas de películas, utilizando Python." : "Application of machine learning techniques to classify movie reviews, using Python.",
-            imagen: imgReviews,
-            enlace: 'https://sgs2000.github.io/html/python/ClasificacionPython.html'
-        },
-        {
             titulo: idioma === "es" ? "Gráficos interactivos con Plotly" : "Interactive plots with Plotly",
             etiquetas: ['etiqueta-r', "etiqueta-data-viz", "etiqueta-python"],
             texto: idioma === "es" ? "Visualizaciones interactivas realizadas con las librerías de Plotly, tanto para R como para Python." : "Interactive visualizations created using Plotly libraries, for both R and Python.",
             imagen: imgPlotly,
             enlace: '/portafolio/plotly'
+        },
+        {
+            titulo: idioma === "es" ? "Clasificación automática de reseñas" : "Automatic classification of movie reviews",
+            etiquetas: ['etiqueta-python', "etiqueta-machine-learning", "etiqueta-analisis-texto"],
+            texto: idioma === "es" ? "Aplicación de técnicas de machine learning para clasificar reseñas de películas, utilizando Python." : "Application of machine learning techniques to classify movie reviews, using Python.",
+            imagen: imgReviews,
+            enlace: 'https://sgs2000.github.io/html/python/ClasificacionPython.html'
         },
         {
             titulo: idioma === "es" ? "Sitio web básico con HTML, CSS y JS" : "Basic website using HTML, CSS, and JS",

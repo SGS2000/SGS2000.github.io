@@ -23,6 +23,7 @@ import imgUBP from "../img/curriculum/curriculum-ubp.png"
 import imgQuarto from "../img/curriculum/curriculum-quarto.png"
 import imgGrafico from "../img/curriculum/curriculum-grafico.png"
 import imgXpandete from "../img/curriculum/curriculum-xpandete.png"
+import imgSantander from "../img/curriculum/curriculum-santander.png"
 
 function Curriculum() {
 
@@ -153,6 +154,20 @@ function Curriculum() {
             case 4:
                 return (
                     <>
+                        <TablaLista
+                            titulo={
+                                <>
+                                    <h3>{idioma === "es" ? "Curso: Big Data" : "Big Data"}</h3>
+                                </>
+                            }
+                            imagen={<img src={imgSantander} className='curriculum-img' alt='logo'></img>}
+                            texto={
+                                <>
+                                    <p><b>{idioma === "es" ? "Santander Open Academy (Febrero de 2024)" : "Santander Open Academy (February 2024)"}</b></p>
+                                    <br></br>
+                                </>
+                            }
+                        />
                         <TablaLista
                             titulo={
                                 <>
