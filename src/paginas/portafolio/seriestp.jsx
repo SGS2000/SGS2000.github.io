@@ -57,7 +57,7 @@ function SeriesTP() {
                     : "The following table displays the average temperature (ºC) per month in Argentina during the 2015-2020 period. The last six observations are excluded for use as a test set."}</p>
 
                 <div className="contenedorImagenCentrada">
-                    <img src={tablaDatos} alt="tabla datos" className="imgCentrada"></img>
+                    <img src={tablaDatos} alt="tabla datos" className="imgCentradaGrande"></img>
                 </div>
 
                 <br></br>
@@ -65,7 +65,7 @@ function SeriesTP() {
                     : "The data is shown in the following plot. Seasonality with a period of 12 can be observed, which is expected when working with monthly temperatures."}</p>
 
                 <div className="contenedorImagenCentrada">
-                    <img src={idioma === "es" ? graficoSerieEs : graficoSerieEn} alt="Serie original" className="imgCentrada"></img>
+                    <img src={idioma === "es" ? graficoSerieEs : graficoSerieEn} alt="Serie original" className="imgCentradaGrande"></img>
                 </div>
 
                 <p> {idioma === "es" ? "Se grafican la función de autocorrelación (FAC) y la función de autocorrelación parcial (FACP). Una vez más, se confirma la estacionalidad de período 12."

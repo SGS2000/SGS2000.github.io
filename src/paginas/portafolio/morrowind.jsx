@@ -155,7 +155,7 @@ function Morrowind() {
                     {idioma === "es" ? "Se calculan las correlaciones entre habilidades. Como era de esperarse, las habilidades de una misma especialidad muestran las mayores correlaciones entre sí. La correlación positiva más fuerte se da entre Alteración y Misticismo (0,88), mientras que la correlación negativa más fuerte se da entre Atletismo y Misticismo (-0,55)" : "Correlations between skills are calculated. As expected, skills within the same specialization show the highest correlations. The strongest positive correlation is observed between Alteration and Mysticism (0.88), while the strongest negative correlation is between Athletics and Mysticism (-0.55)."}
                 </p>
                 <div className="contenedorImagenCentrada">
-                    <img src={RMatriz} alt="Matriz habilidades" className="imgCentrada"></img>
+                    <img src={RMatriz} alt="Matriz habilidades" className="imgCentradaGrande"></img>
                 </div>
                 <h3> {idioma === "es" ? "Clasificación supervisada" : "Supervised learning"} </h3>
                 <p>
@@ -177,7 +177,7 @@ function Morrowind() {
                     {idioma === "es" ? "El mejor desempeño se obtuvo con bosques aleatorios. Los resultados completos son los siguientes: " : "The best performance was achieved with random forests. The complete results are as follows:"}
                 </p>
                 <div className="contenedorImagenCentrada">
-                    <img src={idioma === "es" ? RResEs : RResEn} alt="Tabla resultados" className="imgCentrada"></img>
+                    <img src={idioma === "es" ? RResEs : RResEn} alt="Tabla resultados" className="imgCentradaGrande"></img>
                 </div>
 
                 <p>
@@ -205,7 +205,7 @@ function Morrowind() {
                         : "A principal component analysis is conducted using the skills mentioned above as variables. Two principal components are used: the first one distinguishes between NPCs specialized in magic and those specialized in combat, while the second one distinguishes between NPCs specialized in stealth and those who are not. The loadings plot is presented below:"}
                 </p>
                 <div className="contenedorImagenCentrada">
-                    <img src={SASComponentes} alt="componentes" className="imgCentrada"></img>
+                    <img src={SASComponentes} alt="componentes" className="imgCentradaGrande"></img>
                 </div>
                 <p>
                     {idioma === "es" ? "Se construye el gráfico de scores para los distintos personajes del juego, indicando con colores la facción a la que pertenece. En el segundo gráfico, se muestran por separado las distintas facciones y se indica el nombre de cada personaje junto a su punto correspondiente." : "The scores plot is constructed for the different characters in the game, indicating their factions with colors. In the second plot, the different factions are shown separately, and the name of each character is indicated next to their respective point."}
