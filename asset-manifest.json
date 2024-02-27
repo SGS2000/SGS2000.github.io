@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.72b388a3.css",
-    "main.js": "/static/js/main.a120c863.js",
+    "main.css": "/static/css/main.06cbc0be.css",
+    "main.js": "/static/js/main.42e5bb07.js",
     "static/media/portafolio-tests-video.mp4": "/static/media/portafolio-tests-video.9a1c48a5fc805bc507d8.mp4",
     "static/media/portafolio-sitio-php-video.mp4": "/static/media/portafolio-sitio-php-video.a5426c9edb9fd049f307.mp4",
     "static/media/posterfutbol.pdf": "/static/media/posterfutbol.f72057da358eef38094a.pdf",
@@ -144,11 +144,11 @@
     "static/media/curriculum-php.png": "/static/media/curriculum-php.0a564540c19c7189202e.png",
     "static/media/curriculum-power.svg": "/static/media/curriculum-power.7a4f4c21abc59e7dcad2941ebe478d49.svg",
     "index.html": "/index.html",
-    "main.72b388a3.css.map": "/static/css/main.72b388a3.css.map",
-    "main.a120c863.js.map": "/static/js/main.a120c863.js.map"
+    "main.06cbc0be.css.map": "/static/css/main.06cbc0be.css.map",
+    "main.42e5bb07.js.map": "/static/js/main.42e5bb07.js.map"
   },
   "entrypoints": [
-    "static/css/main.72b388a3.css",
-    "static/js/main.a120c863.js"
+    "static/css/main.06cbc0be.css",
+    "static/js/main.42e5bb07.js"
   ]
 }
