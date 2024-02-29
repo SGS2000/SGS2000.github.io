@@ -63,7 +63,7 @@
 
 /* Formato de la imagen */
 .imgGrande {
-    max-height: 50vh;
+    max-height: 35em;
     width: auto;
 }
 
@@ -79,7 +79,7 @@
 }
 
 .imgCentradaGrande {
-    width: 85%;
+    width: 75%;
     height: auto;
 }
 

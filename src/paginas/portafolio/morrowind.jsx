@@ -162,7 +162,7 @@ function Morrowind() {
                     {idioma === "es" ? "Las distintas facciones prefieren diferentes habilidades, cómo se muestra en la siguiente tabla: " : "Various factions favor different skills, as shown in the following table:"}
                 </p>
                 <div className="contenedorImagenCentrada">
-                    <img src={RTabla} alt="Tabla habilidades facciones" className="imgCentrada"></img>
+                    <img src={RTabla} alt="Tabla habilidades facciones" className="imgCentradaGrande"></img>
                 </div>
                 <p>
                     {idioma === "es" ? "Se plantea como objetivo clasificar los personajes dentro de su facción correspondiente, utilizando sus niveles de habilidad respectivos como variables explicativas. Las técnicas que se contrastan son:" : "The objective is to classify characters into their respective factions, using their skill levels as explanatory variables. The techniques compared are :"}
