@@ -27,6 +27,7 @@ import imgTests from "../img/portafolio/portafolio-tests.png"
 import img3d from "../img/portafolio/portafolio-3d.png"
 import imgReviews from "../img/portafolio/portafolio-reviews.png"
 import imgSpssReg from "../img/portafolio/portafolio-spssreg-portada.png"
+import imgRTextos from "../img/portafolio/portafolio-rtextos-portada.png"
 
 
 function Portafolio() {
@@ -157,6 +158,13 @@ function Portafolio() {
             texto: idioma === "es" ? "Visualizaciones interactivas realizadas con las librerías de Plotly, tanto para R como para Python." : "Interactive visualizations created using Plotly libraries, for both R and Python.",
             imagen: imgPlotly,
             enlace: '/portafolio/plotly'
+        },
+        {
+            titulo: idioma === "es" ? "Análisis de textos con R" : "Text analysis with R",
+            etiquetas: ['etiqueta-r', "etiqueta-analisis-texto"],
+            texto: idioma === "es" ? 'Muestra de diversas herramientas para el análisis estadístico de textos con R. Presentado para el grupo "R en Rosario" (2024).' : 'Showcase of various tools for the statistical analysis of texts with R. Presented for the "R in Rosario" group (2024).',
+            imagen: imgRTextos,
+            enlace: 'https://sgs2000.github.io/html/R/RTextos.html'
         },
         {
             titulo: idioma === "es" ? "Clasificación automática de reseñas" : "Automatic classification of movie reviews",

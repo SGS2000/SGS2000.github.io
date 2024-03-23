@@ -480,6 +480,7 @@ function Curriculum() {
                                     <ul>
                                         <li>Power BI</li>
                                         <li>Tableau</li>
+                                        <li>Qlik</li>
                                         <li>Microsoft Office</li>
                                         <details>
                                             <summary> {idioma === "es" ? "Ver más" : "See more"} </summary>
