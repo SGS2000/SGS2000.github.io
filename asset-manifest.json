@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b04b76e3.css",
-    "main.js": "/static/js/main.d2e046c9.js",
+    "main.js": "/static/js/main.b8dbb5c4.js",
     "static/media/portafolio-tests-video.mp4": "/static/media/portafolio-tests-video.9a1c48a5fc805bc507d8.mp4",
     "static/media/portafolio-sitio-php-video.mp4": "/static/media/portafolio-sitio-php-video.a5426c9edb9fd049f307.mp4",
     "static/media/posterfutbol.pdf": "/static/media/posterfutbol.f72057da358eef38094a.pdf",
@@ -64,6 +64,7 @@
     "static/media/portafolio-pinguinos.png": "/static/media/portafolio-pinguinos.ce5913d970cd424a03e0.png",
     "static/media/portafolio-pinguinos-en.png": "/static/media/portafolio-pinguinos-en.d5209d59e3b9bc6c9dc2.png",
     "static/media/portafolio-mw-sexo-tabla-es.png": "/static/media/portafolio-mw-sexo-tabla-es.39f47e9f7a05d1be3acb.png",
+    "static/media/portafolio-precios.png": "/static/media/portafolio-precios.a29e75f4bf9215f90ae7.png",
     "static/media/portafolio-mw-sexo-tabla-en.png": "/static/media/portafolio-mw-sexo-tabla-en.1e2e4c98f6f9fa945b4c.png",
     "static/media/portafolio-burnout-portada.png": "/static/media/portafolio-burnout-portada.b06b381573d722622cb2.png",
     "static/media/portafolio-mw-raza2-es.png": "/static/media/portafolio-mw-raza2-es.6db43e2017564fa96c2e.png",
@@ -146,10 +147,10 @@
     "static/media/curriculum-power.svg": "/static/media/curriculum-power.7a4f4c21abc59e7dcad2941ebe478d49.svg",
     "index.html": "/index.html",
     "main.b04b76e3.css.map": "/static/css/main.b04b76e3.css.map",
-    "main.d2e046c9.js.map": "/static/js/main.d2e046c9.js.map"
+    "main.b8dbb5c4.js.map": "/static/js/main.b8dbb5c4.js.map"
   },
   "entrypoints": [
     "static/css/main.b04b76e3.css",
-    "static/js/main.d2e046c9.js"
+    "static/js/main.b8dbb5c4.js"
   ]
 }
