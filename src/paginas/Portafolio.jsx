@@ -28,6 +28,7 @@ import img3d from "../img/portafolio/portafolio-3d.png"
 import imgReviews from "../img/portafolio/portafolio-reviews.png"
 import imgSpssReg from "../img/portafolio/portafolio-spssreg-portada.png"
 import imgRTextos from "../img/portafolio/portafolio-rtextos-portada.png"
+import imgPrecios from "../img/portafolio/portafolio-precios.png"
 
 
 function Portafolio() {
@@ -174,6 +175,20 @@ function Portafolio() {
             enlace: 'https://sgs2000.github.io/html/python/ClasificacionPython.html'
         },
         {
+            titulo: idioma === "es" ? "Predicción de precios de BTC" : "BTC price forecast",
+            etiquetas: ['etiqueta-python', "etiqueta-machine-learning", "etiqueta-series"],
+            texto: idioma === "es" ? "Comparación de modelos ARIMA y bosques aleatorios para predecir el precio del Bitcoin." : "Comparison of ARIMA models and random forests to predict Bitcoin prices.",
+            imagen: imgPrecios,
+            enlace: 'https://sgs2000.github.io/html/python/SeriesPython.html'
+        },
+        {
+            titulo: idioma === "es" ? "Calculadora de distribuciones de probabilidad" : "Probability distributions calculator",
+            etiquetas: ['etiqueta-proba', "etiqueta-java"],
+            texto: idioma === "es" ? 'Programa Java para visualizar distribuciones de probabilidad y realizar distintos cálculos.' : "Java program for visualizing probability distributions and performing various calculations.",
+            imagen: imgJava,
+            enlace: 'https://github.com/SGS2000/calculadora-distribuciones-probabilidad'
+        },
+        {
             titulo: idioma === "es" ? "Sitio web básico con HTML, CSS y JS" : "Basic website using HTML, CSS, and JS",
             etiquetas: ['etiqueta-js'],
             texto: idioma === "es" ? 'Sitio web para una conferencia ficticia, hecho para el curso "PHP Full Stack" (2021).' : "Website for a fictional event, created for the 'PHP Full Stack' course (2021).",
@@ -186,13 +201,6 @@ function Portafolio() {
             texto: idioma === "es" ? 'Ejemplo de un sistema de registro de usuarios, creado para el curso "PHP Full Stack" (2021).' : "Example of a user registration system, created for the 'PHP Full Stack' course (2021).",
             imagen: imgPHP,
             enlace: '/portafolio/sitiophp'
-        },
-        {
-            titulo: idioma === "es" ? "Calculadora de distribuciones de probabilidad" : "Probability distributions calculator",
-            etiquetas: ['etiqueta-proba', "etiqueta-java"],
-            texto: idioma === "es" ? 'Programa Java para visualizar distribuciones de probabilidad y realizar distintos cálculos.' : "Java program for visualizing probability distributions and performing various calculations.",
-            imagen: imgJava,
-            enlace: 'https://github.com/SGS2000/calculadora-distribuciones-probabilidad'
         }
     ];
 
