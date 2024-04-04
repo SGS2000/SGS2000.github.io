@@ -3,6 +3,15 @@
     max-width: 80px;
 }
 
+.curriculum-img-ancha {
+    width: 12vh;
+    max-width: 120px;
+}
+
+.curriculum-img-redondeada {
+    border-radius: 20%;
+}
+
 /* Dos columnas */
 .tabla-lista-doble {
     display: inline-grid;
