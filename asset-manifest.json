@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9327d57f.css",
-    "main.js": "/static/js/main.4805c61c.js",
+    "main.js": "/static/js/main.a11a7061.js",
     "static/media/portafolio-tests-video.mp4": "/static/media/portafolio-tests-video.9a1c48a5fc805bc507d8.mp4",
     "static/media/portafolio-sitio-php-video.mp4": "/static/media/portafolio-sitio-php-video.a5426c9edb9fd049f307.mp4",
     "static/media/posterfutbol.pdf": "/static/media/posterfutbol.f72057da358eef38094a.pdf",
@@ -133,6 +133,7 @@
     "static/media/portafolio-mw-importancia-es.png": "/static/media/portafolio-mw-importancia-es.72d684993e2440b89f7d.png",
     "static/media/portafolio-mw-importancia-en.png": "/static/media/portafolio-mw-importancia-en.38cca99a2da42512c9b2.png",
     "static/media/portafolio-series-fac-dif-en.png": "/static/media/portafolio-series-fac-dif-en.df69d8870345a6452813.png",
+    "static/media/portafolio-python-viz.png": "/static/media/portafolio-python-viz.91b53866b41ae06f9238.png",
     "static/media/portafolio-series-fac-dif-es.png": "/static/media/portafolio-series-fac-dif-es.4ebfd1e6108ab6b7e952.png",
     "static/media/portafolio-series-residuos1-en.png": "/static/media/portafolio-series-residuos1-en.dbd7ba3d4888452bb201.png",
     "static/media/portafolio-series-residuos1-es.png": "/static/media/portafolio-series-residuos1-es.68828530e74b20837a4c.png",
@@ -148,10 +149,10 @@
     "static/media/curriculum-power.svg": "/static/media/curriculum-power.7a4f4c21abc59e7dcad2941ebe478d49.svg",
     "index.html": "/index.html",
     "main.9327d57f.css.map": "/static/css/main.9327d57f.css.map",
-    "main.4805c61c.js.map": "/static/js/main.4805c61c.js.map"
+    "main.a11a7061.js.map": "/static/js/main.a11a7061.js.map"
   },
   "entrypoints": [
     "static/css/main.9327d57f.css",
-    "static/js/main.4805c61c.js"
+    "static/js/main.a11a7061.js"
   ]
 }
