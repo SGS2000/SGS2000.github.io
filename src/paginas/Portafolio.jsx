@@ -29,6 +29,8 @@ import imgReviews from "../img/portafolio/portafolio-reviews.png"
 import imgSpssReg from "../img/portafolio/portafolio-spssreg-portada.png"
 import imgRTextos from "../img/portafolio/portafolio-rtextos-portada.png"
 import imgPrecios from "../img/portafolio/portafolio-precios.png"
+import imgRPaquete from "../img/portafolio/portafolio-r-paquete.png"
+import imgPythonViz from "../img/portafolio/portafolio-python-viz.png"
 
 
 function Portafolio() {
@@ -126,6 +128,20 @@ function Portafolio() {
             enlace: '/portafolio/morrowind'
         },
         {
+            titulo: idioma === "es" ? "Paquete ClustMC" : "ClustMC package",
+            etiquetas: ['etiqueta-r', "etiqueta-infer"],
+            texto: idioma === "es" ? 'Paquete de R (en desarrollo) que implementa pruebas de comparaciones múltiples basadas en conglomerados.' : 'R package (under development) that implements cluster-based multiple comparisons tests.',
+            imagen: imgRPaquete,
+            enlace: 'https://sgs2000.github.io/ClustMC/'
+        },
+        {
+            titulo: idioma === "es" ? "Análisis de textos con R" : "Text analysis with R",
+            etiquetas: ['etiqueta-r', "etiqueta-analisis-texto"],
+            texto: idioma === "es" ? 'Muestra de diversas herramientas para el análisis estadístico de textos con R. Presentado para el grupo "R en Rosario" (2024).' : 'Showcase of various tools for the statistical analysis of texts with R. Presented for the "R in Rosario" group (2024).',
+            imagen: imgRTextos,
+            enlace: 'https://sgs2000.github.io/html/R/RTextos.html'
+        },
+        {
             titulo: idioma === "es" ? "Selector de temas para ggplot2" : "ggplot2 theme selector",
             etiquetas: ['etiqueta-r', "etiqueta-data-viz"],
             texto: idioma === "es" ? 'App Shiny que permite al usuario subir un archivo ggplot y probar distintos estilos.' : "Shiny App that allows the user to upload a ggplot file and test different themes.",
@@ -161,11 +177,11 @@ function Portafolio() {
             enlace: '/portafolio/plotly'
         },
         {
-            titulo: idioma === "es" ? "Análisis de textos con R" : "Text analysis with R",
-            etiquetas: ['etiqueta-r', "etiqueta-analisis-texto"],
-            texto: idioma === "es" ? 'Muestra de diversas herramientas para el análisis estadístico de textos con R. Presentado para el grupo "R en Rosario" (2024).' : 'Showcase of various tools for the statistical analysis of texts with R. Presented for the "R in Rosario" group (2024).',
-            imagen: imgRTextos,
-            enlace: 'https://sgs2000.github.io/html/R/RTextos.html'
+            titulo: idioma === "es" ? "Visualización de datos con Python" : "Data Visualization with Python",
+            etiquetas: ["etiqueta-data-viz", "etiqueta-python"],
+            texto: idioma === "es" ? "Comparación de siete librerías para visualizar datos en Python." : "Showcase of seven Python libraries for data visualization.",
+            imagen: imgPythonViz,
+            enlace: 'https://sgs2000.github.io/html/python/GraficosPython.html'
         },
         {
             titulo: idioma === "es" ? "Clasificación automática de reseñas" : "Automatic classification of movie reviews",
@@ -177,7 +193,7 @@ function Portafolio() {
         {
             titulo: idioma === "es" ? "Predicción de precios de BTC" : "BTC price forecast",
             etiquetas: ['etiqueta-python', "etiqueta-machine-learning", "etiqueta-series"],
-            texto: idioma === "es" ? "Comparación de modelos ARIMA y bosques aleatorios para predecir el precio del Bitcoin." : "Comparison of ARIMA models and random forests to predict Bitcoin prices.",
+            texto: idioma === "es" ? "Evaluación de modelos ARIMA y bosques aleatorios para predecir el precio del Bitcoin." : "Comparison of ARIMA models and random forests to predict Bitcoin prices.",
             imagen: imgPrecios,
             enlace: 'https://sgs2000.github.io/html/python/SeriesPython.html'
         },
