@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9327d57f.css",
-    "main.js": "/static/js/main.a11a7061.js",
+    "main.js": "/static/js/main.8d882694.js",
     "static/media/portafolio-tests-video.mp4": "/static/media/portafolio-tests-video.9a1c48a5fc805bc507d8.mp4",
     "static/media/portafolio-sitio-php-video.mp4": "/static/media/portafolio-sitio-php-video.a5426c9edb9fd049f307.mp4",
     "static/media/posterfutbol.pdf": "/static/media/posterfutbol.f72057da358eef38094a.pdf",
@@ -47,7 +47,6 @@
     "static/media/portafolio-mw-portada.png": "/static/media/portafolio-mw-portada.87bb638b0db2adf1f081.png",
     "static/media/fondo3.png": "/static/media/fondo3.12df2530d0e24b27cae7.png",
     "static/media/portafolio-mapa-xkcd.png": "/static/media/portafolio-mapa-xkcd.e60872658ddfd9bebbdb.png",
-    "static/media/portafolio-spssreg-portada.png": "/static/media/portafolio-spssreg-portada.9d9ef4890d272498796d.png",
     "static/media/portafolio-mw-skills-table.png": "/static/media/portafolio-mw-skills-table.7d49493868f8f81eac13.png",
     "static/media/portafolio-spssreg-resumen3.png": "/static/media/portafolio-spssreg-resumen3.ba6852d2a287ac86fd9b.png",
     "static/media/portafolio-mw-puntos-razas.png": "/static/media/portafolio-mw-puntos-razas.be914fb89b1547acc385.png",
@@ -62,6 +61,7 @@
     "static/media/portafolio-tests.png": "/static/media/portafolio-tests.285ef9344561b05361a6.png",
     "static/media/portafolio-mw-faccion-raza-en.png": "/static/media/portafolio-mw-faccion-raza-en.4a65f97f22a91107fe8e.png",
     "static/media/portafolio-mw-faccion-raza-es.png": "/static/media/portafolio-mw-faccion-raza-es.cfda9dbdbf92d61cf545.png",
+    "static/media/portafolio-spssreg-portada.png": "/static/media/portafolio-spssreg-portada.926b1d674fcf8d9e0ede.png",
     "static/media/portafolio-pinguinos.png": "/static/media/portafolio-pinguinos.ce5913d970cd424a03e0.png",
     "static/media/portafolio-pinguinos-en.png": "/static/media/portafolio-pinguinos-en.d5209d59e3b9bc6c9dc2.png",
     "static/media/portafolio-mw-sexo-tabla-es.png": "/static/media/portafolio-mw-sexo-tabla-es.39f47e9f7a05d1be3acb.png",
@@ -149,10 +149,10 @@
     "static/media/curriculum-power.svg": "/static/media/curriculum-power.7a4f4c21abc59e7dcad2941ebe478d49.svg",
     "index.html": "/index.html",
     "main.9327d57f.css.map": "/static/css/main.9327d57f.css.map",
-    "main.a11a7061.js.map": "/static/js/main.a11a7061.js.map"
+    "main.8d882694.js.map": "/static/js/main.8d882694.js.map"
   },
   "entrypoints": [
     "static/css/main.9327d57f.css",
-    "static/js/main.a11a7061.js"
+    "static/js/main.8d882694.js"
   ]
 }
