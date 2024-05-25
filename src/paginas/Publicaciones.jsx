@@ -37,7 +37,7 @@ function Publicaciones() {
                                     </li>
                                 </ul>
                             </li>
-                            <li> <a href='https://sites.google.com/view/lcaeviiijee/inicio' target='blank'> {idioma === "es" ? 'L Coloquio Argentino de Estadística' :
+                            <li> <a href='https://sites.google.com/view/lcaeviiijee/cae-jee-2023/libro-de-res%C3%BAmenes' target='blank'> {idioma === "es" ? 'L Coloquio Argentino de Estadística' :
                                 'L Argentine Colloquium of Statistics'}</a> (2023)
                                 <ul>
                                     <li>
@@ -53,7 +53,7 @@ function Publicaciones() {
                                     </li>
                                 </ul>
                             </li>
-                            <li> <a href='https://sites.google.com/view/cae-jee-2022' target='blank'> {idioma === "es" ? 'XLIX Coloquio Argentino de Estadística' :
+                            <li> <a href='https://sites.google.com/view/cae-jee-2022/cae-jee-2022/libro-de-res%C3%BAmenes' target='blank'> {idioma === "es" ? 'XLIX Coloquio Argentino de Estadística' :
                                 'XLIX Argentine Colloquium of Statistics'}</a> (2022)
                                 <ul>
                                     <li>

@@ -515,6 +515,7 @@ function Curriculum() {
                                     <ul>
                                         <li>LaTeX</li>
                                         <li>Quarto</li>
+                                        <li>Git / GitHub</li>
                                         <li>Adobe Premiere Pro / After Effects</li>
                                         <li>Adobe Photoshop</li>
                                         <li>Web Scraping / Selenium</li>
