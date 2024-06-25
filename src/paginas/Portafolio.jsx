@@ -31,6 +31,7 @@ import imgRTextos from "../img/portafolio/portafolio-rtextos-portada.png"
 import imgPrecios from "../img/portafolio/portafolio-precios.png"
 import imgRPaquete from "../img/portafolio/portafolio-r-paquete.png"
 import imgPythonViz from "../img/portafolio/portafolio-python-viz.png"
+import imgStataSurv from "../img/portafolio/portafolio-stata-portada.png"
 
 
 function Portafolio() {
@@ -119,6 +120,13 @@ function Portafolio() {
             texto: idioma === "es" ? "Estimación de un modelo de regresión para explicar los precios de las viviendas, usando SPSS." : "Estimating a regression model to explain house prices, using SPSS.",
             imagen: imgSpssReg,
             enlace: '/portafolio/spssreg'
+        },
+        {
+            titulo: idioma === "es" ? "Análisis de supervivencia con Stata" : "Survival analysis in Stata",
+            etiquetas: ['etiqueta-stata', "etiqueta-bio", "etiqueta-superv"],
+            texto: idioma === "es" ? "Técnicas de análisis del tiempo hasta un evento en Stata." : "Time-to-event analysis techniques in Stata.",
+            imagen: imgStataSurv,
+            enlace: '/portafolio/statasurv'
         },
         {
             titulo: idioma === "es" ? "Personajes en The Elder Scrolls III: Morrowind" : "NPCs in The Elder Scrolls III: Morrowind",
@@ -268,6 +276,11 @@ function Portafolio() {
             manejarClic: manejarClic
         },
         {
+            id: "etiqueta-superv",
+            etiqueta: idioma === "es" ? "Supervivencia" : "Survival analysis",
+            manejarClic: manejarClic
+        },
+        {
             id: "etiqueta-data-viz",
             etiqueta: idioma === "es" ? "Visualización de datos" : "Data Visualization",
             manejarClic: manejarClic
@@ -295,6 +308,11 @@ function Portafolio() {
         {
             id: "etiqueta-spss",
             etiqueta: "SPSS",
+            manejarClic: manejarClic
+        },
+        {
+            id: "etiqueta-stata",
+            etiqueta: "Stata",
             manejarClic: manejarClic
         },
         {

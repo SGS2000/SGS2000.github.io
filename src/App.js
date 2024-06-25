@@ -28,6 +28,7 @@ import PortafolioSelector from "./paginas/portafolio/selector";
 import PortafolioPreziTests from "./paginas/portafolio/prezitests.jsx";
 import PortafolioR3D from "./paginas/portafolio/r3d.jsx";
 import PortafolioSpssreg from "./paginas/portafolio/spssreg.jsx";
+import PortafolioStatasurv from "./paginas/portafolio/statasurv.jsx";
 
 //CSS
 import './App.css';
@@ -60,6 +61,7 @@ function App() {
             <Route path="portafolio/prezitests" element={<PortafolioPreziTests/>} /> 
             <Route path="portafolio/r3d" element={<PortafolioR3D/>} /> 
             <Route path="portafolio/spssreg" element={<PortafolioSpssreg/>} /> 
+            <Route path="portafolio/statasurv" element={<PortafolioStatasurv/>} /> 
           <Route path="reconocimientos" element={<Reconocimientos/>} />
           <Route path="publicaciones" element={<Publicaciones/>} />
           <Route path="contacto" element={<Contacto/>} />
