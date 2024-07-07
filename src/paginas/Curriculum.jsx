@@ -99,7 +99,7 @@ function Curriculum() {
                             imagen={<img src={imgXpandete} className='curriculum-img-ancha' alt='logo'></img>}
                             texto={
                                 <>
-                                    <p> {idioma === "es" ? "Redacción de contenidos académicos con temáticas vinculadas a la estadística" : "Writing of academic content on topics related to statistics"}.</p>
+                                    <p> {idioma === "es" ? "Redacción de contenidos académicos con temáticas vinculadas a la estadística, incluyendo asistencia en la escritura de tesis y elaboración de informes para proyectos de investigación" : "Writing academic of content on topics related to statistics, including assistance in writing theses and reports for research projects"}.</p>
                                     <p> {idioma === "es" ? <b>Duración</b> : <b>Duration</b>}: {idioma === "es" ? "Noviembre de 2023-presente" : "November 2023-Present"} </p>
                                 </>
                             }
@@ -175,6 +175,21 @@ function Curriculum() {
             case 4:
                 return (
                     <>
+                        <TablaLista
+                            titulo={
+                                <>
+                                    <h3>{idioma === "es" ? "Excel: Nuevas herramientas de análisis de datos" : "Excel: New data analysis tools"}</h3>
+                                </>
+                            }
+                            imagen={<img src={imgExcel} className='curriculum-img' alt='logo'></img>}
+                            texto={
+                                <>
+                                    <p><b>{idioma === "es" ? "Facultad de Ciencias Económicas y Estadística, UNR (Junio-Julio de 2024)" : "Faculty of Economics and Statistics, National University of Rosario (June-July 2024)"}</b></p>
+                                    <p>{idioma === "es" ? "Power Query, Transformación de datos, Power Pivot, Uso de fórmulas DAX" : "Power Query, Data transformation, Power Pivot, DAX functions"}.</p>
+                                    <br></br>
+                                </>
+                            }
+                        />
                         <TablaLista
                             titulo={
                                 <>
@@ -334,7 +349,7 @@ function Curriculum() {
                             texto={
                                 <>
                                     <p><b>{idioma === "es" ? "Facultad de Ciencias Económicas y Estadística, UNR (Agosto-Septiembre de 2020)" : "Faculty of Economics and Statistics, National University of Rosario (August-September 2020)"} </b></p>
-                                    <p>{idioma === "es" ? "Funciones, Creación de paquetes, R Markdown, Datos georreferenciados, Shiny." : "Functions, Packages, R Markdown, Georeferenced data, Shiny."}</p>
+                                    <p>{idioma === "es" ? "Funciones, Creación de paquetes, R Markdown, Datos georreferenciados, Shiny" : "Functions, Packages, R Markdown, Georeferenced data, Shiny"}.</p>
                                     <br></br>
                                 </>
                             }
@@ -349,7 +364,7 @@ function Curriculum() {
                             texto={
                                 <>
                                     <p><b>FACES Consultores ({idioma === "es" ? "Junio de 2020" : "June 2020"})</b></p>
-                                    <p>{idioma === "es" ? "Tipos de errores, Funcion AGREGAR, Filtros avanzados, Análisis de hipótesis." : "Types of errors, AGGREGATE function, Advanced filters, Hypothesis testing."}</p>
+                                    <p>{idioma === "es" ? "Tipos de errores, Funcion AGREGAR, Filtros avanzados, Análisis de hipótesis" : "Types of errors, AGGREGATE function, Advanced filters, Hypothesis testing"}.</p>
                                     <br></br>
                                 </>
                             }
@@ -364,7 +379,7 @@ function Curriculum() {
                             texto={
                                 <>
                                     <p><b>SAS ({idioma === "es" ? "Abril de 2020" : "April 2020"})</b></p>
-                                    <p>{idioma === "es" ? "ANOVA y Regresión, Tests de hipótesis, Análisis de los residuos,  Datos categóricos." : "ANOVA and Regression, Hypothesis testing, Residual analysis, Categorical data"}</p>
+                                    <p>{idioma === "es" ? "ANOVA y Regresión, Tests de hipótesis, Análisis de los residuos,  Datos categóricos" : "ANOVA and Regression, Hypothesis testing, Residual analysis, Categorical data"}.</p>
                                 </>
                             }
                         />
@@ -384,15 +399,16 @@ function Curriculum() {
                                             <li>{idioma === "es" ? "Modelos estadísticos" : "Statistical models"}</li>
                                             <li>{idioma === "es" ? "Análisis multivariado" : "Multivariate analysis"}</li>
                                             <li>{idioma === "es" ? "Muestreo" : "Statistical sampling"}</li>
-                                            <li>{idioma === "es" ? "Diseño de experimentos" : "Design of experiments"} </li>
-                                            <li>{idioma === "es" ? "Series de tiempo" : "Time series"} </li>
-                                            <li>{idioma === "es" ? "Simulaciones" : "Simulations"}</li>
+                                            <li>{idioma === "es" ? "Diseño de experimentos" : "Design of experiments"}</li>
+                                            <li>{idioma === "es" ? "Series de tiempo" : "Time series"}</li>
+                                            <li>{idioma === "es" ? "Análisis de supervivencia" : "Survival analysis"}</li>
                                             <li>{idioma === "es" ? "Métodos numéricos" : "Numerical methods"}</li>
                                         </ul>
                                         <ul>
                                             <li>{idioma === "es" ? "Procesamiento de datos" : "Data processing"}</li>
                                             <li>{idioma === "es" ? "Visualización de datos" : "Data visualization"}</li>
                                             <li>{idioma === "es" ? "Aprendizaje automático" : "Machine learning"}</li>
+                                            <li>{idioma === "es" ? "Simulaciones" : "Simulations"}</li>
                                             <li>{idioma === "es" ? "Estadística bayesiana" : "Bayesian statistics"}</li>
                                             <li>{idioma === "es" ? "Bioestadística" : "Biostatistics"}</li>
                                             <li>{idioma === "es" ? "Econometría" : "Econometrics"}</li>
@@ -462,13 +478,16 @@ function Curriculum() {
                                         <li>HTML</li>
                                         <li>CSS</li>
                                         <ul>
-                                            <li>Bootstrap </li>
+                                            <li>Bootstrap</li>
                                         </ul>
                                         <li>JavaScript</li>
                                         <ul>
-                                            <li>React / Node.js </li>
+                                            <li>React / Node.js</li>
                                         </ul>
                                         <li>PHP</li>
+                                        <ul>
+                                            <li>Laravel</li>
+                                        </ul>
                                     </ul>
                                 </div>
                             }
