@@ -26,6 +26,7 @@ import imgXpandete from "../img/curriculum/curriculum-xpandete.png"
 import imgSantander from "../img/curriculum/curriculum-santander.png"
 import imgFCE from "../img/curriculum/curriculum-fceye.png"
 import imgFBF from "../img/curriculum/curriculum-fbioyf.png"
+import imgUCA from "../img/curriculum/curriculum-uca.jpg"
 
 function Curriculum() {
 
@@ -76,8 +77,26 @@ function Curriculum() {
                 return (
                     <>
                         <TablaLista
+                            titulo={<h2> {idioma === "es" ? 'Profesor universitario asistente' : 'Assistant Professor'} </h2>}
+                            imagen={<img src={imgUCA} className='curriculum-img-ancha curriculum-img-redondeada' alt='logo uca'></img>}
+                            texto={
+                                <>
+                                    <p> {idioma === "es" ? "Profesor de las asignaturas Estadística Aplicada para la carrera Ingeniería Industrial y Probabilidad y Estadística para la carrera Licenciatura en Ciencia de Datos" : "Professor of Applied Statistics for Industrial Engineering and Probability and Statistics for the Bachelor's Degree in Data Science"}.</p>
+                                    <p> {idioma === "es" ? <b>Lugar</b> : <b>Location</b>}:  {idioma === "es" ? "Facultad de Química e Ingeniería, UCA Sede Rosario" : "Faculty of Chemistry and Engineering, UCA, Rosario Campus"}  </p>
+                                    <p> {idioma === "es" ? <b>Duración</b> : <b>Duration</b>}: {idioma === "es" ? "Agosto de 2024-presente" : "August 2024-Present"} </p>
+                                    <p> {idioma === "es" ? <b>Responsabilidades</b> : <b>Responsibilities</b>}: </p>
+                                    <ul>
+                                        <li> {idioma === "es" ? "Enseñanza de múltiples temas de estadística básica e intermedia" : "Teaching multiple topics in basic and intermediate statistics"}.  </li>
+                                        <li> {idioma === "es" ? "Elaboración de planes de estudio" : "Development of curricula"}.  </li>
+                                        <li> {idioma === "es" ? "Producción de materiales de estudio y actividades evaluativas" : "Production of study materials and assessment activities"}.  </li>
+                                    </ul>
+                                </>
+                            }
+                            key="profesor"
+                        />
+                        <TablaLista
                             titulo={<h2> {idioma === "es" ? 'Auxiliar docente' : 'Teaching assistant'} </h2>}
-                            imagen={<img src={imgFBF} className='curriculum-img-ancha curriculum-img-redondeada' alt='logo'></img>}
+                            imagen={<img src={imgFBF} className='curriculum-img-ancha curriculum-img-redondeada' alt='logo fbioyf'></img>}
                             texto={
                                 <>
                                     <p> {idioma === "es" ? "Auxiliar docente en el área de Estadística y Procesamiento de Datos" : "Teaching Assistant in the area of Statistics and Data Processing"}.</p>
@@ -96,7 +115,7 @@ function Curriculum() {
                         />
                         <TablaLista
                             titulo={<h2> {idioma === "es" ? 'Redactor académico' : 'Academic Writer'} </h2>}
-                            imagen={<img src={imgXpandete} className='curriculum-img-ancha' alt='logo'></img>}
+                            imagen={<img src={imgXpandete} className='curriculum-img-ancha' alt='logo xpandete'></img>}
                             texto={
                                 <>
                                     <p> {idioma === "es" ? "Redacción de contenidos académicos con temáticas vinculadas a la estadística, incluyendo asistencia en la escritura de tesis y elaboración de informes para proyectos de investigación" : "Writing academic of content on topics related to statistics, including assistance in writing theses and reports for research projects"}.</p>
@@ -107,7 +126,7 @@ function Curriculum() {
                         />
                         <TablaLista
                             titulo={<h2> {idioma === "es" ? 'Analista de datos' : 'Data Analyst'} </h2>}
-                            imagen={<img src={imgUNRaf} className='curriculum-img' alt='logo'></img>}
+                            imagen={<img src={imgUNRaf} className='curriculum-img' alt='logo unraf'></img>}
                             texto={
                                 <>
                                     <p> {idioma === "es" ? "Análisis estadístico de datos vinculados al cursado de la Diplomatura en Acompañamiento y Abordaje Territorial de Situaciones de Violencia por Razones de Género, realizado por la Universidad Nacional de Rafaela y el Gobierno de la provincia de Santa Fe" : "Statistical analysis of data related to the development of the Diploma in Territorial Accompaniment and Approach to Situations of Gender-Based Violence, conducted by the National University of Rafaela and the Government of Santa Fe"}.</p>
@@ -125,7 +144,7 @@ function Curriculum() {
                         />
                         <TablaLista
                             titulo={<h2> {idioma === "es" ? 'Estadístico autónomo' : 'Freelance Statistician'} </h2>}
-                            imagen={<img src={imgGrafico} className='curriculum-img-ancha' alt='logo'></img>}
+                            imagen={<img src={imgGrafico} className='curriculum-img-ancha' alt='logo grafico'></img>}
                             texto={
                                 <>
                                     <p> {idioma === "es" ? "Diversos estudios estadísticos y asistencia técnica para múltiples organismos públicos y privados" : "Data analysis and technical assistance for multiple public and private organizations"}.</p>
@@ -137,7 +156,7 @@ function Curriculum() {
                         />
                         <TablaLista
                             titulo={<h2> {idioma === "es" ? 'Colaborador - Curso "Desarrollo de Shiny Apps"' : 'Course Assistant - Course: "Shiny Apps Development""'} </h2>}
-                            imagen={<img src={imgFCE} className='curriculum-img-ancha curriculum-img-redondeada' alt='logo'></img>}
+                            imagen={<img src={imgFCE} className='curriculum-img-ancha curriculum-img-redondeada' alt='logo fceye'></img>}
                             texto={
                                 <>
                                     <p> {idioma === "es" ? <b>Lugar</b> : <b>Location</b>}:  {idioma === "es" ? "Facultad de Ciencias Económicas y Estadística, Universidad Nacional de Rosario" : "Faculty of Economic Sciences and Statistics, National University of Rosario"}  </p>
