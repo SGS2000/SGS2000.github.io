@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9327d57f.css",
-    "main.js": "/static/js/main.ec2bc949.js",
+    "main.js": "/static/js/main.8e5ad0f0.js",
     "static/media/portafolio-tests-video.mp4": "/static/media/portafolio-tests-video.9a1c48a5fc805bc507d8.mp4",
     "static/media/portafolio-sitio-php-video.mp4": "/static/media/portafolio-sitio-php-video.a5426c9edb9fd049f307.mp4",
     "static/media/posterfutbol.pdf": "/static/media/posterfutbol.f72057da358eef38094a.pdf",
@@ -17,8 +17,8 @@
     "static/media/portafolio-reviews.png": "/static/media/portafolio-reviews.cb5ad811de09eaa8151b.png",
     "static/media/curriculum-fceye.png": "/static/media/curriculum-fceye.5152830549323781856d.png",
     "static/media/portafolio-posterfutbol.png": "/static/media/portafolio-posterfutbol.4b685e5adf2d3362f6bd.png",
-    "static/media/NuevoCV.pdf": "/static/media/NuevoCV.107612e5490c99eef2dc.pdf",
-    "static/media/NuevoCV_Eng.pdf": "/static/media/NuevoCV_Eng.7b3995eacb8f8fecfcf3.pdf",
+    "static/media/NuevoCV.pdf": "/static/media/NuevoCV.b56a31e21e7a298fc780.pdf",
+    "static/media/NuevoCV_Eng.pdf": "/static/media/NuevoCV_Eng.9955271981676e3491a9.pdf",
     "static/media/portafolio-3d-rayshader.png": "/static/media/portafolio-3d-rayshader.375c1853b19f0e2bf144.png",
     "static/media/portafolio-sitio-php.png": "/static/media/portafolio-sitio-php.f83a7453d114925605b2.png",
     "static/media/portafolio-series-tabla.png": "/static/media/portafolio-series-tabla.94bf6550d0dde2d179b9.png",
@@ -163,10 +163,10 @@
     "static/media/curriculum-power.svg": "/static/media/curriculum-power.7a4f4c21abc59e7dcad2941ebe478d49.svg",
     "index.html": "/index.html",
     "main.9327d57f.css.map": "/static/css/main.9327d57f.css.map",
-    "main.ec2bc949.js.map": "/static/js/main.ec2bc949.js.map"
+    "main.8e5ad0f0.js.map": "/static/js/main.8e5ad0f0.js.map"
   },
   "entrypoints": [
     "static/css/main.9327d57f.css",
-    "static/js/main.ec2bc949.js"
+    "static/js/main.8e5ad0f0.js"
   ]
 }
