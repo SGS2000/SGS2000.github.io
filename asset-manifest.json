@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.9327d57f.css",
-    "main.js": "/static/js/main.8e5ad0f0.js",
+    "main.css": "/static/css/main.17b8b3cf.css",
+    "main.js": "/static/js/main.d0bff0ab.js",
     "static/media/portafolio-tests-video.mp4": "/static/media/portafolio-tests-video.9a1c48a5fc805bc507d8.mp4",
     "static/media/portafolio-sitio-php-video.mp4": "/static/media/portafolio-sitio-php-video.a5426c9edb9fd049f307.mp4",
+    "static/media/portafolio-shiny-video.mp4": "/static/media/portafolio-shiny-video.b3259e3046fe63611573.mp4",
     "static/media/posterfutbol.pdf": "/static/media/posterfutbol.f72057da358eef38094a.pdf",
     "static/media/postertesina.pdf": "/static/media/postertesina.f29b575a57ee60c08b87.pdf",
     "static/media/presentacion-coloquio-2023.pdf": "/static/media/presentacion-coloquio-2023.c05121ab71ce41a6700a.pdf",
@@ -162,11 +163,11 @@
     "static/media/curriculum-php.png": "/static/media/curriculum-php.0a564540c19c7189202e.png",
     "static/media/curriculum-power.svg": "/static/media/curriculum-power.7a4f4c21abc59e7dcad2941ebe478d49.svg",
     "index.html": "/index.html",
-    "main.9327d57f.css.map": "/static/css/main.9327d57f.css.map",
-    "main.8e5ad0f0.js.map": "/static/js/main.8e5ad0f0.js.map"
+    "main.17b8b3cf.css.map": "/static/css/main.17b8b3cf.css.map",
+    "main.d0bff0ab.js.map": "/static/js/main.d0bff0ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.9327d57f.css",
-    "static/js/main.8e5ad0f0.js"
+    "static/css/main.17b8b3cf.css",
+    "static/js/main.d0bff0ab.js"
   ]
 }
