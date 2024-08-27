@@ -178,3 +178,11 @@
     width: 100%;
     max-width: 100vh;
 }
+
+.videoCentrado {
+    width: 100%;
+    max-width: 100vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

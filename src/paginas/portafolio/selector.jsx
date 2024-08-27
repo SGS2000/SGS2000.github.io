@@ -7,6 +7,9 @@ import "../../hojas/PortafolioEstilo.css"
 //Documentos
 import pdfLatinR from "../../doc/portafolio/selectorggplot.pdf"
 
+//Imágenes
+import videoShiny from "../../video/portafolio/portafolio-shiny-video.mp4"
+
 function Selector() {
     //Idioma
     const [idioma] = useOutletContext();
@@ -29,8 +32,11 @@ function Selector() {
                 </p>
                 <h2>{idioma === "es" ? "Resumen" : "Summary"}</h2>
                 <iframe className="docCentrado" src={pdfLatinR} title="selector de temas"></iframe>
-
-
+                <h2>Video</h2>
+                <video className="videoCentrado" controls >
+                    <source src={videoShiny} type="video/mp4" />
+                    {idioma === "es" ? "Ha ocurrido un error, el video no puede reproducirse." : "An error has occurred; the video cannot be played."}
+                </video>
             </div>
         </>
     )
