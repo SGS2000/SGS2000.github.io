@@ -29,7 +29,7 @@ import imgReviews from "../img/portafolio/portafolio-reviews.png"
 import imgSpssReg from "../img/portafolio/portafolio-spssreg-portada.png"
 import imgRTextos from "../img/portafolio/portafolio-rtextos-portada.png"
 import imgPrecios from "../img/portafolio/portafolio-precios.png"
-import imgRPaquete from "../img/portafolio/portafolio-r-paquete.png"
+import imgRPaquete from "../img/portafolio/portafolio-clustmc-logo.png"
 import imgPythonViz from "../img/portafolio/portafolio-python-viz.png"
 import imgStataSurv from "../img/portafolio/portafolio-stata-portada.png"
 
@@ -138,7 +138,7 @@ function Portafolio() {
         {
             titulo: idioma === "es" ? "Paquete ClustMC" : "ClustMC package",
             etiquetas: ['etiqueta-r', "etiqueta-infer"],
-            texto: idioma === "es" ? 'Paquete de R (en desarrollo) que implementa pruebas de comparaciones múltiples basadas en conglomerados.' : 'R package (under development) that implements cluster-based multiple comparisons tests.',
+            texto: idioma === "es" ? 'Paquete de R que implementa pruebas de comparaciones múltiples basadas en conglomerados.' : 'R package that implements cluster-based multiple comparisons tests.',
             imagen: imgRPaquete,
             enlace: 'https://sgs2000.github.io/ClustMC/'
         },

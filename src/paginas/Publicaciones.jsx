@@ -26,6 +26,14 @@ function Publicaciones() {
                 }
             />
             <TablaLista
+                titulo={<h2>Software</h2>}
+                texto={
+                    <ul className='lista-publicaciones'>
+                        <li> <b> <a href="https://sgs2000.github.io/ClustMC/" target="blank">ClustMC: Cluster-Based Multiple Comparisons</a></b> (DOI: <a href="https://doi.org/10.32614/CRAN.package.ClustMC" target="blank">10.32614/CRAN.package.ClustMC</a>) (2024) </li>
+                    </ul>
+                }
+            />
+            <TablaLista
                 titulo={idioma === "es" ? <h2>Presentaciones en conferencias</h2> : <h2>Presentations at conferences</h2>}
                 texto={
                     <>
