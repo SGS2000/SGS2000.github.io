@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.17b8b3cf.css",
-    "main.js": "/static/js/main.d0bff0ab.js",
+    "main.js": "/static/js/main.7a1b352d.js",
     "static/media/portafolio-tests-video.mp4": "/static/media/portafolio-tests-video.9a1c48a5fc805bc507d8.mp4",
     "static/media/portafolio-sitio-php-video.mp4": "/static/media/portafolio-sitio-php-video.a5426c9edb9fd049f307.mp4",
     "static/media/portafolio-shiny-video.mp4": "/static/media/portafolio-shiny-video.b3259e3046fe63611573.mp4",
@@ -92,6 +92,7 @@
     "static/media/portafolio-mw-faccion-sexo-en.png": "/static/media/portafolio-mw-faccion-sexo-en.4a0b0ce9f60bc16501b6.png",
     "static/media/fondo2.png": "/static/media/fondo2.16ba5a17222ecf82c768.png",
     "static/media/portafolio-mw-componentes.png": "/static/media/portafolio-mw-componentes.2520f71135ff8856394c.png",
+    "static/media/portafolio-clustmc-logo.png": "/static/media/portafolio-clustmc-logo.cd5f0113d40db6a95af2.png",
     "static/media/portafolio-mapa-santafe-en.png": "/static/media/portafolio-mapa-santafe-en.c63d244dfd47064b1b18.png",
     "static/media/portafolio-mapa-santafe-es.png": "/static/media/portafolio-mapa-santafe-es.bfbfde6fc78bc21afd77.png",
     "static/media/uk.png": "/static/media/uk.8b953b3ecb523aec9513.png",
@@ -164,10 +165,10 @@
     "static/media/curriculum-power.svg": "/static/media/curriculum-power.7a4f4c21abc59e7dcad2941ebe478d49.svg",
     "index.html": "/index.html",
     "main.17b8b3cf.css.map": "/static/css/main.17b8b3cf.css.map",
-    "main.d0bff0ab.js.map": "/static/js/main.d0bff0ab.js.map"
+    "main.7a1b352d.js.map": "/static/js/main.7a1b352d.js.map"
   },
   "entrypoints": [
     "static/css/main.17b8b3cf.css",
-    "static/js/main.d0bff0ab.js"
+    "static/js/main.7a1b352d.js"
   ]
 }
