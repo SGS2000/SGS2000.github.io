@@ -197,6 +197,21 @@ function Curriculum() {
                         <TablaLista
                             titulo={
                                 <>
+                                    <h3>{idioma === "es" ? "Visualización de datos utilizando R" : "Data visualization using R"}</h3>
+                                </>
+                            }
+                            imagen={<img src={imgR} className='curriculum-img' alt='logo'></img>}
+                            texto={
+                                <>
+                                    <p><b>{idioma === "es" ? "RSG Argentina (Agosto de 2024)" : "RSG Argentina (August 2024)"} </b></p>
+                                    <p>{idioma === "es" ? "Gráficos con R Base, ggplot2, Shiny, Cairo y otras librerías" : "Plots with R Base, ggplot2, Shiny, Cairo and other libraries"}.</p>
+                                    <br></br>
+                                </>
+                            }
+                        />
+                        <TablaLista
+                            titulo={
+                                <>
                                     <h3>{idioma === "es" ? "Excel: Nuevas herramientas de análisis de datos" : "Excel: New data analysis tools"}</h3>
                                 </>
                             }
