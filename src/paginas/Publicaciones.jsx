@@ -38,6 +38,13 @@ function Publicaciones() {
                 texto={
                     <>
                         <ul className='lista-publicaciones'>
+                            <li> <a href="https://sites.google.com/fcecon.unr.edu.ar/visualizaciondedatos/" target="blank">{idioma === "es" ? "Diplomatura en Visualización de Datos" : "Data Visualization Associate Degree"}</a> (2024)
+                                <ul>
+                                    <li>
+                                        {idioma === "es" ? 'Taller' : 'Workshop'}:  "{idioma === "es" ? "Visualización de datos textuales" : "Text Data visualization"}"
+                                    </li>
+                                </ul>
+                            </li>
                             <li> <a href="https://latin-r.com/" target="blank">LatinR 2023</a>
                                 <ul>
                                     <li>
