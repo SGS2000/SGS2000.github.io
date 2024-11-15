@@ -81,7 +81,11 @@ function Curriculum() {
                             imagen={<img src={imgUCA} className='curriculum-img-ancha curriculum-img-redondeada' alt='logo uca'></img>}
                             texto={
                                 <>
-                                    <p> {idioma === "es" ? "Profesor de las asignaturas Estadística Aplicada para la carrera Ingeniería Industrial y Probabilidad y Estadística para la carrera Licenciatura en Ciencia de Datos" : "Professor of Applied Statistics for Industrial Engineering and Probability and Statistics for the Bachelor's Degree in Data Science"}.</p>
+                                    <p> {idioma === "es" ? "Profesor de las siguientes asignaturas" : "Professor of the following subjects"}:</p>
+                                    <ul>
+                                        <li> {idioma === "es" ? "Estadística Aplicada - Ingeniería Industrial" : "Applied Statistics - Industrial Engineering"}.  </li>
+                                        <li> {idioma === "es" ? "Probabilidad y Estadística - Licenciatura en Ciencia de Datos" : "Probability and Statistics - Bachelor's Degree in Data Science"}.  </li>
+                                    </ul>
                                     <p> {idioma === "es" ? <b>Lugar</b> : <b>Location</b>}:  {idioma === "es" ? "Facultad de Química e Ingeniería, UCA Sede Rosario" : "Faculty of Chemistry and Engineering, UCA, Rosario Campus"}  </p>
                                     <p> {idioma === "es" ? <b>Duración</b> : <b>Duration</b>}: {idioma === "es" ? "Agosto de 2024-presente" : "August 2024-Present"} </p>
                                     <p> {idioma === "es" ? <b>Responsabilidades</b> : <b>Responsibilities</b>}: </p>
@@ -118,11 +122,23 @@ function Curriculum() {
                             imagen={<img src={imgXpandete} className='curriculum-img-ancha' alt='logo xpandete'></img>}
                             texto={
                                 <>
-                                    <p> {idioma === "es" ? "Redacción de contenidos académicos con temáticas vinculadas a la estadística, incluyendo asistencia en la escritura de tesis y elaboración de informes para proyectos de investigación" : "Writing academic of content on topics related to statistics, including assistance in writing theses and reports for research projects"}.</p>
+                                    <p> {idioma === "es" ? "Redacción de contenidos académicos con temáticas vinculadas a la estadística, incluyendo asistencia en la escritura de tesis y elaboración de informes para proyectos de investigación" : "Writing of academic content on topics related to statistics, including assistance in writing theses and reports for research projects"}.</p>
                                     <p> {idioma === "es" ? <b>Duración</b> : <b>Duration</b>}: {idioma === "es" ? "Noviembre de 2023-presente" : "November 2023-Present"} </p>
                                 </>
                             }
                             key="redactor"
+                        />
+                        <TablaLista
+                            titulo={<h2> {idioma === "es" ? "Docente invitado" : "Guest Professor"} </h2>}
+                            imagen={<img src={imgFCE} className='curriculum-img-ancha curriculum-img-redondeada' alt='logo fceye'></img>}
+                            texto={
+                                <>
+                                    <p> {idioma === "es" ? 'Docente invitado en la Diplomatura en Visualización de Datos. Presentación del taller "Visualización de datos textuales"' : 'Guest lecturer at the Data Visualization Associate Degree. Presentation of the "Text Data Visualization" workshop'}.</p>
+                                    <p> {idioma === "es" ? <b>Lugar</b> : <b>Location</b>}:  {idioma === "es" ? "Facultad de Ciencias Económicas y Estadística, Universidad Nacional de Rosario" : "Faculty of Economic Sciences and Statistics, National University of Rosario"}  </p>
+                                    <p> {idioma === "es" ? <b>Duración</b> : <b>Duration</b>}: {idioma === "es" ? "Septiembre-Noviembre de 2024" : "September-November 2024"} </p>
+                                </>
+                            }
+                            key="colaborador"
                         />
                         <TablaLista
                             titulo={<h2> {idioma === "es" ? 'Analista de datos' : 'Data Analyst'} </h2>}
@@ -155,10 +171,11 @@ function Curriculum() {
                             key="estadistico"
                         />
                         <TablaLista
-                            titulo={<h2> {idioma === "es" ? 'Colaborador - Curso "Desarrollo de Shiny Apps"' : 'Course Assistant - Course: "Shiny Apps Development""'} </h2>}
+                            titulo={<h2> {idioma === "es" ? "Colaborador" : "Course Assistant"} </h2>}
                             imagen={<img src={imgFCE} className='curriculum-img-ancha curriculum-img-redondeada' alt='logo fceye'></img>}
                             texto={
                                 <>
+                                    <p> {idioma === "es" ? 'Colaborador en el curso "Desarrollo de Shiny Apps"' : 'Course Assistant for the "Shiny Apps Development" course'}.</p>
                                     <p> {idioma === "es" ? <b>Lugar</b> : <b>Location</b>}:  {idioma === "es" ? "Facultad de Ciencias Económicas y Estadística, Universidad Nacional de Rosario" : "Faculty of Economic Sciences and Statistics, National University of Rosario"}  </p>
                                     <p> {idioma === "es" ? <b>Duración</b> : <b>Duration</b>}: {idioma === "es" ? "Mayo-Junio de 2022" : "May-June 2022"} </p>
                                     <p> {idioma === "es" ? <b>Responsabilidades</b> : <b>Responsibilities</b>}: </p>
