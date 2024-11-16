@@ -138,7 +138,7 @@ function Curriculum() {
                                     <p> {idioma === "es" ? <b>Duración</b> : <b>Duration</b>}: {idioma === "es" ? "Septiembre-Noviembre de 2024" : "September-November 2024"} </p>
                                 </>
                             }
-                            key="colaborador"
+                            key="diplodatos"
                         />
                         <TablaLista
                             titulo={<h2> {idioma === "es" ? 'Analista de datos' : 'Data Analyst'} </h2>}
