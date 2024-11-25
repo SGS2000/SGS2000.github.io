@@ -38,6 +38,13 @@ function Publicaciones() {
                 texto={
                     <>
                         <ul className='lista-publicaciones'>
+                            <li> <a href="https://latinr.org/" target="blank">LatinR 2024</a>
+                                <ul>
+                                    <li>
+                                        {idioma === "es" ? 'Presentación' : 'Presentation'}: "<a href="https://www.youtube.com/watch?v=L0cibLrZDY8" target="blank">{idioma === "es" ? "ClustMC: comparaciones múltiples basadas en conglomerados" : "ClustMC: Cluster-Based Multiple Comparisons"}</a>"
+                                    </li>
+                                </ul>
+                            </li>
                             <li> <a href="https://sites.google.com/fcecon.unr.edu.ar/visualizaciondedatos/" target="blank">{idioma === "es" ? "Diplomatura en Visualización de Datos" : "Data Visualization Associate Degree"}</a> (2024)
                                 <ul>
                                     <li>
@@ -45,7 +52,7 @@ function Publicaciones() {
                                     </li>
                                 </ul>
                             </li>
-                            <li> <a href="https://latin-r.com/" target="blank">LatinR 2023</a>
+                            <li> <a href="https://2023.latinr.org/" target="blank">LatinR 2023</a>
                                 <ul>
                                     <li>
                                         {idioma === "es" ? 'Charla relámpago' : 'Lightning talk'}:  "<Link to="/portafolio/selector" target="_blank">{idioma === "es" ? "Selector de temas para ggplot2" : "Theme Selector for ggplot2"}</Link>"
