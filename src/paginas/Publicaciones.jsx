@@ -20,9 +20,12 @@ function Publicaciones() {
             <TablaLista
                 titulo={<h2>Papers</h2>}
                 texto={
+                    <>
                     <ul className='lista-publicaciones'>
+                        <li> <b> <a href="https://cloud.3dissue.net/7216/7216/7222/125072/index.html?76051" target="blank">Clasificación supervisada de textos de ficción según género utilizando bosques aleatorios</a></b>. <i> <a href="https://www.cpcesfe2.org.ar/revista-dissertatio/" target="blank">Dissertatio Estadística</a></i> (2024) </li>
                         <li> <b> <a href="https://revistaingenieria.uda.cl/Publicaciones/360006.pdf" target="blank">Analisis del valor de mercado de jugadores de futbol de elite</a></b>. <i> <a href="https://revistaingenieria.uda.cl/vistas/edicion.php?id=36" target="blank">Revista de la Facultad de Ingeniería, Universidad de Atacama</a></i> (2023) </li>
                     </ul>
+                    </>
                 }
             />
             <TablaLista
