@@ -27,6 +27,7 @@ import imgSantander from "../img/curriculum/curriculum-santander.png"
 import imgFCE from "../img/curriculum/curriculum-fceye.png"
 import imgFBF from "../img/curriculum/curriculum-fbioyf.png"
 import imgUCA from "../img/curriculum/curriculum-uca.jpg"
+import imgDuck from "../img/curriculum/curriculum-duckdb.png"
 
 function Curriculum() {
 
@@ -211,6 +212,21 @@ function Curriculum() {
             case 4:
                 return (
                     <>
+                        <TablaLista
+                            titulo={
+                                <>
+                                    <h3>{idioma === "es" ? "Trabajando con datos más grandes que la memoria en R con Arrow y DuckDB" : "Working with larger than memory data in R with Arrow and DuckDB"}</h3>
+                                </>
+                            }
+                            imagen={<img src={imgDuck} className='curriculum-img' alt='logo'></img>}
+                            texto={
+                                <>
+                                    <p><b>{idioma === "es" ? "LatinR (Noviembre de 2024)" : "LatinR (November 2024)"} </b></p>
+                                    <p>{idioma === "es" ? "Uso de los paquetes arrow, duckdb y duckplyr para el análisis de grandes conjuntos de datos mediante la interfaz de tidyverse" : "Use of the arrow, duckdb and duckplyr packages for analysis of large datasets, integrated with the tidyverse interface"}.</p>
+                                    <br></br>
+                                </>
+                            }
+                        />
                         <TablaLista
                             titulo={
                                 <>
