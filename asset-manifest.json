@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.17b8b3cf.css",
-    "main.js": "/static/js/main.ea040604.js",
+    "main.js": "/static/js/main.dda158a3.js",
     "static/media/portafolio-tests-video.mp4": "/static/media/portafolio-tests-video.9a1c48a5fc805bc507d8.mp4",
     "static/media/portafolio-sitio-php-video.mp4": "/static/media/portafolio-sitio-php-video.a5426c9edb9fd049f307.mp4",
     "static/media/portafolio-shiny-video.mp4": "/static/media/portafolio-shiny-video.b3259e3046fe63611573.mp4",
@@ -147,6 +147,7 @@
     "static/media/placeholder.jpg": "/static/media/placeholder.e1ce751ef1b590f719f9.jpg",
     "static/media/portafolio-sas-autovalores.png": "/static/media/portafolio-sas-autovalores.e426051b1719e4cfdd62.png",
     "static/media/portafolio-mw-importancia-es.png": "/static/media/portafolio-mw-importancia-es.72d684993e2440b89f7d.png",
+    "static/media/curriculum-duckdb.png": "/static/media/curriculum-duckdb.df1840c56fd236fa4001.png",
     "static/media/portafolio-mw-importancia-en.png": "/static/media/portafolio-mw-importancia-en.38cca99a2da42512c9b2.png",
     "static/media/portafolio-series-fac-dif-en.png": "/static/media/portafolio-series-fac-dif-en.df69d8870345a6452813.png",
     "static/media/portafolio-python-viz.png": "/static/media/portafolio-python-viz.91b53866b41ae06f9238.png",
@@ -165,10 +166,10 @@
     "static/media/curriculum-power.svg": "/static/media/curriculum-power.7a4f4c21abc59e7dcad2941ebe478d49.svg",
     "index.html": "/index.html",
     "main.17b8b3cf.css.map": "/static/css/main.17b8b3cf.css.map",
-    "main.ea040604.js.map": "/static/js/main.ea040604.js.map"
+    "main.dda158a3.js.map": "/static/js/main.dda158a3.js.map"
   },
   "entrypoints": [
     "static/css/main.17b8b3cf.css",
-    "static/js/main.ea040604.js"
+    "static/js/main.dda158a3.js"
   ]
 }
