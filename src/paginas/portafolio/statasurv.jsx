@@ -40,44 +40,44 @@ function Statasurv() {
                 <div className="contenedorImagen">
                     <img src={imgVeteranTabla} alt="tablas resumen"></img>
                 </div>
-                
+
                 {/* Tablas de vida */}
                 <h3>{idioma === "es" ? "Tabla de vida" : "Life-table estimate"}</h3>
                 <p>
-                    {idioma === "es" ? "Se construye una tabla de vida y se obtiene una estimación de la función de supervivencia" : 
-                    "A life table is generated and an estimate of the survival function is obtained"}.
+                    {idioma === "es" ? "Se construye una tabla de vida y se obtiene una estimación de la función de supervivencia" :
+                        "A life table is generated and an estimate of the survival function is obtained"}.
                 </p>
                 <div className="contenedorImagen">
                     <img src={imgVeteranTablaVida} alt="tabla de vida"></img>
                 </div>
-                
+
                 {/* K-M */}
                 <h3>{idioma === "es" ? "Método de Kaplan-Meier" : "Kaplan-Meier analysis"}</h3>
                 <p>
-                    {idioma === "es" ? "Se grafica la función de supervivencia estimada por el método de Kaplan-Meier" : 
-                    "The survival function estimated by the Kaplan-Meier method is plotted"}:
+                    {idioma === "es" ? "Se grafica la función de supervivencia estimada por el método de Kaplan-Meier" :
+                        "The survival function estimated by the Kaplan-Meier method is plotted"}:
                 </p>
                 <div className="contenedorImagenCentrada">
                     <img src={imgVeteranCurva} alt="funcion de supervivencia K-M" className="imgCentradaGrande"></img>
                 </div>
                 <p>
-                    {idioma === "es" ? "Se grafican las funciones de supervivencia estimadas para cada tratamiento" : 
-                    "The estimated survival functions for each treatment are plotted"}:
+                    {idioma === "es" ? "Se grafican las funciones de supervivencia estimadas para cada tratamiento" :
+                        "The estimated survival functions for each treatment are plotted"}:
                 </p>
                 <div className="contenedorImagenCentrada">
                     <img src={imgVeteranCurvaTrt} alt="funcion de supervivencia por tratamientos" className="imgCentradaGrande"></img>
                 </div>
                 <p>
-                    {idioma === "es" ? "Se añaden intervalos de confianza a los gráficos anteriores" : 
-                    "Confidence intervals are added to the previous plots"}:
+                    {idioma === "es" ? "Se añaden intervalos de confianza a los gráficos anteriores" :
+                        "Confidence intervals are added to the previous plots"}:
                 </p>
                 <div className="contenedorGaleria">
-                    <img src={imgVeteranCurvaInt} alt="funcion de supervivencia K-m con IC" className="imgGrande"></img>
+                    <img src={imgVeteranCurvaInt} alt="funcion de supervivencia K-M con IC" className="imgGrande"></img>
                     <img src={imgVeteranCurvaTrtInt} alt="funcion de supervivencia por tratamientos con IC" className="imgGrande"></img>
                 </div>
                 <p>
-                    {idioma === "es" ? "Finalmente, se grafican las funciones de riesgo estimadas por el método de Kaplan-Meier" : 
-                    "Finally, the risk functions estimated by the Kaplan-Meier method are plotted"}.
+                    {idioma === "es" ? "Finalmente, se grafican las funciones de riesgo estimadas por el método de Kaplan-Meier" :
+                        "Finally, the risk functions estimated by the Kaplan-Meier method are plotted"}.
                 </p>
                 <div className="contenedorGaleria">
                     <img src={imgVeteranCurvaDist} alt="funcion de distribucion" className="imgGrande"></img>
@@ -87,16 +87,16 @@ function Statasurv() {
                 {/* N-A */}
                 <h3>{idioma === "es" ? "Estimadores de Nelson-Aalen" : "Nelson-Aalen estimators"}</h3>
                 <p>
-                    {idioma === "es" ? "Se calculan las funciones de hazard acumuladas con el estimador de Nelson-Aalen" : 
-                    "The cumulative hazard functions are calculated with the Nelson-Aalen estimator"}.
+                    {idioma === "es" ? "Se calculan las funciones de hazard acumuladas con el estimador de Nelson-Aalen" :
+                        "The cumulative hazard functions are calculated with the Nelson-Aalen estimator"}.
                 </p>
                 <div className="contenedorGaleria">
                     <img src={imgVeteranHazardAcum} alt="funcion hazard acumulada" className="imgGrande"></img>
                     <img src={imgVeteranHazardAcumTrt} alt="funcion hazard acumulada por tratamiento" className="imgGrande"></img>
                 </div>
                 <p>
-                    {idioma === "es" ? "Se grafican además las funciones de hazard suavizadas" : 
-                    "The smoothed hazard estimates are also plotted"}.
+                    {idioma === "es" ? "Se grafican además las funciones de hazard suavizadas" :
+                        "The smoothed hazard estimates are also plotted"}.
                 </p>
                 <div className="contenedorGaleria">
                     <img src={imgVeteranHazardEstim} alt="funcion hazard" className="imgGrande"></img>
