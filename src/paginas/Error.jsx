@@ -8,11 +8,12 @@ function Home() {
 
     //Idioma
     const [idioma] = useOutletContext();
+    const es = idioma === "es";
 
     return (
         <div>
             <h1>Error</h1>
-            <p>{idioma === "es" ? "Página no encontrada" : "Page not found"}</p>
+            <p>{es ? "Página no encontrada" : "Page not found"}</p>
         </div>
     );
 }

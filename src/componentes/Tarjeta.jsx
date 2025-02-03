@@ -16,6 +16,7 @@ function Tarjeta({ titulo, texto, etiquetas, imagen = placeholder1, enlace = "#"
 
   //Idioma
   const [idioma] = useOutletContext();
+  const es = idioma === "es";
 
   return (
     <Card className="text-center" id="tarjeta-contenedor">
@@ -30,7 +31,7 @@ function Tarjeta({ titulo, texto, etiquetas, imagen = placeholder1, enlace = "#"
         <div>
           <hr></hr>
           <Link to={enlace} target="_blank">
-            <Button id="boton-tarjeta" variant="primary" > {idioma === "es" ? "Ver más" : "More"}  </Button>
+            <Button id="boton-tarjeta" variant="primary" > {es ? "Ver más" : "More"}  </Button>
           </Link>
         </div>
       </Card.Body>

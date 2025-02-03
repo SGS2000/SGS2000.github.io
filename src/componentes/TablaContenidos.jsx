@@ -9,6 +9,7 @@ import "../hojas/TablaContenidos.css";
 function TablaContenidos() {
     //Idioma
     const [idioma] = useOutletContext();
+    const es = idioma === "es";
 
     //Array para guardar encabezados
     const [encabezados, setEncabezados] = useState([])
@@ -44,7 +45,7 @@ function TablaContenidos() {
 
     return (
         <div id="contenedorTabla">
-            <h2 id="tituloTabla"> {idioma === "es" ? "Tabla de contenidos" : "Contents"} </h2>
+            <h2 id="tituloTabla"> {es ? "Tabla de contenidos" : "Contents"} </h2>
             <ul>
                 {encabezados.map(encabezado => (
                     <li

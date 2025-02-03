@@ -10,11 +10,12 @@ import IMAGEN from "../../img/portafolio/IMAGEN"
 function NOMBRE() {
     //Idioma
     const [idioma] = useOutletContext();
+    const es = idioma === "es";
 
     return (
         <>
             <div className="contenedorPrincipal">
-                <h1>{idioma === "es" ? "TITULO ESPAÑOL" : "TITULO INGLES"}</h1>
+                <h1>{es ? "TITULO ESPAÑOL" : "TITULO INGLES"}</h1>
 
             </div>
         </>

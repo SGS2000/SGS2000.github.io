@@ -37,6 +37,7 @@ import imgStataSurv from "../img/portafolio/portafolio-stata-portada.png"
 function Portafolio() {
     //Idioma
     const [idioma] = useOutletContext();
+    const es = idioma === "es";
 
     //Elegir categorías de las etiquetas
     const [categoriasSeleccionadas, setCategoriasSeleccionadas] = useState([]);
@@ -344,10 +345,10 @@ function Portafolio() {
 
     return (
         <>
-            <h1> {idioma === "es" ? "Portafolio" : "Portfolio"} </h1>
+            <h1> {es ? "Portafolio" : "Portfolio"} </h1>
             <div id="contenedor-portafolio">
                 <ContenedorEtiquetas
-                    titulo={idioma === "es" ? "Tema" : "Topic"}
+                    titulo={es ? "Tema" : "Topic"}
                     etiquetas={etiquetasTema}
                 />
 

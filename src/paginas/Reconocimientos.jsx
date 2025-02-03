@@ -10,44 +10,45 @@ import pdf from "../doc/promedio2021.pdf"
 function Reconocimientos() {
 
     const [idioma] = useOutletContext();
+    const es = idioma === "es";
 
     return (
         <>
-            <h1>{idioma === "es" ? "Premios y reconocimientos" : "Awards and recognition"}</h1>
+            <h1>{es ? "Premios y reconocimientos" : "Awards and recognition"}</h1>
             <TablaLista
-                titulo={idioma === "es" ? <h2>Premios</h2> : <h2>Awards</h2>}
+                titulo={es ? <h2>Premios</h2> : <h2>Awards</h2>}
                 texto={
                     <ul>
-                        <li> {idioma === "es" ? "Concurso de pósteres para estudiantes - Primer premio (Año 2022)" : "Student Poster Competition - First prize (2022)"} </li>
+                        <li> {es ? "Concurso de pósteres para estudiantes - Primer premio (Año 2022)" : "Student Poster Competition - First prize (2022)"} </li>
 
                         <ul>
-                            <li> {idioma === "es" ? 'Póster' : 'Poster'}  "<Link to="/portafolio/posterfutbol" target="_blank">Análisis del valor de mercado de jugadores de fútbol de élite</Link>",  {idioma === "es" ? 'en coautoría con Agustina Margaritis, Natalia Macchi y Román Tanducci.' : 'co-authored with Agustina Margaritis, Natalia Macchi y Roman Tanducci.'}  </li>
-                            <li> {idioma === "es" ? 'Presentado en el ' : 'Presented at the '} <a href='https://sites.google.com/view/cae-jee-2022' target='blank'> {idioma === "es" ? 'XLIX Coloquio Argentino de Estadística' : 'XLIX Argentine Colloquium of Statistics'}</a>.</li>
+                            <li> {es ? 'Póster' : 'Poster'}  "<Link to="/portafolio/posterfutbol" target="_blank">Análisis del valor de mercado de jugadores de fútbol de élite</Link>",  {es ? 'en coautoría con Agustina Margaritis, Natalia Macchi y Román Tanducci.' : 'co-authored with Agustina Margaritis, Natalia Macchi y Roman Tanducci.'}  </li>
+                            <li> {es ? 'Presentado en el ' : 'Presented at the '} <a href='https://sites.google.com/view/cae-jee-2022' target='blank'> {es ? 'XLIX Coloquio Argentino de Estadística' : 'XLIX Argentine Colloquium of Statistics'}</a>.</li>
                         </ul>
 
-                        <li><a href="https://www.unp.edu.ar/oma/index.php/omgsj" target="blank"> {idioma === "es" ? '6ª Olimpíada Matemática del Golfo San Jorge' : '6th Golfo San Jorge Mathematical Olympiad'}</a> - {idioma === "es" ? 'Segundo Subcampeón (Año 2015)' : 'Second Runner-up (2015)'} </li>
+                        <li><a href="https://www.unp.edu.ar/oma/index.php/omgsj" target="blank"> {es ? '6ª Olimpíada Matemática del Golfo San Jorge' : '6th Golfo San Jorge Mathematical Olympiad'}</a> - {es ? 'Segundo Subcampeón (Año 2015)' : 'Second Runner-up (2015)'} </li>
 
-                        <li><a href="https://www.oma.org.ar/internacional/resultados-may21.html" target="blank"> {idioma === "es" ? '21ª Olimpíada Matemática Iberoamericana de Mayo' : '21st Iberoamerican Mathematical Olympiad'}</a> - {idioma === "es" ? 'Mención de honor (Año 2015)' : 'Honorable Mention (2015)'} </li>
+                        <li><a href="https://www.oma.org.ar/internacional/resultados-may21.html" target="blank"> {es ? '21ª Olimpíada Matemática Iberoamericana de Mayo' : '21st Iberoamerican Mathematical Olympiad'}</a> - {es ? 'Mención de honor (Año 2015)' : 'Honorable Mention (2015)'} </li>
 
-                        <li><a href="https://www.unp.edu.ar/oma/index.php/omgsj" target="blank"> {idioma === "es" ? '5ª Olimpíada Matemática del Golfo San Jorge' : '5th Golfo San Jorge Mathematical Olympiad'}</a> -  {idioma === "es" ? 'Campeón (Año 2014)' : 'Champion (2014)'}</li>
+                        <li><a href="https://www.unp.edu.ar/oma/index.php/omgsj" target="blank"> {es ? '5ª Olimpíada Matemática del Golfo San Jorge' : '5th Golfo San Jorge Mathematical Olympiad'}</a> -  {es ? 'Campeón (Año 2014)' : 'Champion (2014)'}</li>
                     </ul>
                 }
             />
             <TablaLista
-                titulo={idioma === "es" ? <h2>Mejores promedios</h2> : <h2>Highest grades</h2>}
+                titulo={es ? <h2>Mejores promedios</h2> : <h2>Highest grades</h2>}
                 texto={
                     <>
-                        <p> {idioma === "es" ? 'Estuve entre los mejores promedios de la Facultad de Ciencias Económicas y Estadística en mis dos últimos años.' : 'I was among the best performing students at the Faculty of Economics and Statistics during my last two years.'}
+                        <p> {es ? 'Estuve entre los mejores promedios de la Facultad de Ciencias Económicas y Estadística en mis dos últimos años.' : 'I was among the best performing students at the Faculty of Economics and Statistics during my last two years.'}
                         </p>
                         <ul>
-                            <li> <a href="https://www.fcecon.unr.edu.ar/noticias/2022-12-12/mejores-promedios-2022" target="blank"> {idioma === "es" ? 'Año 2022' : 'Year 2022'} </a> </li>
-                            <li> <a href={pdf} target='_blank' rel='noopener noreferrer' > {idioma === "es" ? 'Año 2021' : 'Year 2021'} </a> </li>
+                            <li> <a href="https://www.fcecon.unr.edu.ar/noticias/2022-12-12/mejores-promedios-2022" target="blank"> {es ? 'Año 2022' : 'Year 2022'} </a> </li>
+                            <li> <a href={pdf} target='_blank' rel='noopener noreferrer' > {es ? 'Año 2021' : 'Year 2021'} </a> </li>
                         </ul>
                     </>
                 }
             />
             <TablaLista
-                titulo={idioma === "es" ? <h2>Apariciones en los medios</h2> : <h2>Media appearances</h2>}
+                titulo={es ? <h2>Apariciones en los medios</h2> : <h2>Media appearances</h2>}
                 texto={
                     <ul>
                         <li> <a href="https://www.pagina12.com.ar/528781-dime-quien-eres-y-te-dire-lo-que-vales" target="blank"> Dime quién eres y te diré lo que vales</a> (Página 12, 2023)</li>
