@@ -18,6 +18,7 @@ import img538 from "../../img/portafolio/portafolio-538.png"
 import imgSimpsons from "../../img/portafolio/portafolio-linea-tiempo.png"
 import imgSectores from "../../img/portafolio/portafolio-sectores.png"
 import imgSectoresEn from "../../img/portafolio/portafolio-sectores-en.png"
+import imgCometa from "../../img/portafolio/portafolio-cometa.svg"
 
 
 function Rviz() {
@@ -39,6 +40,19 @@ function Rviz() {
                     : "Packages ggplot2, hrbrthemes, ggtext, and patchwork were used to create the chart. Data can be obtained by installing the palmerpenguins package."}</p>
                 <div className="contenedorImagenCentrada">
                     <img src={es ? imgPinguino : imgPinguinoEn} alt="dumbbell" className="imgCentrada"></img>
+                </div>
+
+                {/* Cometa */}
+                <h2 id="pinguinos"> {es ? "Gráfico de cometa: Calificaciones económicas" : "Comet plot: Economic ratings"} </h2>
+                <p> {es ? "Gráfico mostrando la evolución en la calificación económica de los habitantes de 22 países entre 2023 y 2024. Adaptado de "
+                    : "Comet plot depicting the changes in economic ratings from 2023 to 2024 across 22 countries. Adapted from "}
+                    <a href="https://www.pewresearch.org/short-reads/2024/06/07/economic-ratings-across-34-countries-are-more-negative-than-positive/sr_24-06-07_global-views-of-economy_2/" target="_blank" rel="noreferrer">{es ? "la siguiente tabla" : "this table"}</a>
+                    {es ? " (Pew Research Center)" : " by Pew Research Center"}.
+                </p>
+                <p> {es ? "Creado con los paquetes ggplot2, ggforce, ggtext, extrafont y legendry."
+                    : "Made with packages ggplot2, ggforce, ggtext, extrafont and legendry."}</p>
+                <div className="contenedorImagenCentrada">
+                    <img src={imgCometa} alt="cometa" className="imgCentradaGrande"></img>
                 </div>
 
                 {/* Breaking Bad */}
