@@ -83,10 +83,12 @@ function Curriculum() {
                             imagen={<img src={imgUCA} className='curriculum-img-ancha curriculum-img-redondeada' alt='logo uca'></img>}
                             texto={
                                 <>
-                                    <p> {es ? "Profesor de las siguientes asignaturas" : "Professor of the following subjects"}:</p>
+                                    <p> {es ? "Profesor de las siguientes asignaturas" : "Professor of the following courses"}:</p>
                                     <ul>
-                                        <li> {es ? "Estadística Aplicada - Ingeniería Industrial" : "Applied Statistics - Industrial Engineering"}.  </li>
-                                        <li> {es ? "Probabilidad y Estadística - Licenciatura en Ciencia de Datos" : "Probability and Statistics - Bachelor's Degree in Data Science"}.  </li>
+                                        <li> {es ? "Estadística Aplicada - Ingeniería Industrial" : "Applied Statistics - Industrial Engineering"} (2024).  </li>
+                                        <li> {es ? "Probabilidad y Estadística - Licenciatura en Ciencia de Datos" : "Probability and Statistics - Bachelor's Degree in Data Science"} (2024).  </li>
+                                        <li> {es ? "Estadística - Licenciatura en Gestión de Negocios Digitales" : "Statistics - Bachelor's Degree in Digital Business Management"} (2025).  </li>
+                                        <li> {es ? "Visualización de Datos - Licenciatura en Ciencia de Datos" : "Data Visualization - Bachelor's Degree in Data Science"} (2025).  </li>
                                     </ul>
                                     <p> {es ? <b>Lugar</b> : <b>Location</b>}:  {es ? "Facultad de Química e Ingeniería, UCA Sede Rosario" : "Faculty of Chemistry and Engineering, UCA, Rosario Campus"}  </p>
                                     <p> {es ? <b>Duración</b> : <b>Duration</b>}: {es ? "Agosto de 2024-presente" : "August 2024-Present"} </p>
