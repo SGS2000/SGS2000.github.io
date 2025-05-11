@@ -90,7 +90,7 @@ function Curriculum() {
                                         <li> {es ? "Estadística - Licenciatura en Gestión de Negocios Digitales" : "Statistics - Bachelor's Degree in Digital Business Management"} (2025).  </li>
                                         <li> {es ? "Visualización de Datos - Licenciatura en Ciencia de Datos" : "Data Visualization - Bachelor's Degree in Data Science"} (2025).  </li>
                                     </ul>
-                                    <p> {es ? <b>Lugar</b> : <b>Location</b>}:  {es ? "Facultad de Química e Ingeniería, UCA Sede Rosario" : "Faculty of Chemistry and Engineering, UCA, Rosario Campus"}  </p>
+                                    <p> {es ? <b>Lugar</b> : <b>Location</b>}:  {es ? "Universidad Católica Argentina | Sede Rosario" : "Pontifical Catholic University of Argentina | Rosario Campus"}  </p>
                                     <p> {es ? <b>Duración</b> : <b>Duration</b>}: {es ? "Agosto de 2024-presente" : "August 2024-Present"} </p>
                                     <p> {es ? <b>Responsabilidades</b> : <b>Responsibilities</b>}: </p>
                                     <ul>
@@ -522,10 +522,11 @@ function Curriculum() {
                                         <details>
                                             <summary> {es ? "Ver más" : "See more"} </summary>
                                             <ul>
-                                                <li>Tidyverse </li>
-                                                <li>R Markdown </li>
-                                                <li>Shiny </li>
-                                                <li>RStan </li>
+                                                <li>Tidyverse</li>
+                                                <li>Tidymodels</li>
+                                                <li>R Markdown</li>
+                                                <li>Shiny</li>
+                                                <li>RStan</li>
                                             </ul>
                                         </details>
                                         <li>Python</li>
@@ -535,7 +536,7 @@ function Curriculum() {
                                                 <li>Numpy / Pandas</li>
                                                 <li>Statsmodels / SciPy</li>
                                                 <li>Scikit-learn / TensorFlow / Keras / Fairlearn</li>
-                                                <li>Matplotlib / Seaborn / Plotly</li>
+                                                <li>Matplotlib / Seaborn / Plotly / Vega-Altair</li>
                                                 <li>NLTK</li>
                                             </ul>
                                         </details>
