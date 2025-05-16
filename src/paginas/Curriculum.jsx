@@ -50,32 +50,32 @@ function Curriculum() {
 
     const mostrarTablas = () => {
         switch (seccion) {
+            // case 1:
+            //     return (
+            //         <>
+            //             <TablaLista
+            //                 titulo={<h2> {es ? "Datos personales" : "Personal information"} </h2>}
+            //                 texto={
+            //                     <ul>
+            //                         <li> {es ? <b>Fecha de nacimiento:</b> : <b>Date of birth:</b>}  {es ? "30 de junio, 2000" : "30 / 06 / 2000"} </li>
+            //                         <li> {es ? <b>Lugar de residencia:</b> : <b>Place of residence:</b>}  Rosario, Santa Fe, Argentina</li>
+            //                     </ul>
+            //                 }
+            //                 key="datos"
+            //             />
+            //             <TablaLista
+            //                 titulo={<h2> {es ? "Información de contacto" : "Contact information"} </h2>}
+            //                 texto={
+            //                     <ul>
+            //                         <li> <b>E-mail</b>: santiagoesquel@gmail.com </li>
+            //                         <li> <b>WhatsApp</b>: +5492945690132 </li>
+            //                     </ul>
+            //                 }
+            //                 key="contacto"
+            //             />
+            //         </>
+            //     )
             case 1:
-                return (
-                    <>
-                        <TablaLista
-                            titulo={<h2> {es ? "Datos personales" : "Personal information"} </h2>}
-                            texto={
-                                <ul>
-                                    <li> {es ? <b>Fecha de nacimiento:</b> : <b>Date of birth:</b>}  {es ? "30 de junio, 2000" : "30 / 06 / 2000"} </li>
-                                    <li> {es ? <b>Lugar de residencia:</b> : <b>Place of residence:</b>}  Rosario, Santa Fe, Argentina</li>
-                                </ul>
-                            }
-                            key="datos"
-                        />
-                        <TablaLista
-                            titulo={<h2> {es ? "Información de contacto" : "Contact information"} </h2>}
-                            texto={
-                                <ul>
-                                    <li> <b>E-mail</b>: santiagoesquel@gmail.com </li>
-                                    <li> <b>WhatsApp</b>: +5492945690132 </li>
-                                </ul>
-                            }
-                            key="contacto"
-                        />
-                    </>
-                )
-            case 2:
                 return (
                     <>
                         <TablaLista
@@ -193,7 +193,7 @@ function Curriculum() {
                         />
                     </>
                 )
-            case 3:
+            case 2:
                 return (
                     <>
                         <TablaLista
@@ -212,7 +212,7 @@ function Curriculum() {
                         />
                     </>
                 )
-            case 4:
+            case 3:
                 return (
                     <>
                         <TablaLista
@@ -455,7 +455,7 @@ function Curriculum() {
                         />
                     </>
                 )
-            case 5:
+            case 4:
                 return (
                     <>
                         <TablaLista
@@ -619,7 +619,6 @@ function Curriculum() {
 
             default:
                 console.log("Error");
-
         }
     }
 
