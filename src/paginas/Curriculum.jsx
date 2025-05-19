@@ -50,31 +50,6 @@ function Curriculum() {
 
     const mostrarTablas = () => {
         switch (seccion) {
-            // case 1:
-            //     return (
-            //         <>
-            //             <TablaLista
-            //                 titulo={<h2> {es ? "Datos personales" : "Personal information"} </h2>}
-            //                 texto={
-            //                     <ul>
-            //                         <li> {es ? <b>Fecha de nacimiento:</b> : <b>Date of birth:</b>}  {es ? "30 de junio, 2000" : "30 / 06 / 2000"} </li>
-            //                         <li> {es ? <b>Lugar de residencia:</b> : <b>Place of residence:</b>}  Rosario, Santa Fe, Argentina</li>
-            //                     </ul>
-            //                 }
-            //                 key="datos"
-            //             />
-            //             <TablaLista
-            //                 titulo={<h2> {es ? "Información de contacto" : "Contact information"} </h2>}
-            //                 texto={
-            //                     <ul>
-            //                         <li> <b>E-mail</b>: santiagoesquel@gmail.com </li>
-            //                         <li> <b>WhatsApp</b>: +5492945690132 </li>
-            //                     </ul>
-            //                 }
-            //                 key="contacto"
-            //             />
-            //         </>
-            //     )
             case 1:
                 return (
                     <>
@@ -201,10 +176,11 @@ function Curriculum() {
                             imagen={<img src={imgUNR} className='curriculum-img' alt='logo'></img>}
                             texto={
                                 <>
-                                    <p>{es ? "Universidad Nacional de Rosario (2018-2022)" : "National University of Rosario (2018-2022)"}</p>
+                                    <p><b><a href="https://www.fcecon.unr.edu.ar/carreras/grado/licenciatura-en-estadistica" target="_blank" rel="noreferrer">{es ? "Universidad Nacional de Rosario" : "National University of Rosario"}</a></b> (2018-2022)</p>
                                     <ul>
-                                        <li> <b>{es ? "Promedio" : "Average"}</b>: {es ? "8,06" : "8.06"} </li>
-                                        <li> <b>{es ? "Tesina de grado" : "Undergraduate thesis"}</b>: {es ? '"Clasificación supervisada de textos de ficción según género utilizando bosques aleatorios"' : '"Supervised Classification of Fiction Texts by Genre using Random Forests"'} (2023)</li>
+                                        <li><a href="https://drive.google.com/file/d/1Ee23NZetE7OfwouU3SKF79K2KEczODb_/view" target="_blank" rel="noreferrer"> {es ? "Plan de Estudios" : "Academic Program"}</a></li>
+                                        <li><b>{es ? "Promedio" : "Average"}</b>: {es ? "8,06" : "8.06"} </li>
+                                        <li><b>{es ? "Tesina de grado" : "Undergraduate thesis"}</b>: <a href="https://drive.google.com/file/d/1Ien2LBjQIgreExPvRg987AEiQDF7aa0e/view" target="_blank" rel="noreferrer"> {es ? '"Clasificación supervisada de textos de ficción según género utilizando bosques aleatorios"' : '"Supervised Classification of Fiction Texts by Genre using Random Forests"'}</a> (2023)</li>
                                     </ul>
                                 </>
                             }
