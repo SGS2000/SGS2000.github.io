@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e4dfd2e6.css",
-    "main.js": "/static/js/main.5be8df11.js",
+    "main.js": "/static/js/main.33a432b6.js",
     "static/media/portafolio-tests-video.mp4": "/static/media/portafolio-tests-video.9a1c48a5fc805bc507d8.mp4",
     "static/media/portafolio-sitio-php-video.mp4": "/static/media/portafolio-sitio-php-video.a5426c9edb9fd049f307.mp4",
     "static/media/portafolio-cometa.svg": "/static/media/portafolio-cometa.493ab9cdf927efc3af0bf1c896bcba71.svg",
@@ -124,6 +124,7 @@
     "static/media/curriculum-unr.png": "/static/media/curriculum-unr.67eaddec475b732b7bcb.png",
     "static/media/portafolio-mw-sexo-es.png": "/static/media/portafolio-mw-sexo-es.40e17221a2e53a954f71.png",
     "static/media/portafolio-burnout-muestraocup.png": "/static/media/portafolio-burnout-muestraocup.6f94b5dcaa8dddf5b4de.png",
+    "static/media/portafolio-rcurvas.png": "/static/media/portafolio-rcurvas.06865f7f0665c88e0ae0.png",
     "static/media/portafolio-mw-sexo-en.png": "/static/media/portafolio-mw-sexo-en.bb47849b64c953122005.png",
     "static/media/portafolio-burnout-muestraconv.png": "/static/media/portafolio-burnout-muestraconv.51d1db9a639dc50112c1.png",
     "static/media/portafolio-mw-skills-magic-es.png": "/static/media/portafolio-mw-skills-magic-es.cce5b1dbdce4a06e9146.png",
@@ -167,10 +168,10 @@
     "static/media/curriculum-power.svg": "/static/media/curriculum-power.7a4f4c21abc59e7dcad2941ebe478d49.svg",
     "index.html": "/index.html",
     "main.e4dfd2e6.css.map": "/static/css/main.e4dfd2e6.css.map",
-    "main.5be8df11.js.map": "/static/js/main.5be8df11.js.map"
+    "main.33a432b6.js.map": "/static/js/main.33a432b6.js.map"
   },
   "entrypoints": [
     "static/css/main.e4dfd2e6.css",
-    "static/js/main.5be8df11.js"
+    "static/js/main.33a432b6.js"
   ]
 }
