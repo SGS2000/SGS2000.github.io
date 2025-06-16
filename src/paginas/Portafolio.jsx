@@ -32,6 +32,7 @@ import imgPrecios from "../img/portafolio/portafolio-precios.png"
 import imgRPaquete from "../img/portafolio/portafolio-clustmc-logo.png"
 import imgPythonViz from "../img/portafolio/portafolio-python-viz.png"
 import imgStataSurv from "../img/portafolio/portafolio-stata-portada.png"
+import imgRSurv from "../img/portafolio/portafolio-rcurvas.png"
 
 
 function Portafolio() {
@@ -177,6 +178,13 @@ function Portafolio() {
             texto: idioma === "es" ? "Mapas varios realizados con diversos paquetes de R." : "Various maps created with different R packages.",
             imagen: imgMapa,
             enlace: '/portafolio/rmapas'
+        },
+        {
+            titulo: idioma === "es" ? "Curvas de supervivencia en R" : "Plotting Survival Curves in R",
+            etiquetas: ['etiqueta-r', "etiqueta-data-viz", "etiqueta-bio", "etiqueta-superv"],
+            texto: idioma === "es" ? "Contraste de distintos paquetes para construir curvas de supervivencia." : "Comparison of different R packages to plot survival curves.",
+            imagen: imgRSurv,
+            enlace: 'https://sgs2000.github.io/html/R/RSuperv.html'
         },
         {
             titulo: idioma === "es" ? "Gráficos interactivos con Plotly" : "Interactive plots with Plotly",
