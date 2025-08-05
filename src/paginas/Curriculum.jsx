@@ -28,6 +28,7 @@ import imgFCE from "../img/curriculum/curriculum-fceye.png"
 import imgFBF from "../img/curriculum/curriculum-fbioyf.png"
 import imgUCA from "../img/curriculum/curriculum-uca.jpg"
 import imgDuck from "../img/curriculum/curriculum-duckdb.png"
+import imgUCM from "../img/curriculum/curriculum-uc3m.png"
 
 function Curriculum() {
 
@@ -66,7 +67,7 @@ function Curriculum() {
                                         <li> {es ? "Visualización de Datos - Licenciatura en Ciencia de Datos" : "Data Visualization - Bachelor's Degree in Data Science"} (2025).  </li>
                                     </ul>
                                     <p> {es ? <b>Lugar</b> : <b>Location</b>}:  {es ? "Universidad Católica Argentina | Sede Rosario" : "Pontifical Catholic University of Argentina | Rosario Campus"}  </p>
-                                    <p> {es ? <b>Duración</b> : <b>Duration</b>}: {es ? "Agosto de 2024-presente" : "August 2024-Present"} </p>
+                                    <p> {es ? <b>Duración</b> : <b>Duration</b>}: {es ? "Agosto de 2024-Agosto de 2025" : "August 2024-August 2025"} </p>
                                     <p> {es ? <b>Responsabilidades</b> : <b>Responsibilities</b>}: </p>
                                     <ul>
                                         <li> {es ? "Enseñanza de múltiples temas de estadística básica e intermedia" : "Teaching multiple topics in basic and intermediate statistics"}.  </li>
@@ -84,7 +85,7 @@ function Curriculum() {
                                 <>
                                     <p> {es ? "Auxiliar docente en el área de Estadística y Procesamiento de Datos" : "Teaching Assistant in the area of Statistics and Data Processing"}.</p>
                                     <p> {es ? <b>Lugar</b> : <b>Location</b>}:  {es ? "Facultad de Ciencias Bioquímicas y Farmacéuticas, Universidad Nacional de Rosario" : "Faculty of Biochemical and Pharmaceutical Sciences, National University of Rosario"}  </p>
-                                    <p> {es ? <b>Duración</b> : <b>Duration</b>}: {es ? "Abril de 2024-presente" : "April 2024-Present"} </p>
+                                    <p> {es ? <b>Duración</b> : <b>Duration</b>}: {es ? "Abril de 2024-Agosto de 2025" : "April 2024-August 2025"} </p>
                                     <p> {es ? <b>Responsabilidades</b> : <b>Responsibilities</b>}: </p>
                                     <ul>
                                         <li> {es ? "Colaboración con los docentes del área en la enseñanza de contenidos teóricos y prácticos" : "Collaboration with professors in the teaching of both theory and practice"}.  </li>
@@ -102,7 +103,7 @@ function Curriculum() {
                             texto={
                                 <>
                                     <p> {es ? "Redacción de contenidos académicos con temáticas vinculadas a la estadística, incluyendo asistencia en la escritura de tesis y elaboración de informes para proyectos de investigación" : "Writing of academic content on topics related to statistics, including assistance in writing theses and reports for research projects"}.</p>
-                                    <p> {es ? <b>Duración</b> : <b>Duration</b>}: {es ? "Noviembre de 2023-presente" : "November 2023-Present"} </p>
+                                    <p> {es ? <b>Duración</b> : <b>Duration</b>}: {es ? "Noviembre de 2023-Agosto de 2025" : "November 2023-August 2025"} </p>
                                 </>
                             }
                             key="redactor"
@@ -172,8 +173,21 @@ function Curriculum() {
                 return (
                     <>
                         <TablaLista
+                            titulo={<h2>{es ? "Máster en Estadística para la Ciencia de Datos" : "Master in Statistics for Data Sciences"}</h2>}
+                            imagen={<img src={imgUCM} className='curriculum-img' alt='logo uc3m'></img>}
+                            texto={
+                                <>
+                                    <p><b><a href="https://www.uc3m.es/master/estadistica-ciencia-datos" target="_blank" rel="noreferrer">{es ? "Universidad Carlos III de Madrid" : "Charles III University of Madrid"}</a></b> (2025-)</p>
+                                    <ul>
+                                        <li><a href="https://www.uc3m.es/master/estadistica-ciencia-datos#programa" target="_blank" rel="noreferrer"> {es ? "Plan de Estudios" : "Academic Program"}</a></li>
+                                    </ul>
+                                </>
+                            }
+                            key="master"
+                        />
+                        <TablaLista
                             titulo={<h2>{es ? "Licenciatura en Estadística" : "Bachelor's degree in Statistics"}</h2>}
-                            imagen={<img src={imgUNR} className='curriculum-img' alt='logo'></img>}
+                            imagen={<img src={imgUNR} className='curriculum-img' alt='logo unr'></img>}
                             texto={
                                 <>
                                     <p><b><a href="https://www.fcecon.unr.edu.ar/carreras/grado/licenciatura-en-estadistica" target="_blank" rel="noreferrer">{es ? "Universidad Nacional de Rosario" : "National University of Rosario"}</a></b> (2018-2022)</p>
