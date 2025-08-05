@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e4dfd2e6.css",
-    "main.js": "/static/js/main.33a432b6.js",
+    "main.js": "/static/js/main.3836d599.js",
     "static/media/portafolio-tests-video.mp4": "/static/media/portafolio-tests-video.9a1c48a5fc805bc507d8.mp4",
     "static/media/portafolio-sitio-php-video.mp4": "/static/media/portafolio-sitio-php-video.a5426c9edb9fd049f307.mp4",
     "static/media/portafolio-cometa.svg": "/static/media/portafolio-cometa.493ab9cdf927efc3af0bf1c896bcba71.svg",
@@ -66,6 +66,7 @@
     "static/media/portafolio-rtextos-portada.png": "/static/media/portafolio-rtextos-portada.e4d188b29d008709d557.png",
     "static/media/portafolio-stata-veteran-hazard3.png": "/static/media/portafolio-stata-veteran-hazard3.31cfa2577a2138c783bb.png",
     "static/media/portafolio-538.png": "/static/media/portafolio-538.c436588996a98fdf4b6f.png",
+    "static/media/curriculum-uc3m.png": "/static/media/curriculum-uc3m.f8c04a2a912f0e60caf4.png",
     "static/media/curriculum-r.png": "/static/media/curriculum-r.3925a9d915bef82cbc65.png",
     "static/media/portafolio-spssreg-coeficientes2.png": "/static/media/portafolio-spssreg-coeficientes2.c426fd5d99d3de6a454d.png",
     "static/media/portafolio-mw-puntos-faccion.png": "/static/media/portafolio-mw-puntos-faccion.f563551abea2c5b808cb.png",
@@ -168,10 +169,10 @@
     "static/media/curriculum-power.svg": "/static/media/curriculum-power.7a4f4c21abc59e7dcad2941ebe478d49.svg",
     "index.html": "/index.html",
     "main.e4dfd2e6.css.map": "/static/css/main.e4dfd2e6.css.map",
-    "main.33a432b6.js.map": "/static/js/main.33a432b6.js.map"
+    "main.3836d599.js.map": "/static/js/main.3836d599.js.map"
   },
   "entrypoints": [
     "static/css/main.e4dfd2e6.css",
-    "static/js/main.33a432b6.js"
+    "static/js/main.3836d599.js"
   ]
 }
