@@ -177,7 +177,7 @@ function Curriculum() {
                             imagen={<img src={imgUCM} className='curriculum-img' alt='logo uc3m'></img>}
                             texto={
                                 <>
-                                    <p><b><a href="https://www.uc3m.es/master/estadistica-ciencia-datos" target="_blank" rel="noreferrer">{es ? "Universidad Carlos III de Madrid" : "Charles III University of Madrid"}</a></b> (2025-)</p>
+                                    <p><b><a href="https://www.uc3m.es/master/estadistica-ciencia-datos" target="_blank" rel="noreferrer">{es ? "Universidad Carlos III de Madrid" : "Charles III University of Madrid"}</a></b> (2025-2026)</p>
                                     <ul>
                                         <li><a href="https://www.uc3m.es/master/estadistica-ciencia-datos#programa" target="_blank" rel="noreferrer"> {es ? "Plan de Estudios" : "Academic Program"}</a></li>
                                     </ul>
