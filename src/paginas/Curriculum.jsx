@@ -54,6 +54,18 @@ function Curriculum() {
             case 1:
                 return (
                     <>
+                    <TablaLista
+                            titulo={<h2> {es ? 'Estadístico autónomo' : 'Freelance Statistician'} </h2>}
+                            imagen={<img src={imgGrafico} className='curriculum-img-ancha' alt='logo grafico'></img>}
+                            texto={
+                                <>
+                                    <p> {es ? "Diversos estudios estadísticos y asistencia técnica para múltiples organismos públicos y privados" : "Data analysis and technical assistance for multiple public and private organizations"}.</p>
+                                    <p> {es ? <b>Lugar</b> : <b>Location</b>}:  {es ? "Varios" : "Various"}  </p>
+                                    <p> {es ? <b>Duración</b> : <b>Duration</b>}: {es ? "Noviembre de 2022-presente" : "November 2022-present"} </p>
+                                </>
+                            }
+                            key="estadistico"
+                        />
                         <TablaLista
                             titulo={<h2> {es ? 'Profesor universitario asistente' : 'Assistant Professor'} </h2>}
                             imagen={<img src={imgUCA} className='curriculum-img-ancha curriculum-img-redondeada' alt='logo uca'></img>}
@@ -137,19 +149,7 @@ function Curriculum() {
                                 </>
                             }
                             key="analista"
-                        />
-                        <TablaLista
-                            titulo={<h2> {es ? 'Estadístico autónomo' : 'Freelance Statistician'} </h2>}
-                            imagen={<img src={imgGrafico} className='curriculum-img-ancha' alt='logo grafico'></img>}
-                            texto={
-                                <>
-                                    <p> {es ? "Diversos estudios estadísticos y asistencia técnica para múltiples organismos públicos y privados" : "Data analysis and technical assistance for multiple public and private organizations"}.</p>
-                                    <p> {es ? <b>Lugar</b> : <b>Location</b>}:  {es ? "Varios" : "Various"}  </p>
-                                    <p> {es ? <b>Duración</b> : <b>Duration</b>}: {es ? "Noviembre de 2022-presente" : "November 2022-present"} </p>
-                                </>
-                            }
-                            key="estadistico"
-                        />
+                        />                        
                         <TablaLista
                             titulo={<h2> {es ? "Colaborador" : "Course Assistant"} </h2>}
                             imagen={<img src={imgFCE} className='curriculum-img-ancha curriculum-img-redondeada' alt='logo fceye'></img>}
@@ -496,7 +496,6 @@ function Curriculum() {
                                     <li> <b>{es ? "Francés" : "French"}</b> - {es ? "Nivel intermedio" : "Intermediate level"} </li>
                                     <li> <b>{es ? "Portugués" : "Portuguese"}</b> - {es ? "Nivel intermedio" : "Intermediate level"}</li>
                                     <li> <b>{es ? "Italiano" : "Italian"}</b> - {es ? "Nivel básico" : "Basic level"}</li>
-                                    <li> <b>{es ? "Lenguaje de señas americano (ASL)" : "American Sign Language (ASL)"}</b> - {es ? "Nivel básico" : "Basic level"}</li>
                                 </ul>
                             }
                             key="idiomas"
