@@ -54,7 +54,7 @@ function Curriculum() {
             case 1:
                 return (
                     <>
-                    <TablaLista
+                        <TablaLista
                             titulo={<h2> {es ? 'Estadístico autónomo' : 'Freelance Statistician'} </h2>}
                             imagen={<img src={imgGrafico} className='curriculum-img-ancha' alt='logo grafico'></img>}
                             texto={
@@ -149,7 +149,7 @@ function Curriculum() {
                                 </>
                             }
                             key="analista"
-                        />                        
+                        />
                         <TablaLista
                             titulo={<h2> {es ? "Colaborador" : "Course Assistant"} </h2>}
                             imagen={<img src={imgFCE} className='curriculum-img-ancha curriculum-img-redondeada' alt='logo fceye'></img>}
@@ -450,11 +450,20 @@ function Curriculum() {
                     <>
                         <TablaLista
                             titulo={
-                                <h2>{es ? "Estadística" : "Statistics"}</h2>
+                                <h2>{es ? "Estadística y matemática" : "Mathematics and Statistical Theory"}</h2>
                             }
                             texto={
                                 <>
                                     <div className='tabla-lista-doble'>
+                                        <ul>
+                                            <li>{es ? "Probabilidad e inferencia" : "Probability and inference"}</li>
+                                            <li>{es ? "Estadística bayesiana" : "Bayesian statistics"}</li>
+                                            <li>{es ? "Álgebra lineal" : "Linear algebra"}</li>
+                                            <li>{es ? "Métodos numéricos" : "Numerical methods"}</li>
+                                            <li>{es ? "Análisis de redes" : "Network analysis"}</li>
+                                            <li>{es ? "Métodos de optimización" : "Optimization methods"}</li>
+                                            <li>{es ? "Procesos estocásticos" : "Stochastic processes"}</li>
+                                        </ul>
                                         <ul>
                                             <li>{es ? "Modelos estadísticos" : "Statistical models"}</li>
                                             <li>{es ? "Análisis multivariado" : "Multivariate analysis"}</li>
@@ -462,14 +471,6 @@ function Curriculum() {
                                             <li>{es ? "Diseño de experimentos" : "Design of experiments"}</li>
                                             <li>{es ? "Series de tiempo" : "Time series"}</li>
                                             <li>{es ? "Análisis de supervivencia" : "Survival analysis"}</li>
-                                            <li>{es ? "Métodos numéricos" : "Numerical methods"}</li>
-                                        </ul>
-                                        <ul>
-                                            <li>{es ? "Procesamiento de datos" : "Data processing"}</li>
-                                            <li>{es ? "Visualización de datos" : "Data visualization"}</li>
-                                            <li>{es ? "Aprendizaje automático" : "Machine learning"}</li>
-                                            <li>{es ? "Simulaciones" : "Simulations"}</li>
-                                            <li>{es ? "Estadística bayesiana" : "Bayesian statistics"}</li>
                                             <li>{es ? "Bioestadística" : "Biostatistics"}</li>
                                             <li>{es ? "Econometría" : "Econometrics"}</li>
                                         </ul>
@@ -480,11 +481,28 @@ function Curriculum() {
                         />
                         <TablaLista
                             titulo={
+                                <h2>{es ? "Ciencia de datos" : "Data Science"}</h2>
+                            }
+                            texto={
+                                <ul>
+                                    <li>{es ? "Aprendizaje automático" : "Machine learning"}</li>
+                                    <li>{es ? "Redes neuronales" : "Neural networks"}</li>
+                                    <li>{es ? "Procesamiento de datos" : "Data processing"}</li>
+                                    <li>{es ?  "Ingeniería de atributos" : "Feature engineering"}</li>
+                                    <li>{es ? "Visualización de datos" : "Data visualization"}</li>
+                                    <li>{es ? "Simulaciones" : "Simulations"}</li>
+                                    <li>{es ? "Investigación reproducible" : "Reproducible research"}</li>
+                                </ul>
+                            }
+                            key="datascience"
+                        />
+                        <TablaLista
+                            titulo={
                                 <h3>{es ? "Idiomas" : "Languages"} </h3>
                             }
                             texto={
                                 <ul>
-                                    <li> <b>{es ? "Español" : "Spanish"}</b>- {es ? "Hablante nativo" : "Native speaker"}</li>
+                                    <li> <b>{es ? "Español" : "Spanish"}</b> - {es ? "Hablante nativo" : "Native speaker"}</li>
                                     <li> <b>{es ? "Inglés" : "English"}</b> - {es ? "Nivel avanzado (C1)" : "Advanced level (C1)"}</li>
                                     <details>
                                         <summary> {es ? "Certificados" : "Certificates"} </summary>
@@ -502,7 +520,7 @@ function Curriculum() {
                         />
                         <TablaLista
                             titulo={
-                                <h3> {es ? "Lenguajes de programación" : "Programming languages"} </h3>
+                                <h3> {es ? "Programación" : "Programming"} </h3>
                             }
                             texto={
                                 <div className='tabla-lista-doble'>
@@ -511,19 +529,18 @@ function Curriculum() {
                                         <details>
                                             <summary> {es ? "Ver más" : "See more"} </summary>
                                             <ul>
-                                                <li>Tidyverse</li>
-                                                <li>Tidymodels</li>
-                                                <li>R Markdown</li>
-                                                <li>Shiny</li>
-                                                <li>RStan</li>
+                                                <li>Tidyverse / Tidymodels</li>
+                                                <li>R Markdown / Quarto</li>
+                                                <li>Shiny Apps</li>
+                                                <li>Rcpp</li>
                                             </ul>
                                         </details>
                                         <li>Python</li>
                                         <details>
                                             <summary> {es ? "Ver más" : "See more"} </summary>
                                             <ul>
-                                                <li>Numpy / Pandas</li>
-                                                <li>Statsmodels / SciPy</li>
+                                                <li>Numpy / Pandas / Polars</li>
+                                                <li>Statsmodels / SciPy / gurobipy</li>
                                                 <li>Scikit-learn / TensorFlow / Keras / Fairlearn</li>
                                                 <li>Matplotlib / Seaborn / Plotly / Vega-Altair</li>
                                                 <li>NLTK</li>
@@ -531,7 +548,7 @@ function Curriculum() {
                                         </details>
                                         <li>SQL</li>
                                         <li>Java</li>
-                                        <li>Markdown</li>
+                                        <li>MATLAB</li>
                                     </ul>
 
                                     <ul>
@@ -585,7 +602,9 @@ function Curriculum() {
                                         <details>
                                             <summary> {es ? "Ver más" : "See more"} </summary>
                                             <ul>
-                                                <li>Word / Excel / PowerPoint / Publisher / Access </li>
+                                                <li>Word / PowerPoint / Publisher</li>
+                                                <li>Excel / Power Query / Power Pivot</li>
+                                                <li>Access</li>
                                             </ul>
                                         </details>
                                         <li>Google Docs</li>
@@ -593,8 +612,9 @@ function Curriculum() {
                                     </ul>
                                     <ul>
                                         <li>LaTeX</li>
-                                        <li>Quarto</li>
+                                        <li>Jupyter Notebooks</li>
                                         <li>Git / GitHub</li>
+                                        <li>Docker</li>
                                         <li>Adobe Premiere Pro / After Effects</li>
                                         <li>Adobe Photoshop</li>
                                         <li>Web Scraping / Selenium</li>
