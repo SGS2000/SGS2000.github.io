@@ -173,7 +173,7 @@ function Curriculum() {
                 return (
                     <>
                         <TablaLista
-                            titulo={<h2>{es ? "Máster en Estadística para la Ciencia de Datos" : "Master in Statistics for Data Sciences"}</h2>}
+                            titulo={<h2>{es ? "Máster en Estadística para la Ciencia de Datos" : "Master in Statistics for Data Science"}</h2>}
                             imagen={<img src={imgUCM} className='curriculum-img' alt='logo uc3m'></img>}
                             texto={
                                 <>
@@ -194,7 +194,7 @@ function Curriculum() {
                                     <ul>
                                         <li><a href="https://drive.google.com/file/d/1Ee23NZetE7OfwouU3SKF79K2KEczODb_/view" target="_blank" rel="noreferrer"> {es ? "Plan de Estudios" : "Academic Program"}</a></li>
                                         <li><b>{es ? "Promedio" : "Average"}</b>: {es ? "8,06" : "8.06"} </li>
-                                        <li><b>{es ? "Tesina de grado" : "Undergraduate thesis"}</b>: <a href="https://drive.google.com/file/d/1Ien2LBjQIgreExPvRg987AEiQDF7aa0e/view" target="_blank" rel="noreferrer"> {es ? '"Clasificación supervisada de textos de ficción según género utilizando bosques aleatorios"' : '"Supervised Classification of Fiction Texts by Genre using Random Forests"'}</a> (2023)</li>
+                                        <li><b>{es ? "Tesina de grado" : "Undergraduate thesis"}</b>: "<a href="https://drive.google.com/file/d/1Ien2LBjQIgreExPvRg987AEiQDF7aa0e/view" target="_blank" rel="noreferrer">{es ? 'Clasificación supervisada de textos de ficción según género utilizando bosques aleatorios' : 'Supervised Classification of Fiction Texts by Genre using Random Forests'}</a>" (2023)</li>
                                     </ul>
                                 </>
                             }
@@ -317,7 +317,7 @@ function Curriculum() {
                             imagen={<img src={imgNode} className='curriculum-img' alt='logo'></img>}
                             texto={
                                 <>
-                                    <p><b>{es ? "Agencia de Aprendizaje a lo largo de la vida (Marzo-Junio de 2023)" : "Agencia de Aprendizaje a lo largo de la vida (March-June 2023)"}</b></p>
+                                    <p><b>{es ? "Agencia de Habilidades para el Futuro (Marzo-Junio de 2023)" : "Agencia de Habilidades para el Futuro (March-June 2023)"}</b></p>
                                     <p>{es ? "HTML y CSS, JavaScript, Node.js, REST, Express JS" : "HTML and CSS, JavaScript, Node.js, REST, Express JS"}.</p>
                                     <br></br>
                                 </>
@@ -363,7 +363,7 @@ function Curriculum() {
                             imagen={<img src={imgPHP} className='curriculum-img' alt='logo'></img>}
                             texto={
                                 <>
-                                    <p><b>Agencia de Aprendizaje a lo largo de la vida {es ? "(Agosto-Diciembre de 2021)" : "(August-December 2021)"}</b></p>
+                                    <p><b>Agencia de Habilidades para el Futuro {es ? "(Agosto-Diciembre de 2021)" : "(August-December 2021)"}</b></p>
                                     <p>{es ? "Desarrollo web, HTML y CSS, JavaScript, Git y GitHub, conexión con bases de datos." : "Web development, HTML and CSS, JavaScript, Git and GitHub, connection with databases."}</p>
                                     <br></br>
                                 </>
