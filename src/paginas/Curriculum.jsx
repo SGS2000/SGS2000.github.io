@@ -424,7 +424,7 @@ function Curriculum() {
                             texto={
                                 <>
                                     <p><b>FACES Consultores ({es ? "Junio de 2020" : "June 2020"})</b></p>
-                                    <p>{es ? "Tipos de errores, Funcion AGREGAR, Filtros avanzados, Análisis de hipótesis" : "Types of errors, AGGREGATE function, Advanced filters, Hypothesis testing"}.</p>
+                                    <p>{es ? "Tipos de errores, Función AGREGAR, Filtros avanzados, Análisis de hipótesis" : "Types of errors, AGGREGATE function, Advanced filters, Hypothesis testing"}.</p>
                                     <br></br>
                                 </>
                             }
@@ -583,7 +583,7 @@ function Curriculum() {
                                     <li>SPSS</li>
                                     <li>Stata</li>
                                     <li>Infostat</li>
-                                    <li>WinBUGS</li>
+                                    <li>WinBUGS / OpenBUGS</li>
                                 </ul>
                             }
                             key="software"
