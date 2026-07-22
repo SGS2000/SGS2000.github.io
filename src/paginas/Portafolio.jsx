@@ -11,6 +11,7 @@ import "../hojas/Portafolio.css";
 //Imágenes para cards
 import imgPinguino from "../img/portafolio/portafolio-pinguinos-portada.png"
 import imgPais from "../img/portafolio/portafolio-sas-paises.png"
+import imgTesis from "../img/portafolio/portafolio-tesis.png"
 import imgTesina from "../img/portafolio/portafolio-tesina.png"
 import imgSelector from "../img/portafolio/portafolio-ggplotselector.png"
 import imgPosterFutbol from "../img/portafolio/portafolio-posterfutbol.png"
@@ -67,6 +68,13 @@ function Portafolio() {
 
     //Lista de tarjetas
     const tarjetas = [
+        {
+            titulo: idioma === "es" ? "Tesis de fin de Máster" : "Master Thesis",
+            etiquetas: ['etiqueta-r', "etiqueta-multivar" ],
+            texto: idioma === "es" ? 'Código correspondiente a mi tesis de maestría: "Percepción de la infancia y la juventud sobre el entorno natural en Inglaterra".' : "Code for my Master thesis: 'Children and Young People's Perception of the Natural Environment in England'.",
+            imagen: imgTesis,
+            enlace: 'https://github.com/SGS2000/thesis-children-environment'
+        },
         {
             titulo: idioma === "es" ? "Tesina de grado" : "Undergraduate thesis",
             etiquetas: ['etiqueta-r', "etiqueta-machine-learning", "etiqueta-analisis-texto"],
