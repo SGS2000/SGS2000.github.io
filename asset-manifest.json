@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e4dfd2e6.css",
-    "main.js": "/static/js/main.99039348.js",
+    "main.js": "/static/js/main.55f1953e.js",
     "static/media/portafolio-tests-video.mp4": "/static/media/portafolio-tests-video.9a1c48a5fc805bc507d8.mp4",
     "static/media/portafolio-sitio-php-video.mp4": "/static/media/portafolio-sitio-php-video.a5426c9edb9fd049f307.mp4",
     "static/media/portafolio-cometa.svg": "/static/media/portafolio-cometa.493ab9cdf927efc3af0bf1c896bcba71.svg",
@@ -34,6 +34,7 @@
     "static/media/selectorggplot.pdf": "/static/media/selectorggplot.a4d6e2be548f274ef86d.pdf",
     "static/media/portafolio-mapa-portada.png": "/static/media/portafolio-mapa-portada.259e8d3e04a54d2f3837.png",
     "static/media/spain.png": "/static/media/spain.2526f203c248a918d8cd.png",
+    "static/media/portafolio-tesis.png": "/static/media/portafolio-tesis.a0e78858718b4d1d18fa.png",
     "static/media/curriculum-unraf.png": "/static/media/curriculum-unraf.af22ecb9a7c3e20c975c.png",
     "static/media/curriculum-uca.jpg": "/static/media/curriculum-uca.7792bcbfd44febaf0f4e.jpg",
     "static/media/portafolio-series-predicciones-es.png": "/static/media/portafolio-series-predicciones-es.fce42178332d1713ba8f.png",
@@ -169,10 +170,10 @@
     "static/media/curriculum-power.svg": "/static/media/curriculum-power.7a4f4c21abc59e7dcad2941ebe478d49.svg",
     "index.html": "/index.html",
     "main.e4dfd2e6.css.map": "/static/css/main.e4dfd2e6.css.map",
-    "main.99039348.js.map": "/static/js/main.99039348.js.map"
+    "main.55f1953e.js.map": "/static/js/main.55f1953e.js.map"
   },
   "entrypoints": [
     "static/css/main.e4dfd2e6.css",
-    "static/js/main.99039348.js"
+    "static/js/main.55f1953e.js"
   ]
 }
