@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e4dfd2e6.css",
-    "main.js": "/static/js/main.73e2aa3e.js",
+    "main.js": "/static/js/main.2fee5a9b.js",
     "static/media/portafolio-tests-video.mp4": "/static/media/portafolio-tests-video.9a1c48a5fc805bc507d8.mp4",
     "static/media/portafolio-sitio-php-video.mp4": "/static/media/portafolio-sitio-php-video.a5426c9edb9fd049f307.mp4",
     "static/media/portafolio-cometa.svg": "/static/media/portafolio-cometa.493ab9cdf927efc3af0bf1c896bcba71.svg",
@@ -19,8 +19,6 @@
     "static/media/portafolio-reviews.png": "/static/media/portafolio-reviews.cb5ad811de09eaa8151b.png",
     "static/media/curriculum-fceye.png": "/static/media/curriculum-fceye.5152830549323781856d.png",
     "static/media/portafolio-posterfutbol.png": "/static/media/portafolio-posterfutbol.4b685e5adf2d3362f6bd.png",
-    "static/media/NuevoCV.pdf": "/static/media/NuevoCV.730f9758dd546047fae3.pdf",
-    "static/media/NuevoCV_Eng.pdf": "/static/media/NuevoCV_Eng.fd7cc8a8d471eb6dadd1.pdf",
     "static/media/portafolio-3d-rayshader.png": "/static/media/portafolio-3d-rayshader.375c1853b19f0e2bf144.png",
     "static/media/portafolio-sitio-php.png": "/static/media/portafolio-sitio-php.f83a7453d114925605b2.png",
     "static/media/portafolio-series-tabla.png": "/static/media/portafolio-series-tabla.94bf6550d0dde2d179b9.png",
@@ -61,6 +59,8 @@
     "static/media/portafolio-mw-puntos-razas.png": "/static/media/portafolio-mw-puntos-razas.be914fb89b1547acc385.png",
     "static/media/portafolio-stata-veteran-hazard4.png": "/static/media/portafolio-stata-veteran-hazard4.6f784685452d6e6a13fd.png",
     "static/media/portafolio-mw-tecnicas-es.png": "/static/media/portafolio-mw-tecnicas-es.b8dd2f728d5f4b40d6d2.png",
+    "static/media/NuevoCV.pdf": "/static/media/NuevoCV.bc6443f948db5d3ecc33.pdf",
+    "static/media/NuevoCV_Eng.pdf": "/static/media/NuevoCV_Eng.58d04f48245b92a53d00.pdf",
     "static/media/portafolio-tesina.png": "/static/media/portafolio-tesina.0f26916a3252ac1483c8.png",
     "static/media/portafolio-mw-skills-matrix.png": "/static/media/portafolio-mw-skills-matrix.3111c8de73be67cf1a85.png",
     "static/media/portafolio-stata-veteran-curva1.png": "/static/media/portafolio-stata-veteran-curva1.a8bb943edb18a10eac71.png",
@@ -170,10 +170,10 @@
     "static/media/curriculum-power.svg": "/static/media/curriculum-power.7a4f4c21abc59e7dcad2941ebe478d49.svg",
     "index.html": "/index.html",
     "main.e4dfd2e6.css.map": "/static/css/main.e4dfd2e6.css.map",
-    "main.73e2aa3e.js.map": "/static/js/main.73e2aa3e.js.map"
+    "main.2fee5a9b.js.map": "/static/js/main.2fee5a9b.js.map"
   },
   "entrypoints": [
     "static/css/main.e4dfd2e6.css",
-    "static/js/main.73e2aa3e.js"
+    "static/js/main.2fee5a9b.js"
   ]
 }
