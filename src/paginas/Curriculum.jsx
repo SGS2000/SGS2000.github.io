@@ -180,6 +180,7 @@ function Curriculum() {
                                     <p><b><a href="https://www.uc3m.es/master/estadistica-ciencia-datos" target="_blank" rel="noreferrer">{es ? "Universidad Carlos III de Madrid" : "Charles III University of Madrid"}</a></b> (2025-2026)</p>
                                     <ul>
                                         <li><a href="https://www.uc3m.es/master/estadistica-ciencia-datos#programa" target="_blank" rel="noreferrer"> {es ? "Plan de Estudios" : "Academic Program"}</a></li>
+                                        <li><b>{es ? "Promedio" : "Average"}</b>: {es ? "8,56" : "8.56"} </li>
                                         <li><b>{es ? "Tesis de maestría" : "Master thesis"}</b>: "{es ? 'Percepción de la infancia y la juventud sobre el entorno natural en Inglaterra' : 'Children and Young People’s Perception of the Natural Environment in England'}" (2026)</li>
                                     </ul>
                                 </>
