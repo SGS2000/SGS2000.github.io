@@ -67,6 +67,17 @@ function Curriculum() {
                             key="estadistico"
                         />
                         <TablaLista
+                            titulo={<h2> {es ? 'Redactor académico' : 'Academic Writer'} </h2>}
+                            imagen={<img src={imgXpandete} className='curriculum-img-ancha' alt='logo xpandete'></img>}
+                            texto={
+                                <>
+                                    <p> {es ? "Redacción de contenidos académicos con temáticas vinculadas a la estadística, incluyendo asistencia en la escritura de tesis y elaboración de informes para proyectos de investigación" : "Writing of academic content on topics related to statistics, including assistance in writing theses and reports for research projects"}.</p>
+                                    <p> {es ? <b>Duración</b> : <b>Duration</b>}: {es ? "Noviembre de 2023-presente" : "November 2023-present"} </p>
+                                </>
+                            }
+                            key="redactor"
+                        />
+                        <TablaLista
                             titulo={<h2> {es ? 'Profesor universitario asistente' : 'Assistant Professor'} </h2>}
                             imagen={<img src={imgUCA} className='curriculum-img-ancha curriculum-img-redondeada' alt='logo uca'></img>}
                             texto={
@@ -108,17 +119,6 @@ function Curriculum() {
                                 </>
                             }
                             key="auxiliar"
-                        />
-                        <TablaLista
-                            titulo={<h2> {es ? 'Redactor académico' : 'Academic Writer'} </h2>}
-                            imagen={<img src={imgXpandete} className='curriculum-img-ancha' alt='logo xpandete'></img>}
-                            texto={
-                                <>
-                                    <p> {es ? "Redacción de contenidos académicos con temáticas vinculadas a la estadística, incluyendo asistencia en la escritura de tesis y elaboración de informes para proyectos de investigación" : "Writing of academic content on topics related to statistics, including assistance in writing theses and reports for research projects"}.</p>
-                                    <p> {es ? <b>Duración</b> : <b>Duration</b>}: {es ? "Noviembre de 2023-Agosto de 2025" : "November 2023-August 2025"} </p>
-                                </>
-                            }
-                            key="redactor"
                         />
                         <TablaLista
                             titulo={<h2> {es ? "Docente invitado" : "Guest Professor"} </h2>}
@@ -180,7 +180,7 @@ function Curriculum() {
                                     <p><b><a href="https://www.uc3m.es/master/estadistica-ciencia-datos" target="_blank" rel="noreferrer">{es ? "Universidad Carlos III de Madrid" : "Charles III University of Madrid"}</a></b> (2025-2026)</p>
                                     <ul>
                                         <li><a href="https://www.uc3m.es/master/estadistica-ciencia-datos#programa" target="_blank" rel="noreferrer"> {es ? "Plan de Estudios" : "Academic Program"}</a></li>
-                                        <li><b>{es ? "Promedio" : "Average"}</b>: {es ? "8,56" : "8.56"} </li>
+                                        <li><b>{es ? "Promedio" : "Average score"}</b>: {es ? "8,56" : "8.56"} </li>
                                         <li><b>{es ? "Tesis de maestría" : "Master thesis"}</b>: "{es ? 'Percepción de la infancia y la juventud sobre el entorno natural en Inglaterra' : 'Children and Young People’s Perception of the Natural Environment in England'}" (2026)</li>
                                     </ul>
                                 </>
@@ -195,7 +195,7 @@ function Curriculum() {
                                     <p><b><a href="https://www.fcecon.unr.edu.ar/carreras/grado/licenciatura-en-estadistica" target="_blank" rel="noreferrer">{es ? "Universidad Nacional de Rosario" : "National University of Rosario"}</a></b> (2018-2022)</p>
                                     <ul>
                                         <li><a href="https://drive.google.com/file/d/1Ee23NZetE7OfwouU3SKF79K2KEczODb_/view" target="_blank" rel="noreferrer"> {es ? "Plan de Estudios" : "Academic Program"}</a></li>
-                                        <li><b>{es ? "Promedio" : "Average"}</b>: {es ? "8,06" : "8.06"} </li>
+                                        <li><b>{es ? "Promedio" : "Average score"}</b>: {es ? "8,06" : "8.06"} </li>
                                         <li><b>{es ? "Tesina de grado" : "Undergraduate thesis"}</b>: "<a href="https://drive.google.com/file/d/1Ien2LBjQIgreExPvRg987AEiQDF7aa0e/view" target="_blank" rel="noreferrer">{es ? 'Clasificación supervisada de textos de ficción según género utilizando bosques aleatorios' : 'Supervised Classification of Fiction Texts by Genre using Random Forests'}</a>" (2023)</li>
                                     </ul>
                                 </>
@@ -490,7 +490,7 @@ function Curriculum() {
                                     <li>{es ? "Aprendizaje automático" : "Machine learning"}</li>
                                     <li>{es ? "Redes neuronales" : "Neural networks"}</li>
                                     <li>{es ? "Procesamiento de datos" : "Data processing"}</li>
-                                    <li>{es ?  "Ingeniería de atributos" : "Feature engineering"}</li>
+                                    <li>{es ? "Ingeniería de atributos" : "Feature engineering"}</li>
                                     <li>{es ? "Visualización de datos" : "Data visualization"}</li>
                                     <li>{es ? "Simulaciones" : "Simulations"}</li>
                                     <li>{es ? "Investigación reproducible" : "Reproducible research"}</li>
