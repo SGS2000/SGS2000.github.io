@@ -78,6 +78,18 @@ function Curriculum() {
                             key="redactor"
                         />
                         <TablaLista
+                            titulo={<h2> {es ? "Docente invitado" : "Guest Professor"} </h2>}
+                            imagen={<img src={imgFCE} className='curriculum-img-ancha curriculum-img-redondeada' alt='logo fceye'></img>}
+                            texto={
+                                <>
+                                    <p> {es ? 'Docente invitado en la Diplomatura en Visualización de Datos. Presentación del taller "Visualización de datos textuales"' : 'Guest lecturer at the Data Visualization Associate Degree. Presentation of the "Text Data Visualization" workshop'}.</p>
+                                    <p> {es ? <b>Lugar</b> : <b>Location</b>}:  {es ? "Facultad de Ciencias Económicas y Estadística, Universidad Nacional de Rosario" : "Faculty of Economic Sciences and Statistics, National University of Rosario"}  </p>
+                                    <p> {es ? <b>Duración</b> : <b>Duration</b>}: {es ? "Septiembre-Noviembre de 2024; Octubre de 2026" : "September-November 2024; October 2026"} </p>
+                                </>
+                            }
+                            key="diplodatos"
+                        />
+                        <TablaLista
                             titulo={<h2> {es ? 'Profesor universitario asistente' : 'Assistant Professor'} </h2>}
                             imagen={<img src={imgUCA} className='curriculum-img-ancha curriculum-img-redondeada' alt='logo uca'></img>}
                             texto={
@@ -119,18 +131,6 @@ function Curriculum() {
                                 </>
                             }
                             key="auxiliar"
-                        />
-                        <TablaLista
-                            titulo={<h2> {es ? "Docente invitado" : "Guest Professor"} </h2>}
-                            imagen={<img src={imgFCE} className='curriculum-img-ancha curriculum-img-redondeada' alt='logo fceye'></img>}
-                            texto={
-                                <>
-                                    <p> {es ? 'Docente invitado en la Diplomatura en Visualización de Datos. Presentación del taller "Visualización de datos textuales"' : 'Guest lecturer at the Data Visualization Associate Degree. Presentation of the "Text Data Visualization" workshop'}.</p>
-                                    <p> {es ? <b>Lugar</b> : <b>Location</b>}:  {es ? "Facultad de Ciencias Económicas y Estadística, Universidad Nacional de Rosario" : "Faculty of Economic Sciences and Statistics, National University of Rosario"}  </p>
-                                    <p> {es ? <b>Duración</b> : <b>Duration</b>}: {es ? "Septiembre-Noviembre de 2024" : "September-November 2024"} </p>
-                                </>
-                            }
-                            key="diplodatos"
                         />
                         <TablaLista
                             titulo={<h2> {es ? 'Analista de datos' : 'Data Analyst'} </h2>}
