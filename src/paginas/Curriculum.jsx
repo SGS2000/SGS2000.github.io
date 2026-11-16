@@ -548,7 +548,6 @@ function Curriculum() {
                                                 <li>NLTK</li>
                                             </ul>
                                         </details>
-                                        <li>SQL</li>
                                         <li>Java</li>
                                         <li>MATLAB</li>
                                     </ul>
@@ -589,6 +588,20 @@ function Curriculum() {
                                 </ul>
                             }
                             key="software"
+                        />
+                        <TablaLista
+                            titulo={
+                                <h3> {es ? "Bases de datos y Cloud" : "Databases and Cloud"} </h3>
+                            }
+
+                            texto={
+                                <ul>
+                                    <li>SQL (MySQL, DuckDB, SQLite)</li>
+                                    <li>NoSQL (MongoDB, PyMongo)</li>
+                                    <li>Microsoft Azure</li>
+                                </ul>
+                            }
+                            key="dbcloud"
                         />
                         <TablaLista
                             titulo={
