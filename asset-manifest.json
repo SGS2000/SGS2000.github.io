@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b0569894.css",
-    "main.js": "/static/js/main.dfd56717.js",
+    "main.js": "/static/js/main.66a1dd4a.js",
     "static/media/portafolio-tests-video.mp4": "/static/media/portafolio-tests-video.9a1c48a5fc805bc507d8.mp4",
     "static/media/portafolio-sitio-php-video.mp4": "/static/media/portafolio-sitio-php-video.a5426c9edb9fd049f307.mp4",
     "static/media/portafolio-cometa.svg": "/static/media/portafolio-cometa.14136d78e57075df24a01c24561948c5.svg",
@@ -59,8 +59,8 @@
     "static/media/portafolio-mw-puntos-razas.png": "/static/media/portafolio-mw-puntos-razas.be914fb89b1547acc385.png",
     "static/media/portafolio-stata-veteran-hazard4.png": "/static/media/portafolio-stata-veteran-hazard4.6f784685452d6e6a13fd.png",
     "static/media/portafolio-mw-tecnicas-es.png": "/static/media/portafolio-mw-tecnicas-es.b8dd2f728d5f4b40d6d2.png",
-    "static/media/NuevoCV.pdf": "/static/media/NuevoCV.f66f7ff26cd973957765.pdf",
-    "static/media/NuevoCV_Eng.pdf": "/static/media/NuevoCV_Eng.0517876468ae97541601.pdf",
+    "static/media/NuevoCV.pdf": "/static/media/NuevoCV.8931b9f2f81df91b488f.pdf",
+    "static/media/NuevoCV_Eng.pdf": "/static/media/NuevoCV_Eng.7f53a617703fa0a81fc7.pdf",
     "static/media/portafolio-tesina.png": "/static/media/portafolio-tesina.0f26916a3252ac1483c8.png",
     "static/media/portafolio-mw-skills-matrix.png": "/static/media/portafolio-mw-skills-matrix.3111c8de73be67cf1a85.png",
     "static/media/portafolio-stata-veteran-curva1.png": "/static/media/portafolio-stata-veteran-curva1.a8bb943edb18a10eac71.png",
@@ -170,10 +170,10 @@
     "static/media/curriculum-power.svg": "/static/media/curriculum-power.b96e43b4244c77289eb6efc97218d590.svg",
     "index.html": "/index.html",
     "main.b0569894.css.map": "/static/css/main.b0569894.css.map",
-    "main.dfd56717.js.map": "/static/js/main.dfd56717.js.map"
+    "main.66a1dd4a.js.map": "/static/js/main.66a1dd4a.js.map"
   },
   "entrypoints": [
     "static/css/main.b0569894.css",
-    "static/js/main.dfd56717.js"
+    "static/js/main.66a1dd4a.js"
   ]
 }
