@@ -71,8 +71,13 @@ function Curriculum() {
                             imagen={<img src={imgXpandete} className='curriculum-img-ancha' alt='logo xpandete'></img>}
                             texto={
                                 <>
-                                    <p> {es ? "Redacción de contenidos académicos con temáticas vinculadas a la estadística, incluyendo asistencia en la escritura de tesis y elaboración de informes para proyectos de investigación" : "Writing of academic content on topics related to statistics, including assistance in writing theses and reports for research projects"}.</p>
                                     <p> {es ? <b>Duración</b> : <b>Duration</b>}: {es ? "Noviembre de 2023-presente" : "November 2023-present"} </p>
+                                    <p> {es ? <b>Responsabilidades</b> : <b>Responsibilities</b>}: </p>
+                                    <ul>
+                                        <li> {es ? "Consultoría estadística para investigación académica y proyectos de clientes, desde el diseño del análisis hasta la interpretación de resultados" : "Statistical consulting for academic research and client projects, from analysis design to results interpretation."}.  </li>
+                                        <li> {es ? "Redacción de informes técnicos y contenidos académicos para tesis y publicaciones científicas" : "Writing of technical reports and academic content for theses and scientific publications, translating findings into clear conclusions."}.  </li>
+                                        <li> {es ? "Limpieza y organización de bases de datos" : "Database cleaning and organisation"}.  </li>
+                                    </ul>
                                 </>
                             }
                             key="redactor"
@@ -105,9 +110,9 @@ function Curriculum() {
                                     <p> {es ? <b>Duración</b> : <b>Duration</b>}: {es ? "Agosto de 2024-Agosto de 2025" : "August 2024-August 2025"} </p>
                                     <p> {es ? <b>Responsabilidades</b> : <b>Responsibilities</b>}: </p>
                                     <ul>
-                                        <li> {es ? "Enseñanza de múltiples temas de estadística básica e intermedia" : "Teaching multiple topics in basic and intermediate statistics"}.  </li>
-                                        <li> {es ? "Elaboración de planes de estudio" : "Development of curricula"}.  </li>
-                                        <li> {es ? "Producción de materiales de estudio y actividades evaluativas" : "Production of study materials and assessment activities"}.  </li>
+                                        <li> {es ? "Enseñanza de múltiples temas de estadística básica e intermedia a más de 100 estudiantes" : "Teaching multiple topics in basic and intermediate statistics to more than 100 students"}.  </li>
+                                        <li> {es ? "Elaboración de planes de estudio, materiales didácticos y actividades evaluativas, entre ellos Jupyter Notebooks" : "Developed syllabi, teaching materials and assessment activities, such as Jupyter Notebooks"}.  </li>
+                                        <li> {es ? "Participación junto con otros docentes en el diseño del currículo de la Licenciatura en Ciencia de Datos" : "Worked alongside fellow faculty to design the curriculum for the Bachelor's Degree in Data Science"}.  </li>
                                     </ul>
                                 </>
                             }
@@ -123,7 +128,7 @@ function Curriculum() {
                                     <p> {es ? <b>Duración</b> : <b>Duration</b>}: {es ? "Abril de 2024-Agosto de 2025" : "April 2024-August 2025"} </p>
                                     <p> {es ? <b>Responsabilidades</b> : <b>Responsibilities</b>}: </p>
                                     <ul>
-                                        <li> {es ? "Colaboración con los docentes del área en la enseñanza de contenidos teóricos y prácticos" : "Collaboration with professors in the teaching of both theory and practice"}.  </li>
+                                        <li> {es ? "Colaboración con los docentes del área en la enseñanza de contenidos teóricos y prácticos de estadística y R" : "Collaboration with professors in the teaching of both theory and practice of Statistics and R"}.  </li>
                                         <li> {es ? "Asistencia en la elaboración y corrección de trabajos prácticos y exámenes" : "Assistance in the elaboration and correction of assignments and exams"}.  </li>
                                         <li> {es ? "Participación en actividades de investigación y extensión" : "Participation in research and extension activities"}.  </li>
                                         <li> {es ? "Apoyo técnico en diversas tareas" : "Technical support in various tasks"}.  </li>
@@ -142,7 +147,7 @@ function Curriculum() {
                                     <p> {es ? <b>Duración</b> : <b>Duration</b>}: {es ? "Abril-Octubre de 2023" : "April-October 2023"} </p>
                                     <p> {es ? <b>Responsabilidades</b> : <b>Responsibilities</b>}: </p>
                                     <ul>
-                                        <li> {es ? "Elaboración de informes estadísticos" : "Writing statistical reports"}.  </li>
+                                        <li> {es ? "Elaboración de informes estadísticos con los principales hallazgos vinculados al cursado de la Diplomatura" : "Writing statistical reports presenting the main findings related to the program"}.  </li>
                                         <li> {es ? "Depuración, formateo y organización de conjuntos de datos" : "Cleansing, formatting, and organizing datasets"}. </li>
                                         <li> {es ? "Confección de mapas, gráficos y otros elementos visuales para comunicar resultados" : "Creation of maps, graphs, and other visual elements to communicate results"}. </li>
                                     </ul>
